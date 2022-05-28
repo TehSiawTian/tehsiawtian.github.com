@@ -7,26 +7,22 @@
     <style>
     .titlebox {
         height: 20vh;
-        /* 20% height of the full page. Again like the vw as above, vw is width, then vh is height */
         text-align: left;
     }
 
     .container {
             /* Target those elements containing class (dot) called 'container' */
             display: flex;
-            /* This is the magic to make the 2 div align horizontally */
-            height: 80vh;
-            /* 80% height of the full page */
-            justify-content: space-evenly;
+            height: 50vh;
+            justify-content: left;
+            flex-wrap: nowrap;
         }
     
-
     .container .box {
             /* All the .box under .container */
             width: 50%;
             /* Each column would takes up 50%, so equally sharing spaces left and right */
             display: flex;
-            /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
             align-items: center;
             /* vertically center */
         }
