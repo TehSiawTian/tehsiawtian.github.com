@@ -1163,7 +1163,7 @@ progress {
   .col-md-3 {
     flex: 0 0 auto;
     width: 25%;
-    margin:auto
+    margin:auto;
   }
 
   .col-md-4 {
