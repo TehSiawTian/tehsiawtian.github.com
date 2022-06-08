@@ -11465,7 +11465,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 200, 0, 0.9);
+  background: #066da0c7;
   align-items: center;
   justify-content: center;
   opacity: 0;
