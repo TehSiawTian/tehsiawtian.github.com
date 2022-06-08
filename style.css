@@ -1162,7 +1162,7 @@ progress {
 
   .col-md-3 {
     flex: 0 0 auto;
-    width: 100%;
+    width: 25%;
     margin:auto;
   }
 
@@ -1173,16 +1173,13 @@ progress {
 
   .col-md-5 {
     flex: 0 0 auto;
-    width: 100%%;
+    width: 41.66666667%;
     margin:auto;
   }
 
   .col-md-6 {
     flex: 0 0 auto;
     width: 50%;
-    position:absolute;
-    left:70%;
-    bottom:65%;
   }
 
   .col-md-7 {
