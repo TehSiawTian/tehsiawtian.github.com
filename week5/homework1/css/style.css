@@ -9,3 +9,75 @@
     display: flex;
     justify-content: space-between;
 }
+
+.logo{
+    display: flex;
+}
+.phoneno{
+    display: flex;
+    width: 30%;
+    border-style: dashed;
+}
+
+h4{
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+    margin: auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    margin-top: 2%;
+}
+
+.menu a{
+    color:black ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color:rgb(114, 114, 211);
+    color: yellow;
+}
+
+#slideshow{ /*styling the area of the slides*/
+    overflow:hidden;
+    margin:auto;
+    height: 510px;
+    max-width: 1024px;
+    margin-top: 2%;
+}
+
+.slide{
+    float:left;
+    height:510px;
+    width:1024px;
+}
+
+.slide-wrapper{
+    width:calc(1024px * 4); /*calculate the total width on the basis of number of slides*/
+    animation: slide 12s ease infinite; /*specify the animation with the duration and speed*/
+}
+
+@keyframes slide { /*define the animation for the slideshow*/
+         
+    /* Calculate the margin-left for
+  each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+    40% {
+        margin-left: calc(-1024px * 1);
+    }
+    60% {
+        margin-left: calc(-1024px * 2);
+    }
+    80% {
+        margin-left: calc(-1024px * 3);
+    }
+}
