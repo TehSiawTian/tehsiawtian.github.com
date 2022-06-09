@@ -1,5 +1,12 @@
 #container{
     background-color: #f1f1f1;
-    max-width: 1024px;
-    margin:auto;
+    max-width: 1024px; /*can adjust by itself, diff with width(good for reponsive website)*/
+    margin:auto; /*let the container in the center*/
 }
+
+#header {
+    background-color:rgb(124, 153, 235);
+    text-align:center;
+    padding:20px;
+  }
+  
