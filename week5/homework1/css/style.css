@@ -1,0 +1,11 @@
+#container{
+    background-color: rgb(252 255 90);
+    max-width: 1024px; /*can adjust by itself, diff with width(good for reponsive website)*/
+    margin:auto; /*let the container in the center*/
+    padding:1%;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
