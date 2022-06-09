@@ -29,7 +29,7 @@ h4{
 .menu{
     display: flex;
     justify-content: space-between;
-    background-color: whitesmoke;
+    border-style: dashed;
     margin-top: 2%;
 }
 
@@ -50,7 +50,7 @@ h4{
     margin:auto;
     height: 510px;
     max-width: 1024px;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 .slide{
@@ -80,4 +80,38 @@ h4{
     80% {
         margin-left: calc(-1024px * 3);
     }
+}
+
+.feat{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.textcont{
+    display: flex;
+    width:60%;
+}
+
+.sidebar{
+    display: flex;
+    width: 30%;
+    border-style: dashed;
+}
+
+.footer{
+    display: flex;
+    margin-top: 1%;
+    border-style: dashed;
+}
+
+h3{
+    display: flex;
+    margin: auto;
 }
