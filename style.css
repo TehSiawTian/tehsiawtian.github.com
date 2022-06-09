@@ -11779,39 +11779,3 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-#slideshow{ /*styling the area of the slides*/
-  overflow:hidden;
-  margin:auto;
-  height: 510px;
-  max-width: 1024px;
-  margin-top: 1%;
-}
-
-.slide{
-  float:left;
-  height:510px;
-  width:1024px;
-}
-
-.slide-wrapper{
-  width:calc(1024px * 4); /*calculate the total width on the basis of number of slides*/
-  animation: slide 12s ease infinite; /*specify the animation with the duration and speed*/
-}
-
-@keyframes slide { /*define the animation for the slideshow*/
-       
-  /* Calculate the margin-left for
-each of the slides */
-  20% {
-      margin-left: 0px;
-  }
-  40% {
-      margin-left: calc(-1024px * 1);
-  }
-  60% {
-      margin-left: calc(-1024px * 2);
-  }
-  80% {
-      margin-left: calc(-1024px * 3);
-  }
-}
