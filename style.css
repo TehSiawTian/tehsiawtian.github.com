@@ -1162,7 +1162,7 @@ progress {
 
   .col-md-3 {
     flex: 0 0 auto;
-    width: 50%;
+    width: 25%;
     margin:auto;
   }
 
@@ -11304,8 +11304,6 @@ p {
 
 .page-section {
   padding: 6rem 0;
-  display:flex;
-  justify-content: space-between;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
