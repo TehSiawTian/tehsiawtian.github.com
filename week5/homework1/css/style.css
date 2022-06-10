@@ -17,6 +17,8 @@
     display: flex;
     width: 30%;
     border-style: dashed;
+    height: fit-content;
+    margin-top: 5%;
 }
 
 h4{
@@ -96,12 +98,12 @@ h4{
 
 .textcont{
     display: flex;
-    width:60%;
+    border-style: dashed;
+    width:75%;
 }
 
 .sidebar{
     display: flex;
-    width: 30%;
     border-style: dashed;
 }
 
@@ -124,5 +126,14 @@ p{
 
     .middle{
         flex-direction: column;
+    }
+
+    .textcont{
+        flex-direction: column;
+    }
+
+    .sidebar{
+        flex-direction: column;
+        margin-top: 1%;
     }
 }
