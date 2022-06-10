@@ -54,3 +54,84 @@ h4{
     background-color:red;
     color: white;
 }
+
+#slideshow{ /*styling the area of the slides*/
+    overflow:hidden;
+    margin:auto;
+    height: 510px;
+    max-width: 1024px;
+    margin-top: 1%;
+}
+
+.slide{
+    float:left;
+    height:510px;
+    width:1024px;
+}
+
+.slide-wrapper{
+    width:calc(1024px * 4); /*calculate the total width on the basis of number of slides*/
+    animation: slide 12s ease infinite; /*specify the animation with the duration and speed*/
+}
+
+@keyframes slide { /*define the animation for the slideshow*/
+         
+    /* Calculate the margin-left for
+  each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+    40% {
+        margin-left: calc(-1024px * 1);
+    }
+    60% {
+        margin-left: calc(-1024px * 2);
+    }
+    80% {
+        margin-left: calc(-1024px * 3);
+    }
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.textcont{
+    display: flex;
+    border-style: dashed;
+    border-color: rgb(252, 252, 155);
+    width:60%;
+}
+
+.sidebar{
+    display: flex;
+    border-style: dashed;
+    border-color: rgb(252, 252, 155);
+    width: fit-content;
+}
+
+.footer{
+    display: flex;
+    margin-top: 1%;
+    border-style: dashed;
+    border-color: rgb(252, 252, 155);
+    justify-content: space-evenly;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .middle{
+        flex-direction: column;
+    }
+
+    .textcont{
+        flex-direction: column;
+    }
+
+    .sidebar{
+        flex-direction: column;
+        margin-top: 1%;
+    }
+}
