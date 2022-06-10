@@ -1,0 +1,56 @@
+#container{
+    background-color: rgb(90 203 254);
+    max-width: 1024px; /*can adjust by itself, diff with width(good for reponsive website)*/
+    margin:auto; /*let the container in the center*/
+    padding:1%;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+}
+
+.topright{
+    display: flex;
+    flex-direction: column;
+}
+
+.phoneno{
+    border-style: dashed;
+    border-color: rgb(252, 252, 155);
+    padding: 10px 10px;
+    width: fit-content;
+}
+
+h4{
+    font-weight: 600;
+    font-size: large;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-right: 3px
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    border-style: dashed;
+    border-color: rgb(252, 252, 155);
+    margin-top: 10%;
+}
+
+.menu a{
+    color:black ;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color:red;
+    color: white;
+}
