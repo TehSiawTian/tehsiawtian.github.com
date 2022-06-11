@@ -1,0 +1,43 @@
+#container{
+    background-color: rgb(51 231 20 / 49%);
+    max-width: 1024px; /*can adjust by itself, diff with width(good for reponsive website)*/
+    margin:auto; /*let the container in the center*/
+    padding:1%;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color:aquamarine;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.menu{
+    display: flex;
+}
+
+.topside{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+}
+
+.right{
+    display: flex;
+    margin-left: 2%;
+}
+
+p{
+    padding:10px 10px;
+}
+
+.btmside{
+    display:flex;
+    justify-content: center;
+    margin-top: 1%;
+}
