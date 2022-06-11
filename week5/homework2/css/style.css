@@ -135,4 +135,12 @@ h4{
         flex-direction: column;
         margin-top: 1%;
     }
+
+    .footer{
+        flex-direction: column;
+    }
+
+    .menu{
+        flex-direction: column;
+    }
 }
