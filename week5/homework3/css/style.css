@@ -1,6 +1,5 @@
 #container{
     background-color: rgb(51 231 20 / 49%);
-    max-width: 1024px; /*can adjust by itself, diff with width(good for reponsive website)*/
     margin:auto; /*let the container in the center*/
     padding:1%;
 }
@@ -38,8 +37,9 @@ p{
 
 .btmside{
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 1%;
+    margin-left: 2%;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
@@ -50,5 +50,30 @@ p{
 
     .topside{
         flex-direction: column;
+    }
+
+    .btmside{
+        flex-direction: column;
+        margin-left: 2%;
+    }
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    #header{
+        flex-direction: column;
+    }
+
+    content{
+        flex-direction: column;
+    }
+
+    .topside{
+        flex-direction: column;
+    }
+
+    .btmside{
+        flex-direction: column;
+        margin-left: 2%;
     }
 }
