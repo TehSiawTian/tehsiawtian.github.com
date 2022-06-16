@@ -14,12 +14,9 @@
     'logo logo logo . . phone phone phone'
     'logo logo logo . menu menu menu menu'
     'images images images images images images sidebar sidebar'
-    'images images images images images images sidebar sidebar'
     'textcontent textcontent textcontent textcontent textcontent textcontent sidebar sidebar'
-    'textcontent textcontent textcontent textcontent textcontent textcontent sidebar sidebar'
-    'textcontent textcontent textcontent textcontent textcontent textcontent sidebar sidebar'
-    'footer footer footer footer footer footer footer footer'
     'footer footer footer footer footer footer footer footer';
+  grid-template-rows: 80px 80px 80px 200px 250px 250px;
   gap: 10px;
   background-color: #2196F3;
   padding: 10px;

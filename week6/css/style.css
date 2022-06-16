@@ -80,3 +80,7 @@
     display: flex;
     justify-content: space-between;
 }
+
+.arrow{
+    padding-right: 5%;
+}
