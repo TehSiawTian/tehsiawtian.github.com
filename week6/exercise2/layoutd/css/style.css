@@ -1,0 +1,33 @@
+.header1 { grid-area: blog; }
+.header2 { grid-area: logo; }
+.header3 { grid-area: phone; }
+.header4 { grid-area: menu; }
+.images5 { grid-area: images; }
+.text6 { grid-area: textcontent; }
+.side7 { grid-area: sidebar; }
+.footer8 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'blog blog blog blog blog blog blog blog'
+    'logo logo logo . . phone phone phone'
+    'logo logo logo . menu menu menu menu'
+    'images images images images images images sidebar sidebar'
+    'images images images images images images sidebar sidebar'
+    'textcontent textcontent textcontent textcontent textcontent textcontent sidebar sidebar'
+    'textcontent textcontent textcontent textcontent textcontent textcontent sidebar sidebar'
+    'textcontent textcontent textcontent textcontent textcontent textcontent sidebar sidebar'
+    'footer footer footer footer footer footer footer footer'
+    'footer footer footer footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}

@@ -1,0 +1,29 @@
+.header1 { grid-area: logo; }
+.header2 { grid-area: phone; }
+.header3 { grid-area: menu; }
+.images4 { grid-area: images; }
+.text5 { grid-area: textcontent; }
+.side6 { grid-area: sidebar; }
+.footer7 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'logo logo logo phone phone phone phone phone'
+    'logo logo logo menu menu menu menu menu'
+    'images images images images images images images images'
+    'images images images images images images images images'
+    'textcontent textcontent textcontent textcontent textcontent sidebar sidebar sidebar'
+    'textcontent textcontent textcontent textcontent textcontent sidebar sidebar sidebar'
+    'footer footer footer footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
