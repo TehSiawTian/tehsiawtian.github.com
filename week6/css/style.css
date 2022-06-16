@@ -1,0 +1,81 @@
+#container{
+    position: relative;
+}
+
+.header{
+    background-color: whitesmoke;
+    display:flex;
+    justify-content: space-between;
+    width:1446px;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo p{
+    padding: 14px 16px;
+}
+
+.menu p{
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.center{
+    position: relative;
+    display: flex;
+    color: white;
+    background-image: url("../images/country_image_Japan.jpg");
+    height:970px;
+    width: 1446px;
+}
+
+.center1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;    
+}
+
+.center2{
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.center21{
+    display:flex;
+}
+
+.center22{
+    display: flex;
+}
+
+.btmleft{
+    position: absolute;
+    bottom: 10px;
+    left: 16px;
+}
+
+.btmright{
+    position: absolute;
+    bottom: 10px;
+    right: 16px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: dashed;
+    width:25%;
+    padding-left: 2%;
+}
+
+.btmtopright{
+    display: flex;
+    justify-content: space-between;
+}
