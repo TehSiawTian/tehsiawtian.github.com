@@ -28,6 +28,7 @@
     display: flex;
     color: white;
     background-image: url("../images/country_image_Japan.jpg");
+    opacity:0.8;
     height:970px;
     width: 1446px;
 }
@@ -63,7 +64,9 @@
     position: absolute;
     bottom: 10px;
     left: 16px;
+    display: flex;
 }
+
 
 .btmright{
     position: absolute;
@@ -83,4 +86,8 @@
 
 .arrow{
     padding-right: 5%;
+}
+
+img {
+    border-radius: 50%;
 }

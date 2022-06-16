@@ -14,7 +14,7 @@
     'images images images images images images images images'
     'textcontent textcontent textcontent textcontent textcontent sidebar sidebar sidebar'
     'footer footer footer footer footer footer footer footer';
-  grid-template-rows: 80px 80px 150px 250px 80px;
+  grid-template-rows: 80px 80px 150px 300px 150px;
   gap: 20px;
   background-color: #2196F3;
   padding: 10px;
