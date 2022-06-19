@@ -1,0 +1,143 @@
+#container{
+    margin:auto; /*let the container in the center*/
+    padding:1%;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4{
+    color: white;
+    text-indent: 40px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.leftheader{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    left: 135px;
+    font-size: 30px;
+}
+
+.rightheader{
+    background-image: url("../homeworkimages/homeworkimages/resizedbgshape@2x.png");
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    top:0px;
+    right:0px;
+    width: 600px;
+    height: 479px;
+    justify-content: center;
+}
+
+.rightheader p{
+    padding: 14px 16px;
+    color: white;
+}
+
+.topcenter{
+    position:relative;
+    top: 120px;
+    right: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-between;
+    top:100px;
+}
+
+.topic{
+    background-image: url("../homeworkimages/homeworkimages/Rectangle8@2x.png");
+    position: absolute;
+    background-repeat: no-repeat;
+    display: flex;
+    top:100px;
+    left:100px;
+    width:400px;
+    background-position: 40px 158px;
+    height: 400px;
+}
+
+.topic h2{
+    display: flex;
+    position: absolute;
+    top:0px;
+    left:40px;
+}
+
+.topic h1{
+    display: flex;
+    position: absolute;
+    top:30px;
+    left:40px;
+}
+
+.topic p{
+    display: flex;
+    position: absolute;
+    top:80px;
+    left:40px;
+}
+
+.topic h4{
+    display: flex;
+    position: absolute;
+    top:150px;
+    left:40px;
+}
+
+.mouse{
+    position: absolute;
+    top:500px;
+    right:700px;
+    border-radius: 30px;
+    border-style: solid;
+    box-shadow: 5px 10px #88888885;
+    border: 1px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.rightimg{
+    display: flex;
+    position: absolute;
+    top:20px;
+    right:100px;
+}
+
+.biography{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:740px;
+}
+
+.biotext{
+    background-image: url("../homeworkimages/homeworkimages/Rectangle8@2x.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-position: 0px 337px;
+    height: 500px;
+    position: relative;
+}
+
+.biotext h4{
+    display: flex;
+    position: absolute;
+    top:329px;
+    left:30px;
+}
+
