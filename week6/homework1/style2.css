@@ -1,0 +1,545 @@
+#container{
+    margin:0;
+    max-width: 1200px;
+    margin:auto;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../homework1/homeworkimages/homeworkimages/BgShape@2x.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 45%;
+}
+
+body{
+    margin:auto;
+}
+
+.header{
+    display:flex;
+    justify-content: space-around;
+}
+
+.header h3{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 33px;
+}
+
+.menu{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 22%;
+}
+
+.menu a{
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 300px;
+    left: 90px;
+}
+
+.icon img{
+    padding: 10px 12px;
+}
+
+.topright{
+    display:flex;
+}
+
+.topic{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.topic h2{
+    font-weight: 400;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+.topic h1{
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.topic p{
+    color:grey;
+}
+
+.topic h4{
+    height: 50px;
+    width:200px;
+    background-image: linear-gradient(to right, #0c0ca3  , rgb(93, 0, 255));
+    border-radius: 45px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    color: white;
+}
+
+.mouse{
+    display: flex;
+    position: absolute;
+    left: 45%;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px;
+    padding: 15px;
+    height: 43px;
+}
+
+.rightimg{
+    display: flex;
+    width: 50%;
+}
+
+.biography{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.biotext{
+    background-image: url("../homework1/homeworkimages/homeworkimages/who\ we\ are\ background@2x.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    width: 40%;
+}
+
+.biotext h4{
+    display: flex;
+    color: white;
+    background-image: linear-gradient(to right, #0c0ca3  , rgb(93, 0, 255));
+    border-radius: 45px;
+    align-items: center;
+    justify-content:center;
+    height: 50px;
+    width:200px;
+}
+
+.biotext h5{
+    display: flex;
+    margin-top:0px;
+    color:#8c63ce;
+    font-weight: 400;
+    font-size:larger;
+}
+
+.biotext h3{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 33px;
+}
+
+.biotext p{
+    margin-top: 10px;
+    color:grey;
+}
+
+.servicetitle{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 8%;
+    height:10%;
+    margin-top: 5%;
+}
+
+.servicetitle h5{
+    color:#8c63ce;
+    font-weight: 400;
+    font-size:larger;
+    margin-bottom: 0px;
+}
+
+.servicetitle h3{
+    font-weight: 600;
+    font-size: 33px;
+    margin-top: 0px;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    position: relative;
+    margin-left: 6%;
+}
+
+.box h4{
+    display: flex;
+    color: white;
+    background-image: linear-gradient(to right, #0c0ca3  , rgb(93, 0, 255));
+    border-radius: 45px;
+    align-items: center;
+    justify-content:center;
+    height: 50px;
+    width:200px;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 30%;
+    margin-bottom: 35px;
+    margin-right: 15px;
+    height:430px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:10px;
+}
+
+.box img {
+    display: flex;
+    width: 28%;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    background-color: #ECEAFF;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.topicpricing{
+    text-align: center;
+    position: relative;
+}
+
+.topicpricing h5{
+    color:#8c63ce;
+    font-weight: 400;
+    font-size:larger;
+    margin-bottom: 0px;
+}
+
+.topicpricing h3{
+    font-weight: 600;
+    font-size: 33px;
+    margin-top: 0px;
+}
+
+.package{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+    width:100%;
+    height:420px;
+}
+
+.gold{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:25%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.gold h2{
+    margin-top: 50px;
+}
+
+.gold p{
+    color: grey;
+}
+
+.gold h3{
+    font-weight: 600;
+    font-size: 45px;
+    color: blue;
+}
+
+.gold h4{
+    display: flex;
+    position: absolute;
+    color: black;
+    background-image: linear-gradient(to right, #0c0ca3  , rgb(93, 0, 255));
+    border-radius: 45px;
+    align-items: center;
+    justify-content:center;
+    height: 50px;
+    width:200px;
+    bottom: 10%;
+    right: 18%;
+}
+
+.platinium{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:25%;
+    background-image: url("../homeworkimages/homeworkimages/Rectangle8@2x.png");
+    background-repeat: no-repeat;
+    background-position: 88px 356px;
+    background-size: 200px 75px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.platinium h2{
+    margin-top: 50px;
+}
+
+.platinium p{
+    color: grey;
+}
+
+.platinium h3{
+    font-weight: 600;
+    font-size: 45px;
+    color: blue;
+}
+
+.platinium h4{
+    display: flex;
+    position: absolute;
+    color: white;
+    background-image: linear-gradient(to right, #0c0ca3  , rgb(93, 0, 255));
+    border-radius: 45px;
+    align-items: center;
+    justify-content:center;
+    height: 50px;
+    width:200px;
+    bottom: 10%;
+    right: 18%;
+}
+
+.silver{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:25%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.silver h2{
+    margin-top: 50px;
+}
+
+.silver p{
+    color: grey;
+}
+
+.silver h3{
+    font-weight: 600;
+    font-size: 45px;
+    color: blue;
+}
+
+.silver h4{
+    display: flex;
+    position: absolute;
+    color: black;
+    background-image: linear-gradient(to right, #0c0ca3  , rgb(93, 0, 255));
+    border-radius: 45px;
+    align-items: center;
+    justify-content:center;
+    height: 50px;
+    width:200px;
+    bottom: 10%;
+    right: 18%;
+}
+
+.dot {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    height:300px;
+    margin-top: 5%;
+}
+
+.topnews{
+    text-align: center;
+}
+
+.topnews h5{
+    color:#8c63ce;
+    font-weight: 400;
+    font-size:larger;
+    margin-bottom: 0px;
+}
+
+.topnews p{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.emailbox{
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #f2f0f066;
+    padding: 0px 340px;
+    position: absolute;
+    top: 149px;
+    left: 320px;
+    padding-left: 40px;
+}
+
+.emailbox p{
+    color:grey;
+    text-align: left;
+}
+
+.subscribe h4{
+    display: flex;
+    position: absolute;
+    color: white;
+    background-image: linear-gradient(to right, #0c0ca3  , rgb(93, 0, 255));
+    border-radius: 45px;
+    align-items: center;
+    justify-content:center;
+    height: 50px;
+    width:200px;
+    top: 127px;
+    left: 836px;
+}
+
+.footer{
+    display: flex;
+    position: relative;
+    background-image:  url("../homework1/homeworkimages/homeworkimages/BgShapefooter1@2x.png"), url("../homework1/homeworkimages/homeworkimages/BgShapefooter2@2x.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    margin:0px;
+    width: 100%;
+}
+
+.footercontent{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    bottom: 20%;
+}
+
+.logo{
+    text-align: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10%;
+}
+
+.logotext{
+    text-align: center;
+}
+
+.logoicon{
+    display: flex;
+}
+
+.logoicon img{
+    padding: 0px 5px;
+}
+
+.logo h3{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 0px;
+    font-size: 45px;
+}
+
+.logo h2{
+    color: white;
+    font-weight: 400;
+}
+
+.links{
+    position: absolute;
+    left: 367px;
+}
+
+.links h4{
+    color: white;
+}
+
+.links p{
+    color: white;
+    padding-top: 4px;
+}
+
+.tab{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.hours{
+    position: absolute;
+    left: 600px;
+}
+
+.hours h4{
+    color: white;
+}
+
+.hours p{
+    color: white;
+    padding-top: 4px;
+}
+
+.contact{
+    position: absolute;
+    left: 940px;
+}
+
+.contact h4{
+    color: white;
+}
+
+.contact p{
+    color: white;
+    padding-top: 4px;
+}
+
+.contact img{
+    padding: 0px 10px;
+}
+
