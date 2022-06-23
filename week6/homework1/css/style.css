@@ -1,11 +1,7 @@
 #container{
-    margin:0; /*let the container in the center*/
+    margin:0;
     padding:1%;
     font-family: 'Roboto', sans-serif;
-}
-
-body{
-    margin:0;
 }
 
 h3{
@@ -27,7 +23,6 @@ h5{
 .header{
     display: flex;
     justify-content: space-around;
-    position: relative;
 }
 
 .leftheader{
@@ -693,5 +688,14 @@ h5{
 }
 
 @media screen and (max-width: 600px){
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightheader{
+        background-image: none;
+    }
+
 
 }
