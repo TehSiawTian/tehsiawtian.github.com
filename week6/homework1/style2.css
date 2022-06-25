@@ -679,6 +679,10 @@ body{
         right: 28%;
     }
 
+    .dot{
+        display: none;
+    }
+
     .emailbox{
         left: 20px;
         padding: 0px 215px;
