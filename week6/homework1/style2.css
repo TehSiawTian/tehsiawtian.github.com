@@ -449,9 +449,9 @@ body{
 .footer{
     display: flex;
     position: relative;
-    background-image:  url("../homework1/homeworkimages/homeworkimages/BgShapefooter1@2x.png"), url("../homework1/homeworkimages/homeworkimages/BgShapefooter2@2x.png");
+    background-image:  url("../homework1/homeworkimages/homeworkimages/bgfooter.png");
     background-repeat: no-repeat;
-    height: 700px;
+    height: 600px;
     margin:0px;
     width: 100%;
 }
@@ -461,7 +461,7 @@ body{
     position: absolute;
     flex-direction: column;
     width: 100%;
-    bottom: 10%;
+    bottom: 20%;
 }
 
 .logo{
@@ -736,5 +736,9 @@ body{
 
     .contact{
         left: 419px;
+    }
+
+    .footercontent{
+        bottom:10%;
     }
 }
