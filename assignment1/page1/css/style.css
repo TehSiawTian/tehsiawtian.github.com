@@ -1,13 +1,276 @@
-#container{
+#container {
     font-family: 'Noto Serif SC', serif;
     position: relative;
     max-width: 1920px;
+}
+
+body {
+    margin: auto;
     background-color: #FFFDF8;
 }
 
 /* logo */
-.logo{
-    width: 350;
-    height: 203px;
-    background-image: url("");
+.logo1 {
+    height: 120px;
+    background-image: url("../images/resizedlogo.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 23px;
+}
+
+/* menu bar */
+.menu1 {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    height: 65px;
+    border-width: 2px 0px;
+    border-style: solid;
+    border-color: #6A6A6A;
+}
+
+.menu1 .icon {
+    display: none;
+}
+
+i {
+    color: chocolate;
+}
+
+.menu1 a {
+    text-decoration: none;
+    color: #54410C;
+    padding: 20px 30px;
+}
+
+.menu1 a:hover {
+    color: antiquewhite;
+    background-color: burlywood;
+}
+
+/* menu2 */
+.overlay {
+    height: 100%;
+    width:0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #322707;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: burlywood;
+}
+
+.overlay h1{
+    color: white;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.coverimg {
+    display: flex;
+    height: 450px;
+    margin-top: 5px;
+    background-image: url("../images/咖啡豆.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn {
+    position: fixed;
+    right: 70px;
+    border: none;
+    bottom: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 0px;
+}
+
+.btn:hover {
+    box-shadow: 0 0px 20px 0 #a27e19, 0 0px 9px 0 #ffffff;
+  }
+
+/* 咖啡豆 */
+.coffeebean {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px solid #000000;
+    margin-top: 20px;
+    color: #1D1502;
+}
+
+.coffeebean img {
+    width: 160px;
+    height: 157px;
+}
+
+.coffeebean h3 {
+    width: 350px;
+    font-size: 28px;
+    text-align: center;
+    border-width: 2px 0px;
+    border-style: solid;
+    border-color: #868686;
+}
+
+/* 咖啡豆的三大种类 */
+.threetypes {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px solid #000000;
+    margin-top: 20px;
+    color: #1D1502;
+}
+
+.threetypes h3 {
+    width: 350px;
+    font-size: 28px;
+    text-align: center;
+    border-width: 2px 0px;
+    border-style: solid;
+    border-color: #868686;
+}
+
+/* 烘培程度 */
+.cookedlevel {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    color: #1D1502;
+}
+
+.cookedlevel h3 {
+    width: 350px;
+    font-size: 28px;
+    text-align: center;
+    border-width: 2px 0px;
+    border-style: solid;
+    border-color: #868686;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #322707;
+    color: white;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.footer img {
+    margin-top: 20px;
+}
+
+.contact {
+    margin-top: 10px;
+}
+
+.contact p {
+    display: flex;
+    text-align: left;
+    margin: 2px;
+    align-items: flex-end;
+}
+
+.footer1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+/* tablet screen size */
+@media screen and (max-width: 600px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 90px;
+    }
+
+    .menu1 {
+        flex-direction: column;
+    }
+
+    .menu1 a:not(:first-child) {
+        display: none;
+    }
+
+    .menu1 a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+
+    .menu1.responsive a {
+        display: block;
+    }
+
+    .coverimg{
+        width: 550px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .coffeebean{
+        width: 550px;
+    }
+
+    .threetypes{
+        width: 550px;
+    }
+
+    .cookedlevel{
+        width: 550px;
+    }
+
+    .cookedlevel img{
+        width: 540px;
+    }
+
+    .btn{
+        right: 30px;
+    }
 }
