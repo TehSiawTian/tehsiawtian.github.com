@@ -1,0 +1,13 @@
+#container{
+    font-family: 'Noto Serif SC', serif;
+    position: relative;
+    max-width: 1920px;
+    background-color: #FFFDF8;
+}
+
+/* logo */
+.logo{
+    width: 350;
+    height: 203px;
+    background-image: url("");
+}
