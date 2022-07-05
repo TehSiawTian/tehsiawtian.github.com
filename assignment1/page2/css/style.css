@@ -344,4 +344,8 @@ i {
     .c1 img{
         width: 190px;
     }
+
+    .btn{
+        right: 30px;
+    }
 }
