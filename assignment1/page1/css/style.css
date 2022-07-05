@@ -34,7 +34,7 @@ body {
 }
 
 i {
-    color: chocolate;
+    color: #eee;
 }
 
 .menu1 a {
@@ -42,6 +42,11 @@ i {
     color: #54410C;
     padding: 20px 30px;
 }
+
+.menu1 a.active { /*告诉我们现在在哪里*/
+    background-color: #aa4904db;
+    color: antiquewhite;
+  }
 
 .menu1 a:hover {
     color: antiquewhite;
@@ -208,6 +213,15 @@ i {
     text-align: left;
     margin: 2px;
     align-items: flex-end;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact a:hover{
+    color: rgb(164, 218, 164);
 }
 
 .footer1 {

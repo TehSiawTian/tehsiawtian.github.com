@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>咖啡豆的历史</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bdf88cbf2c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- logo -->
+        <div class="logo1">
+        </div>
+        <!-- menu bar -->
+        <div class="menu1">
+            <a href="../page1/index.html">咖啡豆</a>
+            <a href="../page2/index.html" class="active">咖啡豆的历史</a>
+            <a href="../page3/index.html">三大处理法</a>
+            <a href="../page4/index.html">著名咖啡师</a>
+            <a href="../page5/index.html">著名咖啡厅</a>
+            <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                <i id="icon" class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+        <div id="menu2" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <h1>列表</h1>
+                <a href="../page1/index.html">咖啡豆</a>
+                <a href="../page2/index.html">咖啡豆的历史</a>
+                <a href="../page3/index.html">三大处理法</a>
+                <a href="../page4/index.html">著名咖啡师</a>
+                <a href="../page5/index.html">著名咖啡厅</a>
+            </div>
+        </div>
+        <!-- 主题简介 -->
+        <div class="introduction">
+            <div class="intro1">
+                <h1>咖啡豆的历史</h1>
+                <p>懂得欣赏咖啡的人，才会懂得品味咖啡。正如热爱生活的人，才会懂得珍惜眼前的幸福。因为幸福就是沧桑历尽、苦尽甘来的心境。当咖啡已经成为一种生活的必需品，一种生理上的享受，一种精神上的愉快。这种位居世界三大饮料之列的，曾经充满着神秘色彩的饮料，不再是当年的奢华享受、更不再是某种“腐朽生活的象征”，它变得普通、寻常起来，平平静静地置身于我们繁复的生活中，默默地奉献着自己，隐藏了它的荣耀和辉煌。
+                </p>
+            </div>
+            <div class="intro2">
+                <img src="images/品咖啡.jpg">
+            </div>
+        </div>
+        <!-- back to top btn -->
+        <button onclick="topFunction()" class="btn"><img src="images/arrow.png"></button>
+        <!-- 牧羊人的故事 -->
+        <div class="story">
+            <div class="story1">
+                <div class="pic1">
+                    <img src="images/牧羊人的故事.png">
+                </div>
+                <div class="content">
+                    <h2>牧羊人的故事</h2>
+                    <p>据说是一千多年以前，在9世纪的埃塞俄比亚西南部的高原地区，一位牧羊人发现他的羊吃了一种植物的种子(咖啡豆)后，变得非常兴奋活泼，继而发现咖啡。</p>
+                </div>
+            </div>
+            <div class="story2">
+                <img src="images/牧羊人的故事2.jpg">
+            </div>
+        </div>
+        <!-- 咖啡贸易 -->
+        <div class="business">
+            <div class="business1">
+                <h1>咖啡贸易</h1>
+                <p>---发生咖啡贸易的国家---</p>
+            </div>
+            <div class="business2">
+                <div class="description">
+                    <img src="images/咖啡贸易.jpg">
+                    <h3>咖啡贸易是指国际贸易中的咖啡交易</h3>
+                    <p>参加国际贸易的咖啡主要有两个品种：一是原产于阿拉伯，现在栽种在拉丁美洲的小果咖啡，一是原产于非洲东部，现在广泛栽种在非洲和亚洲的粗壮咖啡。咖啡生产主要集中在发展中国家，自19世纪中叶以来，巴西一直是世界上最大的咖啡生产国，越南是世界第二大咖啡生产国。咖啡贸易和其它农产品贸易一样，在世界市场上以直接和期货形式销售。
+                    </p>
+                </div>
+                <div class="countries">
+                    <div class="c1">
+                        <img src="images/也门咖啡.png">
+                        <div class="ctext">
+                            <h3>也门 (Yemen)</h3>
+                            <p>- 第一个开始咖啡贸易的国家<br>- 垄断市场的手法 （咖啡一律用热水烫过，确保种子不能播种)<br>-15世纪</p>
+                        </div>
+                    </div>
+                    <div class="c1">
+                        <img src="images/印度咖啡.jpg">
+                        <div class="ctext">
+                            <h3>印度 (India)</h3>
+                            <p>- Baba Budan 穆斯林印度人， 放在腰带里的7粒种子<br>- 在南印度位于Karnataka区内栽种成功<br>- 1650年</p>
+                        </div>
+                    </div>
+                    <div class="c1">
+                        <img src="images/叶锈病.jpg">
+                        <div class="ctext">
+                            <h3>斯里兰卡 (Sri Lanka)</h3>
+                            <p>- 荷兰人把咖啡豆带进来<br>- 由于1870年发生叶锈病侵害，改种橡胶树和茶叶<br>- 1680年</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <img src="images/resizedlogo.png">
+            <div class="contact">
+                <a href="https://www.newera.edu.my/index.php" target="_blank"><img src="images/map_icon 1.png">New Era University College</a>
+                <p><img src="images/tel_icon 1.png">016-986 3069</p>
+                <a href="mailto:tehsiawtian1019@e.newera.edu.my" target="_blank"><img src="images/email_icon 1.png">tehsiawtian1019@e.newera.edu.my</a>
+                <p><i>*Press the email above to message</i></p>
+            </div>
+        </div>
+        <div class="footer1">
+            <p>tehsiawtian.github.io</p>
+        </div>
+    </div>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("btn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        function openNav() {
+            document.getElementById("icon").style.display = "none";
+            document.getElementById("menu2").style.width = "600px";
+        }
+
+        function closeNav() {
+            document.getElementById("icon").style.display = "block";
+            document.getElementById("menu2").style.width = "0%";
+        }
+    </script>
+</body>
+
+</html>
