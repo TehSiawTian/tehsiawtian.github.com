@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>咖啡豆的处理法</title>
+    <link rel="icon" type="image/x-icon" href="images/coffeefavicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bdf88cbf2c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- logo -->
+        <div class="logo1">
+        </div>
+        <!-- menu bar -->
+        <div class="menu1">
+            <a href="../page1/index.html">咖啡豆</a>
+            <a href="../page2/index.html">咖啡豆的历史</a>
+            <a href="../page3/index.html" class="active">三大处理法</a>
+            <a href="../page4/index.html">著名咖啡师</a>
+            <a href="../page5/index.html">著名咖啡厅</a>
+            <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                <i id="icon" class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+        <div id="menu2" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <h1>列表</h1>
+                <a href="../page1/index.html">咖啡豆</a>
+                <a href="../page2/index.html">咖啡豆的历史</a>
+                <a href="../page3/index.html">三大处理法</a>
+                <a href="../page4/index.html">著名咖啡师</a>
+                <a href="../page5/index.html">著名咖啡厅</a>
+            </div>
+        </div>
+        <!-- 主题简介 -->
+        <div class="introduction">
+            <div class="intro1a">
+                <h1>咖啡豆处理法</h1>
+                <p>咖啡豆是咖啡樱桃的种子，咖啡櫻桃由外到內有果皮、果肉、果胶层、內果皮(银皮)，我們必须一层一层去除后，才会得到咖啡豆。去除的过程我们叫做处理，不同的处理法會影响到咖啡豆的风味，而这也是本篇的重点。<br>经過处理後的咖啡豆是生豆，经常是白色、翠绿色或是黄色，经過烘焙后才会变成咖啡色的咖啡熟豆。
+                </p>
+            </div>
+            <div class="intro1b">
+                <img src="images/咖啡豆筛选.png">
+            </div>
+        </div>
+        <!-- 三大处理法 -->
+        <div class="big3">
+            <div class="big3header">
+                <h2>三大处理法</h2>
+            </div>
+            <div class="big3method">
+                <div class="method">
+                    <img src="images/日晒处理法.jpg">
+                    <h3>日晒处理法</h3>
+                    <p>是將采收的咖啡櫻桃放置在露台上直接曝晒，直接接收陽光曝晒(大约需要27天-30天)，把水分從60%晒到只剩下12%左右完成。這個处理法，概念很简单、不太花钱，但是有很多的变数与风险；有很长一段時间是用在处理品质不是这么好的豆子上。</p>
+                </div>
+                <div class="method">
+                    <img src="images/水洗处理法.jpg">
+                    <h3>水洗处理法</h3>
+                    <p>將采收的浆果以去果皮机將大部分的果肉從咖啡豆上分离，再將帶殼豆导引至一個干净的水槽裡，浸泡在水中进行发酵以彻底去除残余的果肉层。透过水处理，未熟豆及瑕疵豆会因为浮力的关系而被挑选出來。</p>
+                </div>
+                <div class="method">
+                    <img src="images/蜜处理法.jpg">
+                    <h3>蜜处理法</h3>
+                    <p>蜜处理的意思來自于曝晒前咖啡豆很黏的果胶层，黏的感觉如蜜一般；当咖啡果肉与咖啡豆分离時，外围包覆著的果胶层经过曝晒，吸收空气中的湿气而使果胶层变黏。</p>
+                </div>
+            </div>
+        </div>
+        <!-- back to top btn -->
+        <button onclick="topFunction()" class="btn"><img src="images/arrow.png"></button>
+        <!-- Footer -->
+        <div class="footer">
+            <img src="images/resizedlogo.png">
+            <div class="contact">
+                <a href="https://www.newera.edu.my/index.php" target="_blank"><img src="images/map_icon 1.png">New Era University College</a>
+                <p><img src="images/tel_icon 1.png">016-986 3069</p>
+                <a href="mailto:tehsiawtian1019@e.newera.edu.my" target="_blank"><img src="images/email_icon 1.png">tehsiawtian1019@e.newera.edu.my</a>
+                <p><i>*Press the email above to message</i></p>
+            </div>
+        </div>
+        <div class="footer1">
+            <p>tehsiawtian.github.io</p>
+        </div>
+    </div>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("btn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        function openNav() {
+            document.getElementById("icon").style.display = "none";
+            document.getElementById("menu2").style.width = "600px";
+        }
+
+        function closeNav() {
+            document.getElementById("icon").style.display = "block";
+            document.getElementById("menu2").style.width = "0%";
+        }
+    </script>
+</body>
+
+</html>

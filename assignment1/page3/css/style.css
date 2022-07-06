@@ -1,0 +1,277 @@
+#container {
+    font-family: 'Noto Serif SC', serif;
+    position: relative;
+    max-width: 1920px;
+}
+
+body {
+    margin: auto;
+    background-color: #FFFDF8;
+}
+
+/* logo */
+.logo1 {
+    height: 120px;
+    background-image: url("../images/resizedlogo.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 23px;
+}
+
+/* menu bar */
+.menu1 {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    height: 65px;
+    border-width: 2px 0px;
+    border-style: solid;
+    border-color: #6A6A6A;
+}
+
+.menu1 .icon {
+    display: none;
+}
+
+i {
+    color: #eee;
+}
+
+.menu1 a {
+    text-decoration: none;
+    color: #54410C;
+    padding: 20px 30px;
+}
+
+.menu1 a.active {
+    /*告诉我们现在在哪里*/
+    background-color: #aa4904db;
+    color: antiquewhite;
+}
+
+.menu1 a:hover {
+    color: antiquewhite;
+    background-color: burlywood;
+}
+
+/* menu2 */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #322707;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: burlywood;
+}
+
+.overlay h1 {
+    color: white;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* 主题简介 */
+.introduction {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #322707;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.intro1a {
+    width: 40%;
+}
+
+.intro1b img {
+    width: 580px;
+    height: 371px;
+}
+
+/* 三大处理法 */
+.big3 {
+    display: flex;
+    flex-direction: column;
+    height: 690px;
+    background-color: white;
+    color: #322707cd;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+.big3header {
+    text-align: center;
+}
+
+.big3method {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.big3method img {
+    width: 251px;
+    height: 214px;
+}
+
+.method {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    height: 483px;
+    box-shadow:  0px 5px 5px 5px#32270794;
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* back to top btn */
+.btn {
+    position: fixed;
+    right: 70px;
+    border: none;
+    bottom: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 0px;
+}
+
+.btn:hover {
+    box-shadow: 0 0px 20px 0 #a27e19, 0 0px 9px 0 #ffffff;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #322707;
+    color: white;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.footer img {
+    margin-top: 20px;
+}
+
+.contact {
+    margin-top: 10px;
+}
+
+.contact p {
+    display: flex;
+    text-align: left;
+    margin: 2px;
+    align-items: flex-end;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact a:hover {
+    color: rgb(164, 218, 164);
+}
+
+.footer1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+/* tablet screen size */
+@media screen and (max-width: 600px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 90px;
+    }
+
+    .menu1 {
+        flex-direction: column;
+    }
+
+    .menu1 a:not(:nth-child(3)) {
+        display: none;
+    }
+
+    .menu1 a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+
+    .menu1.responsive a {
+        display: block;
+    }
+
+    .btn{
+        right: 30px;
+    }
+
+    .introduction{
+        flex-direction: column;
+    }
+
+    .intro1a{
+        width:90%;
+    }
+
+    .intro1b img{
+        width:500px;
+    }
+
+    .big3{
+        height: 1723px;
+    }
+
+    .big3method{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .method{
+        margin-top: 20px;
+    }
+}
