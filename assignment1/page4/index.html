@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>著名咖啡厅</title>
+    <link rel="icon" type="image/x-icon" href="images/coffeefavicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bdf88cbf2c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- logo -->
+        <div class="logo1">
+        </div>
+        <!-- menu bar -->
+        <div class="menu1">
+            <a href="../page1/index.html">咖啡豆</a>
+            <a href="../page2/index.html">咖啡豆的历史</a>
+            <a href="../page3/index.html">三大处理法</a>
+            <a href="../page4/index.html" class="active">著名咖啡厅</a>
+            <a href="../page5/index.html">著名咖啡师</a>
+            <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                <i id="icon" class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+        <div id="menu2" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <h1>列表</h1>
+                <a href="../page1/index.html">咖啡豆</a>
+                <a href="../page2/index.html">咖啡豆的历史</a>
+                <a href="../page3/index.html">三大处理法</a>
+                <a href="../page4/index.html">著名咖啡厅</a>
+                <a href="../page5/index.html">著名咖啡师</a>
+            </div>
+        </div>
+        <!-- 主题简介 -->
+        <div class="introduction">
+            <div class="intro1">
+                <h1>在咖啡冷却之前，<br>
+                    你想见谁？</h1>
+            </div>
+            <div class="intro2">
+                <img src="images/等一个人的咖啡.jpg">
+            </div>
+        </div>
+        <!-- back to top btn -->
+        <button onclick="topFunction()" class="btn"><img src="images/arrow.png"></button>
+        <!-- 著名咖啡厅 -->
+        <div class="cafelist">
+            <div class="cafe1">
+                <h2>马来西亚著名咖啡厅</h2>
+            </div>
+            <div class="cafe2">
+                <div class="cafeimg">
+                    <img src="images/about-vcr1.jpg">
+                </div>
+                <div class="cafeintro">
+                    <h1>1</h1>
+                    <h2>VCR</h2>
+                    <p>亚洲50间最佳咖啡厅 【排名第五】<br>
+                        位于 ： 2, Jalan Galloway, Bukit Bintang, 50150 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</p>
+                    <button><a href="https://vcr.my/aboutvcr/" target="_blank">更多资讯</a></button>
+                </div>
+            </div>
+            <div class="cafe2">
+                <div class="cafeimg">
+                    <img src="images/PULP-ppp-coffee-malaysia.jpg">
+                </div>
+                <div class="cafeintro">
+                    <h1>2</h1>
+                    <h2>PULP</h2>
+                    <p>亚洲50间最佳咖啡厅 【排名第二十三】<br>
+                        位于 ： 29-01, Jalan Riong, Bangsar, 59100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</p>
+                    <button><a href="https://pppcoffee.com/pages/pulp-by-pppcoffee" target="_blank">更多资讯</a></button>
+                </div>
+            </div>
+            <div class="cafe2">
+                <div class="cafeimg">
+                    <img src="images/piu piu piu cafe.jpg">
+                </div>
+                <div class="cafeintro">
+                    <h1>3</h1>
+                    <h2>Piu Piu Piu Cafe</h2>
+                    <p>亚洲50间最佳咖啡厅 【排名第三十三】<br>
+                        位于 ： 80A, The ZhongShan Building, Jalan Rotan, Kampung Attap, 50460 Kuala Lumpur</p>
+                    <button><a href="https://www.piupiupiu.asia/" target="_blank">更多资讯</a></button>
+                </div>
+            </div>
+        </div>
+        <!-- 必备元素 -->
+        <div class="materials">
+            <div class="mat1">
+                <h2>咖啡厅必备的主要元素</h2>
+            </div>
+            <div class="mat2">
+                <div class="box">
+                    <img src="images/风格.jpg">
+                    <h3>风格</h3>
+                    <p>- 设计出与其他店不同的风格<br>- 吸引群众的眼光</p>
+                </div>
+                <div class="box">
+                    <img src="images/灯光.jpg">
+                    <h3>灯光</h3>
+                    <p>- 尽可能地柔和以及温馨<br>- 让人可以消除烦躁感，享受自由和无限的轻松</p>
+                </div>
+                <div class="box">
+                    <img src="images/招牌.jpg">
+                    <h3>招牌</h3>
+                    <p>- 店名尽量简单易懂，上口易记<br>- 文字内容必须与咖啡馆品味相同</p>
+                </div>
+                <div class="box">
+                    <img src="images/装潢.jpg">
+                    <h3>装潢</h3>
+                    <p>- 新颖独特的装潢<br>- 免去过多的装饰，店内布置要体现出一种独特的气氛</p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <img src="images/resizedlogo.png">
+            <div class="contact">
+                <a href="https://www.newera.edu.my/index.php" target="_blank"><img src="images/map_icon 1.png">New Era University College</a>
+                <p><img src="images/tel_icon 1.png">016-986 3069</p>
+                <a href="mailto:tehsiawtian1019@e.newera.edu.my" target="_blank"><img src="images/email_icon 1.png">tehsiawtian1019@e.newera.edu.my</a>
+                <p><i>*Press the email above to message</i></p>
+            </div>
+        </div>
+        <div class="footer1">
+            <p>tehsiawtian.github.io</p>
+        </div>
+    </div>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("btn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        function openNav() {
+            document.getElementById("icon").style.display = "none";
+            document.getElementById("menu2").style.width = "600px";
+        }
+
+        function closeNav() {
+            document.getElementById("icon").style.display = "block";
+            document.getElementById("menu2").style.width = "0%";
+        }
+    </script>
+</body>
+
+</html>
