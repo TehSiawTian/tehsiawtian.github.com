@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>著名咖啡师</title>
+    <link rel="icon" type="image/x-icon" href="images/coffeefavicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bdf88cbf2c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- logo -->
+        <div class="logo1">
+        </div>
+        <!-- menu bar -->
+        <div class="menu1">
+            <a href="../page1/index.html">咖啡豆</a>
+            <a href="../page2/index.html">咖啡豆的历史</a>
+            <a href="../page3/index.html">三大处理法</a>
+            <a href="../page4/index.html">著名咖啡厅</a>
+            <a href="../page5/index.html" class="active">著名咖啡师</a>
+            <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                <i id="icon" class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+        <div id="menu2" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <h1>列表</h1>
+                <a href="../page1/index.html">咖啡豆</a>
+                <a href="../page2/index.html">咖啡豆的历史</a>
+                <a href="../page3/index.html">三大处理法</a>
+                <a href="../page4/index.html">著名咖啡厅</a>
+                <a href="../page5/index.html">著名咖啡师</a>
+            </div>
+        </div>
+        <!-- back to top btn -->
+        <button onclick="topFunction()" class="btn"><img src="images/arrow.png"></button>
+        <!-- 型男咖啡师 -->
+        <div class="topic">
+            <h1>马来西亚著名型男咖啡师</h1>
+        </div>
+        <div class="barista">
+            <div class="topbox">
+                <div class="box">
+                    <img src="images/jasonlo.png">
+                    <h3>Jason Lo</h3>
+                    <button><a href="https://www.instagram.com/jasonloo315/" target="_blank">Instagram :
+                        jasonloo315</a></button>
+                    <p>他是马来西亚咖啡师大赛多年蝉联冠军的得主。从蛋糕师傅到咖啡师。Jason曾经说过自己以前对咖啡一窍不通。经过时间的磨练，现在的他总算在这行占有一席之地。</p>
+                </div>
+                <div class="box">
+                    <img src="images/jase.png">
+                    <h3>Jase</h3>
+                    <button><a href="https://www.instagram.com/jasejincheng/" target="_blank">Instagram :
+                        jasejincheng</a></button>
+                    <p>这名咖啡师可是有“拿铁王子”的美誉，他最在行的就是拿铁拉花。只要你想要的拉花，他大致上都可以做到！</p>
+                </div>
+            </div>
+            <div class="btmbox">
+                <div class="box">
+                    <img src="images/kenneth.png">
+                    <h3>Kenneth</h3>
+                    <button><a href="https://www.instagram.com/eternalken/" target="_blank">Instagram :
+                        eternalken</a></button>
+                    <p>年纪轻轻就有一手纯熟泡咖啡的好手艺。他曾在比赛中获奖，个人较擅长于手冲咖啡。下次有机会不妨到VCR cafe试喝他冲的咖啡，味道一定超乎你的想象。</p>
+                </div>
+                <div class="box">
+                    <img src="images/irvine.png">
+                    <h3>Irvine</h3>
+                    <button><a href="https://www.instagram.com/irvine_nast/" target="_blank">Instagram :
+                        irvine_nast</a></button>
+                    <p>非常低调的咖啡师， 世界拉花比赛冠军。创立自己的咖啡店。</p>
+                </div>
+            </div>
+        </div>
+        <!-- Remind -->
+        <div class="reminder">
+            <h2>喜欢的话不妨摁下社交账号的按钮，<br>为这些咖啡师点点关注！</h2>
+            <img src="images/咖啡师.jpg">
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <img src="images/resizedlogo.png">
+            <div class="contact">
+                <a href="https://www.newera.edu.my/index.php" target="_blank"><img src="images/map_icon 1.png">New Era University College</a>
+                <p><img src="images/tel_icon 1.png">016-986 3069</p>
+                <a href="mailto:tehsiawtian1019@e.newera.edu.my" target="_blank"><img src="images/email_icon 1.png">tehsiawtian1019@e.newera.edu.my</a>
+                <p><i>*Press the email above to message</i></p>
+            </div>
+        </div>
+        <div class="footer1">
+            <p>tehsiawtian.github.io</p>
+        </div>
+    </div>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("btn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        function openNav() {
+            document.getElementById("icon").style.display = "none";
+            document.getElementById("menu2").style.width = "600px";
+        }
+
+        function closeNav() {
+            document.getElementById("icon").style.display = "block";
+            document.getElementById("menu2").style.width = "0%";
+        }
+    </script>
+</body>
+
+</html>

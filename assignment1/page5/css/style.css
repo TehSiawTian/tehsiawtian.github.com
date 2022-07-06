@@ -1,0 +1,294 @@
+#container {
+    font-family: 'Noto Serif SC', serif;
+    position: relative;
+    max-width: 1920px;
+}
+
+body {
+    margin: auto;
+    background-color: #FFFDF8;
+}
+
+/* logo */
+.logo1 {
+    height: 120px;
+    background-image: url("../images/resizedlogo.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 23px;
+}
+
+/* menu bar */
+.menu1 {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    height: 65px;
+    border-width: 2px 0px;
+    border-style: solid;
+    border-color: #6A6A6A;
+}
+
+.menu1 .icon {
+    display: none;
+}
+
+i {
+    color: #eee;
+}
+
+.menu1 a {
+    text-decoration: none;
+    color: #54410C;
+    padding: 20px 30px;
+}
+
+.menu1 a.active {
+    /*告诉我们现在在哪里*/
+    background-color: #aa4904db;
+    color: antiquewhite;
+}
+
+.menu1 a:hover {
+    color: antiquewhite;
+    background-color: burlywood;
+}
+
+/* menu2 */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #322707;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: burlywood;
+}
+
+.overlay h1 {
+    color: white;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* back to top btn */
+.btn {
+    position: fixed;
+    right: 70px;
+    border: none;
+    bottom: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 0px;
+}
+
+.btn:hover {
+    box-shadow: 0 0px 20px 0 #a27e19, 0 0px 9px 0 #ffffff;
+}
+
+/* 型男咖啡师 */
+.topic {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.barista{
+    display: flex;
+    flex-direction: column;
+}
+
+.topbox {
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 580px;
+    border: 2px solid #4A4A4A;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 10px 10px 10px 10px;
+    color: #1D1502;
+}
+
+.btmbox {
+    display: flex;
+    justify-content: center;
+}
+
+.box img {
+    object-fit: cover;
+    width: 400px;
+    height: 310px;
+    border: 11px solid #322707;
+}
+
+.box a{
+    text-decoration: none;
+    color: #8c6c15;
+}
+
+.box a:hover {
+    color: #392c07;
+}
+
+.box button {
+    background-color: antiquewhite;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+/* Remind */
+.reminder{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.reminder img{
+    width: 500px;
+    height: 300px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #322707;
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.footer img {
+    margin-top: 20px;
+}
+
+.contact {
+    margin-top: 10px;
+}
+
+.contact p {
+    display: flex;
+    text-align: left;
+    margin: 2px;
+    align-items: flex-end;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact a:hover {
+    color: rgb(164, 218, 164);
+}
+
+.footer1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+/* tablet screen size */
+@media screen and (max-width: 600px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 90px;
+    }
+
+    .menu1 {
+        flex-direction: column;
+    }
+
+    .menu1 a:not(:nth-child(5)) {
+        display: none;
+    }
+
+    .menu1 a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+
+    .menu1.responsive a {
+        display: block;
+    }
+    
+    .btn{
+        right: 30px;
+    }
+
+    .barista{
+        align-items: center;
+    }
+
+    .topbox{
+        flex-direction: column;
+    }
+
+    .btmbox{
+        flex-direction: column;
+    }
+
+    .box{
+        width: 500px;
+        height: 480px;
+    }
+
+    .box img{
+        width: 300px;
+        height: 210px;
+    }
+
+    .reminder{
+        flex-direction: column;
+    }
+
+    .reminder img{
+        width: 400px;
+        height: 300px;
+    }
+}
