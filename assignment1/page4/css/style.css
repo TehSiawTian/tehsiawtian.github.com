@@ -115,6 +115,10 @@ i {
     width: 40%;
 }
 
+.intro1 h1{
+    font-size: 50px;
+}
+
 .intro2 img {
     width: 700px;
     height: 490px;
