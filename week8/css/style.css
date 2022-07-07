@@ -1,0 +1,66 @@
+body{
+    max-width: 1400px;
+    margin: auto;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+fieldset{
+    background-color: #baf3dfa6;
+    color: rgb(0, 91, 0);
+}
+
+legend{
+    color: rgb(0, 91, 0);
+    font-size: 20px;
+}
+
+input{
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(143, 186, 143);
+    border-radius: 2px;
+    margin: 1%;
+    margin-left: 0;
+}
+
+select{
+    padding: 8px;
+}
+
+.mail{
+    margin-right: 2%;
+}
+
+.addresses input{
+    width: 500px;
+}
+
+.cities input{
+    width: 230px;
+}
+
+.post input{
+    width: 230px;
+}
+
+.post select{
+    width: 250px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn input{
+    padding: 15px;
+    border-radius: 32px;
+    background-color: green;
+    color: white;
+    width: 120px;
+}
