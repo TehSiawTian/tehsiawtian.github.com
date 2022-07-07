@@ -32,8 +32,20 @@ select{
     padding: 8px;
 }
 
+.naming input{
+    width: 230px;
+}
+
 .mail{
     margin-right: 2%;
+}
+
+.mail input{
+    width:230px;
+}
+
+#pno input{
+    width:230px;
 }
 
 .addresses input{

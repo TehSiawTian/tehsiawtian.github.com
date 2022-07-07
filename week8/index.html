@@ -11,13 +11,15 @@
         <fieldset>
             <legend>Farmer Registration Form</legend><br>
             Name<br>
-            <input type="text" name="firstname" placeholder="First" required>
-            <input type="text" name="lastname" placeholder="Last" required><br><br>
+            <div class="naming">
+                <input type="text" name="firstname" placeholder="First" required>
+                <input type="text" name="lastname" placeholder="Last" required><br><br>
+            </div>
             <div class="mail" style="float:left;">
                 <label>Email</label><br>
                 <input type="email" name="email" required>
             </div>
-            <div style="float:left;">
+            <div id="pno" style="float:left;">
                 <label>Phone</label><br>
                 <input type="tel" name="phone" placeholder="### ### ####"><br>
             </div>
