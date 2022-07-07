@@ -10,6 +10,7 @@ form{
 }
 
 fieldset{
+    width: 520px;
     background-color: #baf3dfa6;
     color: rgb(0, 91, 0);
 }
@@ -49,7 +50,7 @@ select{
 }
 
 .addresses input{
-    width: 500px;
+    width: 490px;
 }
 
 .cities input{
