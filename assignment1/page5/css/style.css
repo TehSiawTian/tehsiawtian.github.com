@@ -172,17 +172,52 @@ i {
     margin-left: 10px;
 }
 
-/* Remind */
-.reminder{
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-    justify-content: center;
+/* Form */
+.contactform{
+    width: 95%;
+    margin: auto;
+    background-image: url("../images/form.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-blend-mode: color-burn;
 }
 
-.reminder img{
-    width: 500px;
-    height: 300px;
+.blur{
+    background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(3px);
+}
+
+fieldset{
+    color: #54410C;
+}
+
+legend{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+input{
+    padding: 5px;
+    border-style: solid;
+    border-color:#7f56008f;
+    border-radius: 2px;
+    background-color: #fff5ea;
+}
+
+.submitbtn input{
+    padding: 10px;
+    width: 100px;
+    border-radius: 2px;
+    border-color:#7f56008f;
+    background-color: #fff5ea;
+    color: #54410C;
+    font-weight: 550;
+}
+
+.submitbtn input:hover{
+    background-color: #392c07df;
+    color:#FFFDF8;
 }
 
 /* footer */
