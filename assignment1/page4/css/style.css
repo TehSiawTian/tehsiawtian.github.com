@@ -109,7 +109,6 @@ i {
     color: white;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
 }
 
 .intro1 {
@@ -121,8 +120,7 @@ i {
 }
 
 .intro2 img {
-    width: 700px;
-    height: 490px;
+    width: 100%;
 }
 
 /* back to top btn */
@@ -159,7 +157,7 @@ i {
 .cafe2 img {
     width: 450px;
     height: 450px;
-    border: 5px solid rgb(124, 79, 12);
+    border: 2px solid rgb(124, 79, 12);
 }
 
 .cafeintro {
@@ -261,7 +259,7 @@ i {
 }
 
 /* tablet screen size */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .overlay a {
         font-size: 20px
     }

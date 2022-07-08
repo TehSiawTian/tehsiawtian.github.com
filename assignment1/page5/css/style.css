@@ -137,11 +137,10 @@ i {
 .box{
     display: flex;
     flex-direction: column;
-    width: 540px;
+    width: 522px;
     height: 580px;
-    border: 2px solid #4A4A4A;
     align-items: center;
-    padding: 10px 10px;
+    padding: 20px;
     margin: 10px 10px 10px 10px;
     color: #1D1502;
 }
@@ -155,7 +154,6 @@ i {
     object-fit: cover;
     width: 400px;
     height: 310px;
-    border: 11px solid #322707;
 }
 
 .box a{
@@ -171,6 +169,7 @@ i {
     background-color: antiquewhite;
     padding: 10px 10px;
     border-radius: 15px;
+    margin-left: 10px;
 }
 
 /* Remind */
@@ -230,7 +229,7 @@ i {
 }
 
 /* tablet screen size */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .overlay a {
         font-size: 20px
     }
