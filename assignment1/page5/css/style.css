@@ -1,7 +1,8 @@
 #container {
     font-family: 'Noto Serif SC', serif;
     position: relative;
-    max-width: 1920px;
+    max-width: 1400px;
+    margin: auto;
 }
 
 body {

@@ -1,7 +1,8 @@
 #container {
     font-family: 'Noto Serif SC', serif;
     position: relative;
-    max-width: 1920px;
+    max-width: 1400px;
+    margin: auto;
 }
 
 body {
@@ -102,7 +103,7 @@ i {
 .coverimg {
     display: flex;
     height: 450px;
-    margin-top: 5px;
+    width: 100%;
     background-image: url("../images/咖啡豆.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -189,6 +190,23 @@ i {
     border-color: #868686;
 }
 
+.cooked{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.level{
+    width: 15%;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.level img{
+    width: 120px;
+    height: 100px;
+}
+
 /* footer */
 .footer {
     display: flex;
@@ -196,7 +214,7 @@ i {
     align-items: center;
     background-color: #322707;
     color: white;
-    margin-top: 10px;
+    margin-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -224,6 +242,10 @@ i {
     color: rgb(164, 218, 164);
 }
 
+.contact img{
+    width: 40px;
+}
+
 .footer1 {
     display: flex;
     text-align: center;
@@ -233,7 +255,7 @@ i {
 }
 
 /* tablet screen size */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .overlay a {
         font-size: 20px
     }
@@ -263,7 +285,7 @@ i {
     }
 
     .coverimg{
-        width: 550px;
+        width: 100%;
         margin: auto;
         margin-top: 10px;
     }
@@ -280,8 +302,20 @@ i {
         width: 550px;
     }
 
-    .cookedlevel img{
-        width: 540px;
+    .cooked{
+        flex-direction: column;
+    }
+
+    .level{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .leveltext{
+        margin-left: 25px;
     }
 
     .btn{

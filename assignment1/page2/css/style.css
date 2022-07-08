@@ -1,7 +1,8 @@
 #container {
     font-family: 'Noto Serif SC', serif;
     position: relative;
-    max-width: 1920px;
+    max-width: 1400px;
+    margin: auto;
 }
 
 body {
@@ -109,7 +110,7 @@ i {
 }
 
 .intro1 {
-    width: 40%;
+    width: 50%;
     color: #414840;
 }
 
@@ -148,25 +149,24 @@ i {
 .story1 {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .pic1 img {
-    width: 534px;
+    width: 100%;
     height: 354px;
 }
 
 .content {
-    width: 30%;
+    width: 40%;
 }
 
 .story2 {
-    margin-top: 10px;
+    margin-top: 80px;
 }
 
 .story2 img {
-    width: 1040px;
-    height: 409px;
+    width: 100%;
 }
 
 /* 咖啡贸易 */
@@ -180,7 +180,7 @@ i {
 .business1 {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .business1 h1 {
@@ -193,7 +193,7 @@ i {
 }
 
 .description {
-    width: 45%;
+    width: 41%;
 }
 
 .countries {
@@ -269,7 +269,7 @@ i {
 }
 
 /* tablet screen size */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .overlay a {
         font-size: 20px
     }
@@ -298,24 +298,39 @@ i {
         display: block;
     }
 
-    .intro2 img {
-        height: 400px;
+    .introduction{
+        flex-direction: column;
+    }
+
+    .intro1{
+        width: 75%;
+        margin-bottom: 20px;
     }
 
     .story {
         height: 1100px;
+        margin: auto;
     }
 
     .story1 {
         flex-direction: column;
     }
 
+    .story1 img{
+        width: 100%;
+    }
+
     .content {
         width: 70%;
+        margin-top: 25px;
+    }
+
+    .story2{
+        margin-top: 50px;
     }
 
     .story2 img{
-        width:500px;
+        width:100%;
     }
 
     .business2{
@@ -326,10 +341,7 @@ i {
     .description{
         align-items: center;
         width: 90%;
-    }
-
-    .description img{
-        width: 500px;
+        margin: auto;
     }
 
     .countries{
