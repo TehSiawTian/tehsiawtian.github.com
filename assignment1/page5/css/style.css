@@ -185,7 +185,7 @@ i {
 
 .blur{
     background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
 }
 
 fieldset{
@@ -227,7 +227,7 @@ input{
     align-items: center;
     background-color: #322707;
     color: white;
-    margin-top: 50px;
+    margin-top: 100px;
     padding-bottom: 20px;
 }
 
@@ -235,24 +235,27 @@ input{
     margin-top: 20px;
 }
 
-.contact {
-    margin-top: 10px;
-}
-
-.contact p {
+.footermenu{
     display: flex;
-    text-align: left;
-    margin: 2px;
-    align-items: flex-end;
+    flex-direction: column;
 }
 
-.contact a {
+.footermenu a{
     text-decoration: none;
     color: white;
 }
 
-.contact a:hover {
-    color: rgb(164, 218, 164);
+.footermenu a:hover{
+    color: #a27e19;
+}
+
+.contact {
+    margin-top: 10px;
+}
+
+.contact img{
+    width: 40px;
+    margin: 5px;
 }
 
 .footer1 {

@@ -222,28 +222,27 @@ i {
     margin-top: 20px;
 }
 
-.contact {
-    margin-top: 10px;
-}
-
-.contact p {
+.footermenu{
     display: flex;
-    text-align: left;
-    margin: 2px;
-    align-items: flex-end;
+    flex-direction: column;
 }
 
-.contact a{
+.footermenu a{
     text-decoration: none;
     color: white;
 }
 
-.contact a:hover{
-    color: rgb(164, 218, 164);
+.footermenu a:hover{
+    color: #a27e19;
+}
+
+.contact {
+    margin-top: 10px;
 }
 
 .contact img{
     width: 40px;
+    margin: 5px;
 }
 
 .footer1 {
