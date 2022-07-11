@@ -149,12 +149,11 @@ i {
 .story1 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .pic1 img {
     width: 100%;
-    height: 354px;
 }
 
 .content {
@@ -180,7 +179,7 @@ i {
 .business1 {
     display: flex;
     flex-direction: column;
-    margin-left: 5%;
+    margin-left: 7%;
 }
 
 .business1 h1 {
@@ -189,11 +188,11 @@ i {
 
 .business2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .description {
-    width: 41%;
+    width: 37%;
 }
 
 .countries {
