@@ -104,7 +104,6 @@ i {
 /* 主题简介 */
 .introduction {
     display: flex;
-    height: 500px;
     background-color: #322707;
     color: white;
     align-items: center;
