@@ -226,9 +226,14 @@ i {
     margin-top: 20px;
 }
 
-.footermenu{
+.topfooter {
+    justify-content: center;
+}
+
+.footermenu {
     display: flex;
     flex-direction: column;
+    margin-top: 10%;
 }
 
 .footermenu a{

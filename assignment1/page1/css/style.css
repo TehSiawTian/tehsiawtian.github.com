@@ -43,10 +43,11 @@ i {
     padding: 20px 30px;
 }
 
-.menu1 a.active { /*告诉我们现在在哪里*/
+.menu1 a.active {
+    /*告诉我们现在在哪里*/
     background-color: #aa4904db;
     color: antiquewhite;
-  }
+}
 
 .menu1 a:hover {
     color: antiquewhite;
@@ -56,7 +57,7 @@ i {
 /* menu2 */
 .overlay {
     height: 100%;
-    width:0;
+    width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -88,7 +89,7 @@ i {
     color: burlywood;
 }
 
-.overlay h1{
+.overlay h1 {
     color: white;
 }
 
@@ -120,7 +121,7 @@ i {
 
 .btn:hover {
     box-shadow: 0 0px 20px 0 #a27e19, 0 0px 9px 0 #ffffff;
-  }
+}
 
 /* 咖啡豆 */
 .coffeebean {
@@ -148,6 +149,10 @@ i {
     border-color: #868686;
 }
 
+.coffeebean p {
+    width: 60%;
+}
+
 /* 咖啡豆的三大种类 */
 .threetypes {
     width: 1110px;
@@ -167,6 +172,18 @@ i {
     border-width: 2px 0px;
     border-style: solid;
     border-color: #868686;
+}
+
+.beantext {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 3%;
+}
+
+.beantext p {
+    width: 47%;
+    padding-left: 5%;
 }
 
 /* 烘培程度 */
@@ -189,19 +206,18 @@ i {
     border-color: #868686;
 }
 
-.cooked{
+.cooked {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-.level{
+.level {
     width: 15%;
-    margin: auto;
     margin-top: 0px;
 }
 
-.level img{
+.level img {
     width: 120px;
     height: 100px;
 }
@@ -221,17 +237,22 @@ i {
     margin-top: 20px;
 }
 
-.footermenu{
-    display: flex;
-    flex-direction: column;
+.topfooter {
+    justify-content: center;
 }
 
-.footermenu a{
+.footermenu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.footermenu a {
     text-decoration: none;
     color: white;
 }
 
-.footermenu a:hover{
+.footermenu a:hover {
     color: #a27e19;
 }
 
@@ -239,7 +260,7 @@ i {
     margin-top: 10px;
 }
 
-.contact img{
+.contact img {
     width: 40px;
     margin: 5px;
 }
@@ -282,33 +303,43 @@ i {
         display: block;
     }
 
-    .coverimg{
+    .coverimg {
         width: 100%;
         margin: auto;
         margin-top: 10px;
     }
 
-    .coffeebean{
+    .coffeebean {
         width: 100%;
     }
 
-    .threetypes{
+    .threetypes {
         width: 100%;
     }
 
-    .threetypes img{
+    .beantext{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 10%;
+    }
+
+    .beantext p {
+        width: 92%;
+    }
+
+    .beantext img {
+        width: 25%;
+    }
+
+    .cookedlevel {
         width: 100%;
     }
 
-    .cookedlevel{
-        width: 100%;
-    }
-
-    .cooked{
+    .cooked {
         flex-direction: column;
     }
 
-    .level{
+    .level {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -316,11 +347,11 @@ i {
         width: 100%;
     }
 
-    .leveltext{
+    .leveltext {
         margin-left: 25px;
     }
 
-    .btn{
+    .btn {
         right: 30px;
     }
 }
