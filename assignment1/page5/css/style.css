@@ -302,6 +302,7 @@ input{
 
     .barista{
         align-items: center;
+        width: 100%;
     }
 
     .topbox{
@@ -313,7 +314,7 @@ input{
     }
 
     .box{
-        width: 500px;
+        width: 90%;
         height: 480px;
     }
 

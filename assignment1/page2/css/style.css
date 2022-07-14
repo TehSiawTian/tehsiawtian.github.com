@@ -313,6 +313,10 @@ i {
         margin-bottom: 50px;
     }
 
+    .intro2 img{
+        width: 100%;
+    }
+
     .story {
         height: 1100px;
         margin: auto;
@@ -354,13 +358,18 @@ i {
         margin: auto;
     }
 
+    .description img{
+        width: 100%;
+    }
+
     .countries{
         margin-top: 20px;
     }
 
     .c1{
-        width: 500px;
-        padding-top: 5px;
+        width: 95%;
+        padding: 5px;
+        
     }
 
     .c1 img{

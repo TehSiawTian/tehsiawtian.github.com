@@ -290,15 +290,19 @@ i {
     }
 
     .coffeebean{
-        width: 550px;
+        width: 100%;
     }
 
     .threetypes{
-        width: 550px;
+        width: 100%;
+    }
+
+    .threetypes img{
+        width: 100%;
     }
 
     .cookedlevel{
-        width: 550px;
+        width: 100%;
     }
 
     .cooked{
