@@ -12,10 +12,9 @@ body {
 
 /* logo */
 .logo1 {
+    display: flex;
+    justify-content: center;
     height: 120px;
-    background-image: url("../images/resizedlogo.png");
-    background-repeat: no-repeat;
-    background-position: top center;
     margin-top: 23px;
 }
 
