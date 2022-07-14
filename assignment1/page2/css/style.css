@@ -309,6 +309,10 @@ i {
         margin-bottom: 20px;
     }
 
+    .intro2{
+        margin-bottom: 50px;
+    }
+
     .story {
         height: 1100px;
         margin: auto;
@@ -333,6 +337,10 @@ i {
 
     .story2 img{
         width:100%;
+    }
+
+    .business1{
+        margin-left: 10%;
     }
 
     .business2{
