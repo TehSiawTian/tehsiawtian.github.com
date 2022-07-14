@@ -1,0 +1,56 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+
+table{
+    width: 98%;
+    margin: auto;
+    margin-top: 5%;
+    border-collapse: collapse;
+}
+
+tr, td{
+    width: 14%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.purple{
+    color:#310031;
+    border: 2px solid #310031;
+}
+
+.blue{
+    color:#196789;
+    border: 2px solid #196789;
+}
+
+.darkblue{
+    color:#015C7F;
+    border: 2px solid #015C7F;
+}
+
+.yellow{
+    color:#5D651E;
+    border: 2px solid #5D651E;
+}
+
+.darkyellow{
+    color:#9BA241;
+    border: 2px solid #9BA241;
+}
+
+.green{
+    color:#227571;
+    border: 2px solid #227571;
+}
+
+.red{
+    color:#C12A45;
+    border: 2px solid #C12A45;
+}
+
+.r1{
+    border: none;
+}
