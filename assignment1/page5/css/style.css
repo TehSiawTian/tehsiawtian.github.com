@@ -302,6 +302,10 @@ input {
 
 /* tablet screen size */
 @media screen and (max-width: 700px) {
+    body p {
+        font-size: 110%;
+    }
+    
     .overlay a {
         font-size: 20px
     }
@@ -348,7 +352,7 @@ input {
     }
 
     .box {
-        width: 90%;
+        width: 85%;
         height: 480px;
     }
 

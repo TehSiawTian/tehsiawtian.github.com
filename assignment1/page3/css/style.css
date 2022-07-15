@@ -222,6 +222,10 @@ i {
 
 /* tablet screen size */
 @media screen and (max-width: 700px) {
+    body p {
+        font-size: 110%;
+    }
+
     .overlay a {
         font-size: 20px
     }
@@ -273,5 +277,6 @@ i {
 
     .method{
         margin-top: 20px;
+        padding: 5%
     }
 }
