@@ -15,7 +15,7 @@ text {
 	fill: rgb(244, 173, 41);
 }
 
-/*Header-Menu*/
+/* Curtain menu */
 .sidenav {
     height: 200%;
     width: 0;
@@ -29,7 +29,7 @@ text {
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 10px;
     text-decoration: none;
     font-size: 198%;
     color: #818181;
@@ -77,7 +77,7 @@ text {
 }
 #j-img {
     display: none;
-    background-color: #FFE5F8;
+    background-color: #111;
 }
 #j-dessert {
     display: flex;
@@ -87,7 +87,7 @@ text {
 }
 #f-img {
     display: none;
-    background-color: rgba(9, 8, 8, 0.44);
+    background-color: #111;
 }
 #f-dessert {
     display: flex;
@@ -97,7 +97,7 @@ text {
 }
 #i-img {
     display: none;
-    background-color: #ECD2C0;
+    background-color: #111;
 }
 #i-dessert {
     display: flex;
@@ -107,32 +107,38 @@ text {
 }
 #c-img {
     display: none;
-    background-color: #A91B2A;
+    background-color: #111;
 }
 #c-dessert {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 #j-dessert a{
     font-size: 176%;
 }
 #j-dessert a:hover{
-    color: black;
+    color: pink;
 }
 #f-dessert a{
     font-size: 176%;
+}
+#f-dessert a:hover{
+    color: rgb(212, 113, 77);
 }
 #i-dessert a{
     font-size: 176%;
 }
 #i-dessert a:hover{
-    color: black;
+    color: beige;
 }
 #c-dessert a{
     font-size: 176%;
 }
+#c-dessert a:hover{
+    color:#FE0304;
+}
+
 
 
 
