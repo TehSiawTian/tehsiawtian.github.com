@@ -15,6 +15,20 @@ text {
 	fill: rgb(244, 173, 41);
 }
 
+/* sidebar color */
+.list-group{
+    --bs-list-group-active-bg:none;
+    --bs-list-group-active-border-color:none;
+    --bs-list-group-border-color:black;
+    --bs-list-group-bg:none;
+    --bs-list-group-active-color:none;
+    --bs-list-group-disabled-bg:none;
+}
+
+.list-group a:hover {
+    background-color:rgb(196, 157, 125);
+}
+
 /* Curtain menu */
 .sidenav {
     height: 200%;
@@ -138,10 +152,6 @@ text {
 #c-dessert a:hover{
     color:#FE0304;
 }
-
-
-
-
 
 /*Middle Content*/
 
