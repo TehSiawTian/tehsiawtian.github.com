@@ -28,6 +28,19 @@ p {
     width: 100%;
 }
 
+.list-group{
+    --bs-list-group-active-bg:none;
+    --bs-list-group-active-border-color:none;
+    --bs-list-group-border-color:black;
+    --bs-list-group-bg:none;
+    --bs-list-group-active-color:none;
+    --bs-list-group-disabled-bg:none;
+}
+
+.list-group a:hover {
+    background-color:rgb(169, 23, 169);
+}
+
 .row a {
     font-size: 145%;
     color: #580101;
