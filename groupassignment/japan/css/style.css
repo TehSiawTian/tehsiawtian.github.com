@@ -37,7 +37,18 @@ p {
     padding-right: 15%;
 }
 
-.mobile {
+.mobile{
+    display: none;
+}
+
+.wagashi a {
+    display: none;
+
+}
+.anmitsu a {
+    display: none;
+}
+.mochi a {
     display: none;
 }
 
@@ -324,7 +335,6 @@ text {
 .cssanimation {
     animation-duration: 3s;
     animation-fill-mode: both;
-    display: inline-block;
 }
 
 .coolVerticalShake {
@@ -513,18 +523,24 @@ text {
     }
 
     .wagashi a {
+        display: flex;
+        align-items: center;
         text-decoration: none;
         justify-content: center;
         padding-top: 5%;
     }
 
     .anmitsu a {
+        display: flex;
+        align-items: center;
         text-decoration: none;
         justify-content: center;
         padding-top: 5%;
     }
 
     .mochi a {
+        display: flex;
+        align-items: center;
         text-decoration: none;
         justify-content: center;
         padding-top: 5%;
