@@ -1,0 +1,683 @@
+body {
+    margin: 0;
+    background-color: #FFE5F8;
+    font-family: 'Asar', serif;
+    color: #580101;
+}
+
+h1 {
+    font-size: 240%;
+}
+
+p {
+    font-size: 120%;
+}
+
+.icon {
+    z-index: 10;
+    top: 30;
+    left: 0;
+}
+
+.description {
+    margin-left: 200px !important;
+    padding-top: 0% !important;
+}
+
+.list-group img {
+    width: 100%;
+}
+
+.row a {
+    font-size: 145%;
+    color: #580101;
+}
+
+.text {
+    padding-right: 15%;
+}
+
+.mobile {
+    display: none;
+}
+
+.navbar svg{
+    width:50%;
+}
+
+/* Curtain menu */
+.sidenav {
+    height: 200%;
+    width: 0;
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 198%;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover,.sidenav a.active {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.navb {
+    display: flex;
+}
+
+.image-col {
+    display: flex;
+}
+
+.menu-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+}
+.dessert {
+    width: 40%;
+}
+.image {
+    width: 40%;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+#j-img {
+    display: none;
+    background-color: #FFE5F8;
+}
+#j-dessert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#f-img {
+    display: none;
+    background-color: rgba(9, 8, 8, 0.44);
+}
+#f-dessert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#i-img {
+    display: none;
+    background-color: #ECD2C0;
+}
+#i-dessert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#c-img {
+    display: none;
+    background-color: #A91B2A;
+}
+#c-dessert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#j-dessert a{
+    font-size: 176%;
+}
+#j-dessert a:hover{
+    color: black;
+}
+#f-dessert a{
+    font-size: 176%;
+}
+#i-dessert a{
+    font-size: 176%;
+}
+#i-dessert a:hover{
+    color: black;
+}
+#c-dessert a{
+    font-size: 176%;
+}
+
+/* Country description */
+.wagashiart {
+    padding-top: 13%;
+}
+
+.li1 a {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    padding-top: 3%;
+}
+
+#list-item-1 {
+    padding-left: 20%;
+}
+
+#list-item-1 img {
+    width: 12%;
+    padding: 1%;
+}
+
+.wagashi{
+    padding-top: 0% !important;
+}
+
+.wagashi img {
+    width: 100%;
+    margin-top: 5% !important;
+}
+
+.anmitsuart {
+    padding-top: 20%;
+}
+
+.li2{
+    padding-top: 10% !important;
+}
+
+.li2 a {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    padding-top: 3%;
+}
+
+#list-item-2 {
+    padding-left: 20%;
+    padding-top: 4%;
+}
+
+#list-item-2 img {
+    width: 12%;
+    padding: 1%;
+}
+
+.anmitsu img {
+    width: 100%;
+    margin-top: 20%;
+}
+
+.mochiart {
+    padding-top: 10%;
+}
+
+.li3 a {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    padding-top: 3%;
+}
+
+#list-item-3 {
+    padding-left: 20%;
+    padding-top: 4%;
+}
+
+#list-item-3 img {
+    width: 12%;
+    padding: 1%;
+}
+
+.mochi img {
+    width: 100%;
+    padding-top: 5%;
+}
+
+/*Footer*/
+.footer {
+    background-color: #4C4751;
+    position: relative;
+    padding-top: 5%;
+}
+
+.footer .design {
+    padding-left:10%;
+}
+.footer a {
+    background: linear-gradient(0deg, white, white) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 350ms;
+    --bg-h: 100%;
+}
+
+
+.footer a:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+}
+
+.underline {
+    padding-bottom: 2px;
+    --bg-h: 2px !important;
+}
+
+.f-title-font h4{
+    font-size: 150%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    font-size: 108% !important;
+    line-height: 155%;
+}
+
+/*Footer-Logo*/
+svg { width: 100%; }
+rect { fill: #FE0304; }
+text { 
+  font-size: 40px;
+	font-weight: 100; 
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	fill: rgb(244, 173, 41);
+}
+.footer .flogo{
+    position: absolute;
+    bottom: 65%;
+    width: 90%;
+    left: 5%;
+}
+.footer .noHover a{
+    background: linear-gradient(0deg, 0deg, 0deg) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 350ms;
+    --bg-h: 100%;
+}
+
+.f-p {
+    padding-left: 9% !important;
+    padding-right: 2% !important;
+}
+
+.f-p-end {
+    padding-right: 8% !important;
+}
+
+/*Button-Animation*/
+.cssanimation {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    display: inline-block;
+}
+
+.coolVerticalShake {
+    animation-name: coolVerticalShake;
+    animation-iteration-count: infinite
+}
+
+@keyframes coolVerticalShake {
+
+    3%,
+    21%,
+    39%,
+    57%,
+    74%,
+    92% {
+        transform: translateY(5px)
+    }
+
+    6%,
+    24%,
+    42%,
+    60%,
+    77%,
+    95% {
+        transform: translateY(3px)
+    }
+
+    9%,
+    27%,
+    45%,
+    63%,
+    80%,
+    98% {
+        transform: translateY(-5px)
+    }
+}
+
+
+@media screen and (min-width: 989px) and (max-width: 1225px) {
+    .description {
+        margin-left: 15% !important;
+    }
+
+    .icon a {
+        padding-right: 0% !important;
+        padding-left: 0% !important;
+    }
+
+    .icon img {
+        width: 95%;
+    }
+
+    #list-item-1 {
+        padding-left: 13%;
+    }
+
+    #list-item-2 {
+        padding-left: 13%;
+    }
+
+    #list-item-3 {
+        padding-left: 13%;
+    }
+
+    #list-item-1 img {
+        width: 17%;
+    }
+
+    #list-item-2 img {
+        width: 17%;
+    }
+
+    #list-item-3 img {
+        width: 17%;
+    }
+
+    .text {
+        padding-right: 10%;
+    }
+
+    .wagashiart {
+        padding-top: 10%;
+    }
+
+    .anmitsuart {
+        padding-top: 8%;
+    }
+
+    #list-item-3 {
+        padding-top: 0%;
+    }
+
+    .mochiart {
+        padding-top: 5%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 988px) {
+    .description {
+        margin-left: 13% !important;
+    }
+
+    .icon a {
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+
+    .icon img {
+        width: 100%;
+        padding: 0%;
+    }
+
+    .text {
+        padding-right: 5%;
+    }
+
+    #list-item-1 {
+        padding-left: 10%;
+    }
+
+    #list-item-2 {
+        padding-left: 10%;
+    }
+
+    #list-item-3 {
+        padding-left: 10%;
+    }
+
+    #list-item-1 img {
+        width: 20%;
+    }
+
+    #list-item-2 img {
+        width: 20%;
+    }
+
+    #list-item-3 img {
+        width: 20%;
+    }
+
+    .wagashiart img {
+        width: 130%;
+    }
+
+    .wagashiart {
+        padding-top: 5%;
+    }
+
+    .wagashi img {
+        margin-top: 20% !important;
+    }
+
+    .anmitsuart img {
+        width: 130%;
+    }
+
+    .anmitsuart {
+        padding-top: 5%;
+    }
+
+    .anmitsu img {
+        margin-top: 20% !important;
+    }
+
+    .mochiart img {
+        width: 130%;
+    }
+
+    .mochiart {
+        padding-top: 5%;
+    }
+
+    .mochi img {
+        margin-top: 25% !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .icon {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .wagashi a {
+        text-decoration: none;
+        justify-content: center;
+        padding-top: 5%;
+    }
+
+    .anmitsu a {
+        text-decoration: none;
+        justify-content: center;
+        padding-top: 5%;
+    }
+
+    .mochi a {
+        text-decoration: none;
+        justify-content: center;
+        padding-top: 5%;
+    }
+
+    .notmobile {
+        display: none;
+    }
+
+    .description {
+        margin-left: 0% !important;
+    }
+
+    .li1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0% !important;
+    }
+
+    .li2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0% !important;
+        margin-bottom: 0% !important;
+    }
+
+    .li3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0% !important;
+        margin-bottom: 0% !important;
+    }
+
+    #list-item-1 {
+        padding-left: 0%;
+    }
+
+    #list-item-2 {
+        padding-left: 0%;
+    }
+
+    #list-item-3 {
+        padding-left: 0%;
+    }
+
+    #list-item-1 img {
+        width: 27%;
+    }
+
+    #list-item-2 img {
+        width: 27%;
+    }
+
+    #list-item-3 img {
+        width: 27%;
+    }
+
+    .text {
+        padding-right: 0%;
+        padding-bottom: 0%;
+    }
+
+    .wagashi {
+        padding-top: 0% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wagashi img {
+        margin-top: 0% !important;
+        border-radius: 0% !important;
+        width: 90%;
+    }
+
+    .wagashiart {
+        padding-top: 5%;
+    }
+
+    .anmitsu {
+        padding-top: 0% !important;
+        margin-top: 0% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .anmitsu img {
+        margin-top: 0% !important;
+        padding-top: 0%;
+        border-radius: 0% !important;
+        width: 90%;
+    }
+
+    .anmitsuart {
+        padding-top: 5%;
+    }
+
+    .mochi {
+        padding-top: 0% !important;
+        margin-top: 0% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mochi img {
+        margin-top: 0% !important;
+        border-radius: 0% !important;
+        padding-top: 0%;
+        width: 90%;
+    }
+
+    .mochiart {
+        padding-top: 5%;
+    }
+
+       /*Footer*/
+       .footer img{
+        bottom: 95%;
+        width: 20%;
+    }
+    .footer .design {
+        padding-top: 7%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+    }
+    .footer .japan, .france, .italy, .china {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .f-p {
+        text-align: center;
+        padding-left: 0 !important;
+        padding-top: 15%;
+    }
+    .f-m-change {
+        text-align: center;
+        padding-left: 24% !important;
+        padding-right: 24% !important;
+    }
+    .f-m-space {
+        margin-top: 2%;
+    }
+
+    /*Footer-Logo*/
+    .footer .flogo{
+        bottom: 88%;
+        left: 10%;
+    }
+    svg { width: 85%; }
+}
