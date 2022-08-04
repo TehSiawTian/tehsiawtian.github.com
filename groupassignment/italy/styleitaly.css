@@ -404,6 +404,7 @@ text {
     /*Right-BigImage*/
     .big1 img {
         width: 70%;
+        margin-left: 12%;
     }
 
     /*Footer*/
