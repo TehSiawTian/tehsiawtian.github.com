@@ -126,14 +126,26 @@ a {
 #j-dessert a{
     font-size: 176%;
 }
+#j-dessert a:hover{
+    color: pink;
+}
 #f-dessert a{
     font-size: 176%;
+}
+#f-dessert a:hover{
+    color: rgb(212, 113, 77);
 }
 #i-dessert a{
     font-size: 176%;
 }
+#i-dessert a:hover{
+    color: beige;
+}
 #c-dessert a{
     font-size: 176%;
+}
+#c-dessert a:hover{
+    color:#FE0304;
 }
 
 .sidemenu {
