@@ -10,7 +10,7 @@ body {
 }
 
 /*Logo*/
-.navbar-brand svg { width: 70%; }
+.navbar-brand svg { width: 50%; }
 rect { fill: #FE0304; }
 text { 
   font-size: 40px;
