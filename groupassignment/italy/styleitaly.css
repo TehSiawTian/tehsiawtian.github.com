@@ -270,13 +270,21 @@ text {
 }
 
 /*Button-Animation*/
-.cssanimation {
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    display: inline-block;
+.wrapper{
+    animation: slide1 1s ease-in-out infinite;
 }
 
-.coolVerticalShake { animation-name: coolVerticalShake; animation-iteration-count: infinite }
+@keyframes slide1 {
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(10px, 0);
+    }
+}
 
 .f-p {
     padding-left: 9% !important;
@@ -285,12 +293,6 @@ text {
 
 .f-p-end {
     padding-right: 8% !important;
-}
-
- @keyframes coolVerticalShake {
-      3%, 21%, 39%, 57%, 74%, 92% { transform: translateY(5px) }
-      6%, 24%, 42%, 60%, 77%, 95% { transform: translateY(3px) }
-      9%, 27%, 45%, 63%, 80%, 98% { transform: translateY(-5px) }
 }
 
 /*Responsive-Laptop*/
