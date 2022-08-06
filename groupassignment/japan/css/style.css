@@ -1,3 +1,5 @@
+@import "../../stylegeneral.css";
+
 body {
     margin: 0;
     background-color: #FFE5F8;
@@ -14,7 +16,7 @@ p {
 }
 
 .icon {
-    z-index: 10;
+    z-index: 9;
     top: 30;
     left: 0;
 }
@@ -22,6 +24,7 @@ p {
 .description {
     margin-left: 200px !important;
     padding-top: 0% !important;
+    margin-top: 8%;
 }
 
 .list-group img {
@@ -65,134 +68,6 @@ p {
     display: none;
 }
 
-.bar svg{
-    width:50%;
-}
-
-/* Curtain menu */
-.sidenav {
-    height: 200%;
-    width: 0;
-    position: fixed;
-    z-index: 11;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 10px;
-    text-decoration: none;
-    font-size: 198%;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover,.sidenav a.active {
-    color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-.navb {
-    display: flex;
-}
-
-.image-col {
-    display: flex;
-}
-
-.menu-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 60%;
-}
-.dessert {
-    width: 40%;
-}
-.image {
-    width: 40%;
-}
-
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
-}
-#j-img {
-    display: none;
-    background-color: #111;
-}
-#j-dessert {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-#f-img {
-    display: none;
-    background-color: #111;
-}
-#f-dessert {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-#i-img {
-    display: none;
-    background-color: #111;
-}
-#i-dessert {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-#c-img {
-    display: none;
-    background-color: #111;
-}
-#c-dessert {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-#j-dessert a{
-    font-size: 176%;
-}
-#j-dessert a:hover{
-    color: pink;
-}
-#f-dessert a{
-    font-size: 176%;
-}
-#f-dessert a:hover{
-    color: rgb(212, 113, 77);
-}
-#i-dessert a{
-    font-size: 176%;
-}
-#i-dessert a:hover{
-    color: beige;
-}
-#c-dessert a{
-    font-size: 176%;
-}
-#c-dessert a:hover{
-    color:#FE0304;
-}
-
 /* Country description */
 .wagashiart {
     padding-top: 13%;
@@ -206,12 +81,12 @@ p {
 }
 
 #list-item-1 {
-    padding-left: 20%;
+    padding-left: 19%;
 }
 
 #list-item-1 img {
-    width: 12%;
-    padding: 1%;
+    width: 20%;
+    padding: 4%;
 }
 
 .wagashi{
@@ -239,13 +114,13 @@ p {
 }
 
 #list-item-2 {
-    padding-left: 20%;
+    padding-left: 19%;
     padding-top: 4%;
 }
 
 #list-item-2 img {
-    width: 12%;
-    padding: 1%;
+    width: 20%;
+    padding: 4%;
 }
 
 .anmitsu img {
@@ -265,13 +140,13 @@ p {
 }
 
 #list-item-3 {
-    padding-left: 20%;
+    padding-left: 19%;
     padding-top: 4%;
 }
 
 #list-item-3 img {
-    width: 12%;
-    padding: 1%;
+    width: 20%;
+    padding: 4%;
 }
 
 .mochi img {
@@ -279,91 +154,8 @@ p {
     padding-top: 5%;
 }
 
-/*Footer*/
-.footer {
-    background-color: #4C4751;
-    position: relative;
-    padding-top: 5%;
-}
-
-.footer .design {
-    padding-left:10%;
-}
-.footer a {
-    background: linear-gradient(0deg, white, white) no-repeat right bottom / 0 var(--bg-h);
-    transition: background-size 350ms;
-    --bg-h: 100%;
-}
-
-
-.footer a:where(:hover, :focus-visible) {
-    background-size: 100% var(--bg-h);
-    background-position-x: left;
-}
-
-.underline {
-    padding-bottom: 2px;
-    --bg-h: 2px !important;
-}
-
-.f-title-font h4{
-    font-size: 150%;
-}
-
-.footer a {
-    text-decoration: none;
-    color: inherit;
-    line-height: 1;
-    font-size: 108% !important;
-    line-height: 155%;
-}
-
-/*Footer-Logo*/
-svg { width: 100%; }
-rect { fill: #FE0304; }
-text { 
-  font-size: 40px;
-	font-weight: 100; 
-	text-transform: uppercase;
-	letter-spacing: 0px;
-	fill: rgb(244, 173, 41);
-}
-.footer .flogo{
-    position: absolute;
-    bottom: 65%;
-    width: 90%;
-    left: 5%;
-}
-.footer .noHover a{
-    background: linear-gradient(0deg, 0deg, 0deg) no-repeat right bottom / 0 var(--bg-h);
-    transition: background-size 350ms;
-    --bg-h: 100%;
-}
-
-.f-p {
-    padding-left: 9% !important;
-    padding-right: 2% !important;
-}
-
-.f-p-end {
-    padding-right: 8% !important;
-}
-
-/*Button-Animation*/
-.wrapper{
-    animation: slide1 1s ease-in-out infinite;
-}
-
-@keyframes slide1 {
-
-    0%,
-    100% {
-        transform: translate(0, 0);
-    }
-
-    50% {
-        transform: translate(10px, 0);
-    }
+.f-title-font a{
+    color: white;
 }
 
 @media screen and (min-width: 989px) and (max-width: 1225px) {
@@ -560,6 +352,8 @@ text {
         align-items: center;
         padding-bottom: 0% !important;
         margin-bottom: 0% !important;
+        padding-top: 0% !important;
+        margin-top: 0% !important;
     }
 
     .li3 {
@@ -568,6 +362,8 @@ text {
         align-items: center;
         padding-bottom: 0% !important;
         margin-bottom: 0% !important;
+        padding-top: 0% !important;
+        margin-top: 0% !important;
     }
 
     #list-item-1 {
@@ -595,8 +391,7 @@ text {
     }
 
     .text {
-        padding-right: 0%;
-        padding-bottom: 0%;
+        padding: 2%;
     }
 
     .wagashi {
@@ -604,6 +399,7 @@ text {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-bottom: 5% !important;
     }
 
     .wagashi img {
@@ -622,6 +418,8 @@ text {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-bottom: 5% !important;
+        margin-bottom: 0% !important;
     }
 
     .anmitsu img {
@@ -653,40 +451,4 @@ text {
     .mochiart {
         padding-top: 5%;
     }
-
-       /*Footer*/
-       .footer img{
-        bottom: 95%;
-        width: 20%;
-    }
-    .footer .design {
-        padding-top: 7%;
-        padding-bottom: 5%;
-        padding-left: 5%;
-    }
-    .footer .japan, .france, .italy, .china {
-        padding-top: 5%;
-        padding-bottom: 5%;
-    }
-
-    .f-p {
-        text-align: center;
-        padding-left: 0 !important;
-        padding-top: 15%;
-    }
-    .f-m-change {
-        text-align: center;
-        padding-left: 24% !important;
-        padding-right: 24% !important;
-    }
-    .f-m-space {
-        margin-top: 2%;
-    }
-
-    /*Footer-Logo*/
-    .footer .flogo{
-        bottom: 88%;
-        left: 10%;
-    }
-    svg { width: 85%; }
 }
