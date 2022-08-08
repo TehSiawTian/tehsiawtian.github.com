@@ -15,9 +15,66 @@ p {
     font-size: 120%;
 }
 
-.icon {
+/* .icon {
     z-index: 9;
     top: 30;
+    left: 0;
+} */
+
+/* timeline */
+.icon{
+    top:30%;
+    z-index: 9;
+}
+
+.icon a{
+    text-decoration: none;
+    font-size: 110% !important;
+}
+
+ul {
+    height: 300px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+ul::before {
+    height: 133%;
+    width: 133%;
+    display: block;
+    position: absolute;
+    top: -18%;
+    left: 10px;
+}
+
+li {
+    margin: 18px 0;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+li::before {
+    height: 20px;
+    width: 20px;
+    content: "";
+    display: inline-block;
+    background-color: rgb(255 129 150);
+    border-radius: 50%;
+    position: relative;
+    top: 4px;
+    margin-right: 6px;
+}
+
+li span {
+    position: relative;
+    left: -100%;
+    transition: left 300ms ease-in;
+}
+
+li:hover span {
     left: 0;
 }
 
@@ -161,6 +218,7 @@ p {
 @media screen and (min-width: 989px) and (max-width: 1225px) {
     .description {
         margin-left: 15% !important;
+        margin-top: 4%;
     }
 
     .icon a {
@@ -185,15 +243,15 @@ p {
     }
 
     #list-item-1 img {
-        width: 17%;
+        width: 22%;
     }
 
     #list-item-2 img {
-        width: 17%;
+        width: 22%;
     }
 
     #list-item-3 img {
-        width: 17%;
+        width: 22%;
     }
 
     .text {
@@ -220,6 +278,11 @@ p {
 @media screen and (min-width: 768px) and (max-width: 988px) {
     .description {
         margin-left: 13% !important;
+        margin-top: 13%;
+    }
+
+    .icon{
+        margin-left: 0% !important;
     }
 
     .icon a {
@@ -249,15 +312,15 @@ p {
     }
 
     #list-item-1 img {
-        width: 20%;
+        width: 24%;
     }
 
     #list-item-2 img {
-        width: 20%;
+        width: 24%;
     }
 
     #list-item-3 img {
-        width: 20%;
+        width: 24%;
     }
 
     .wagashiart img {
@@ -298,6 +361,10 @@ p {
 }
 
 @media screen and (max-width:768px) {
+    .description {
+        margin-top: 25%;
+    }
+
     .icon {
         display: none;
     }
@@ -379,15 +446,15 @@ p {
     }
 
     #list-item-1 img {
-        width: 27%;
+        width: 30%;
     }
 
     #list-item-2 img {
-        width: 27%;
+        width: 30%;
     }
 
     #list-item-3 img {
-        width: 27%;
+        width: 30%;
     }
 
     .text {
