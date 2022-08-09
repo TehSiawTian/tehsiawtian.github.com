@@ -1,0 +1,497 @@
+@import "../stylegeneral.css";
+
+body {
+    margin: 0;
+    background-color: #FFF8F4;
+}
+
+p {
+    font-size: 140%;
+    font-weight: 500;
+}
+
+.story,
+.receipe,
+.dslide,
+.restau {
+    font-family: 'Piazzolla', serif;
+}
+
+/*Story-Part*/
+.bigb {
+    margin-top: 5%;
+    background-image: url("images/i_frame-top.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 21%;
+}
+
+.story {
+    width: 100%;
+}
+
+.storyc {
+    padding: 5%;
+    padding-top: 0;
+}
+
+.storyimg img {
+    width: 45%;
+    border-radius: 25px;
+    margin-top: 6%;
+}
+
+.story .title {
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.story .title img {
+    width: 7%;
+}
+
+.story h2 {
+    font-size: 240%;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+/*Receipe-Part*/
+.receipe {
+    background-image: url("images/i_frame-bottom.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 21%;
+    padding-bottom: 5%;
+}
+
+.receipe h2 {
+    font-size: 240%;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 3%;
+}
+
+/*Ingredient-Top*/
+.ingretop {
+    display: flex;
+    padding-left: 5%;
+    justify-content: space-around;
+}
+
+.ingretop img {
+    width: 40%;
+    height: 30%;
+}
+
+.ingrec {
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.ingretop .title img {
+    width: 15%;
+}
+
+.ingretop ul li {
+    margin-top: 3%;
+    font-size: 140%;
+    font-weight: 500;
+}
+
+/*Ingredient-Bottom*/
+.ingrebottom {
+    padding-left: 5%;
+    margin-top: 2%;
+}
+
+.ingrebottom .title img {
+    width: 10%;
+}
+
+.ingrebottom .title h2 {
+    padding-left: 0;
+}
+
+/*Ingredient-Bottom-Accordion*/
+.accordion-button {
+    background-color: #CDB7AB !important;
+    border-radius: 5px !important;
+    box-shadow: none !important;
+    font-weight: 500 !important;
+    font-size: 70% !important;
+}
+
+.accordion-body {
+    padding-left: 5% !important;
+    font-size: 140%;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+}
+
+.accordion-body img {
+    width: 30%;
+    margin-top: 2%;
+}
+
+.accordion {
+    --bs-accordion-bg: #e6cec1 !important;
+    --bs-accordion-active-color: #000000 !important;
+    --bs-accordion-active-bg: none !important;
+}
+
+.receipe p {
+    margin-top: 4%;
+}
+
+/*SlideShow*/
+.dslide {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.dslide .carousel-item.active {
+    display:flex !important;
+    width: 100%;
+}
+.dslide img{
+    display: flex;
+    width: 25%;
+}
+
+
+/*Restaurant*/
+.restau {
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+.restitle {
+    background-image: url("images/i_line.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    
+}
+.restitle h2 {
+    font-size: 240%;
+    font-weight: 600;
+    font-style: italic;
+    padding-bottom: 15%;
+}
+/*Restaurant-Card*/
+.rescard {
+    background-color: rgba(205, 136, 86, 0.65);
+    padding:3%;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    align-items: center;
+}
+.resimg {
+    width: 60%;
+}
+.resimg img{
+    width: 80%;
+}
+.resname {
+    margin-bottom: 5%;
+}
+.resname img {
+    width: 15%;
+}
+.resname h4 {
+    font-weight: 500;
+    padding-left: 3%;
+    font-size: 180%;
+}
+/*Restaurant-Details*/
+.resdetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resdetails p, a {
+    font-weight: 500;
+    padding-left: 3%;
+    font-size: 140%;
+}
+.resdetails a, .resdetailscut a {
+    text-decoration: none;
+    color: #000000;
+}
+.resloc, .restime, .restel, .resweb {
+    margin-top: 2%;
+    width: 100%;
+}
+.resloc img {
+    width: 8%;
+    margin-right: 3%;
+}
+.restime img {
+    width: 8%;
+    margin-right: 4%;
+}
+.restel img {
+    width: 10%;
+    margin-right: 2%;
+}
+.resweb img {
+    width: 9%;
+    margin-right: 4%;
+}
+/*Restaurant-Collapse Details*/
+.resdetailscut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.resdetailscut .resname {
+    justify-content: center;
+}
+.btn-primary {
+    background-color: #FFEC87 !important;
+    color: #000000 !important;
+    border-color: #FFEC87 !important;
+    font-weight: 500 !important;
+    font-size: 105% !important;
+}
+.resdetailscut .resloc img {
+    width: 8%;
+    margin-right: 4%;
+}
+.resdetailscut .restime img {
+    width: 8%;
+    margin-right: 7%;
+}
+.resslide .carousel-indicators {
+    bottom: 3%;
+}
+
+
+
+
+
+/*Responsive-Laptop*/
+@media screen and (min-width:991px) and (max-width:1199px) {
+
+    /*Ingredient-Top*/
+    .ingretop img {
+        width: 50%;
+        height: 40%;
+    }
+
+    /*Ingredient-Bottom*/
+    .accordion-body img {
+        width: 40%;
+    }
+
+    /*Restaurant-Card*/
+    .resimg img{
+        width: 100%;
+    }
+    .resdetails {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .resname img {
+        width: 13%;
+    }
+}
+
+@media screen and (min-width:991px) {
+    .resslide {
+        display: none;
+    }
+}
+
+/*Responsive-Tablet*/
+@media screen and (min-width:768px) and (max-width:990px) {
+
+    /*Story-Part*/
+    .bigb {
+        margin-top: 10%;
+        background-size: 30%;
+    }
+
+    .storyimg img {
+        width: 65%;
+        margin-top: 10%;
+    }
+
+    .storyc {
+        padding-top: 3%;
+    }
+
+    .story .title {
+        margin-bottom: 3%;
+    }
+
+    .story .title img {
+        width: 10%;
+    }
+
+    /*Receipe*/
+    .receipe {
+        background-size: 30%;
+        padding-bottom: 8%;
+    }
+    .receipe h3 {
+        font-size: 180%;
+    }
+
+    /*Ingredient-Top*/
+    .ingretop img {
+        width: 55%;
+    }
+
+    .ingretop .title img {
+        width: 25%;
+    }
+
+    /*Ingredient-Bottom*/
+    .ingrebottom .title img {
+        width: 15%;
+    }
+
+    .accordion-body img {
+        width: 60%;
+    }
+
+    .receipe p {
+        margin-top: 7%;
+    }
+
+    /*Image-Slider*/
+    .dslide img{
+        width: 33.33%;
+    }
+
+    /*Restaurant-Card*/
+    .restau {
+        margin-bottom: 18%;
+    }
+    .resslide .rescard {
+        flex-direction: column;
+        align-items: center;
+    }
+    .resslide .resimg {
+        width: 80%;
+    }
+    .resslide .resimg img{
+        width: 100%;
+    }
+    .normalcard {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    /*Story-Part*/
+    .bigb {
+        margin-top: 18%;
+        background-size: 45%;
+    }
+
+    .storyimg img {
+        width: 70%;
+        margin-top: 13%;
+    }
+
+    .storyc {
+        padding: 8%;
+        padding-top: 5%;
+    }
+
+    .story .title {
+        margin-bottom: 3%;
+    }
+
+    .story .title img {
+        width: 15%;
+    }
+
+    /*Receipe*/
+    .receipe {
+        background-size: 45%;
+        padding-bottom: 20%;
+    }
+    .receipe h3 {
+        font-size: 180%;
+    }
+    /*Ingredient-Top*/
+    .ingretop {
+        display: flex;
+        padding-left: 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ingrec {
+        padding-right: 8%;
+    }
+
+    .ingretop img {
+        width: 70%;
+    }
+
+    .ingretop .title img {
+        width: 20%;
+    }
+
+    /*Ingredient-Bottom*/
+    .ingrebottom .title img {
+        width: 20%;
+    }
+    .accordion-body img {
+        width: 70%;
+    }
+
+    .receipe p {
+        padding: 5%;
+        padding-left: 10%;
+    }
+
+    /*Image-Slider*/
+    .dslide {
+        margin-top: 12%;
+        margin-bottom: 12%;
+    }
+    .dslide img{
+        width: 50%;
+    }
+
+    /*Restaurant-Card*/
+    .restau {
+        margin-bottom: 23%;
+    }
+    .resslide .rescard {
+        flex-direction: column;
+        align-items: center;
+    }
+    .resslide .resimg {
+        width: 90%;
+    }
+    .resslide .resimg img{
+        width: 100%;
+    }
+    .resslide .resname img {
+        width: 13%;
+    }
+    .normalcard {
+        display: none;
+    }
+    .collapse {
+        margin-left: 1% !important;
+    }
+    .resslide .resdetailscut p, a {
+        font-weight: 500;
+        font-size: 105%;
+    }
+
+}
