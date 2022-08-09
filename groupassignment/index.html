@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -5,11 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Desserts</title>
-    <link rel="icon" type="image/x-icon" href="../groupassignment/mainpage/logo.png">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
-    <link href="../groupassignment/mainpage/stylemainpage.css" rel="stylesheet" />
+    <link href="stylemainpage.css" rel="stylesheet" />
 
     <!--Font Type-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,27 +25,126 @@
 <body>
     <div class="desktop">
         <div class="fourcol row">
+
+            <!--Menu-->
+            <div class="menu">
+                <div id="mySidenav" class="sidenav" style="z-index: 11;">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="navb">
+                        <div class="image" id="home">
+                            <div class="image-col">
+                                <img id="b1" src="images/m1.png" width="40%">
+                                <img id="b2" src="images/m2.png" width="40%">
+                            </div>
+                            <div class="image-col">
+                                <img id="b3" src="images/m3.png" width="40%">
+                                <img id="b4" src="images/m4.png" width="40%">
+                            </div>
+                        </div>
+
+                        <!--Japan-->
+                        <div class="image" id="j-img">
+                            <div class="image-col">
+                                <div id="j-dessert" class="dessert">
+                                    <a href="../groupassignment/japan/j_wagashi.html">Wagashi</a>
+                                    <a href="#">Anmitsu</a>
+                                    <a href="#">Mochi</a>
+                                </div>
+                                <img src="images/jd1.png" width="40%">
+                            </div>
+                            <div class="image-col">
+                                <img src="images/jd2.png" width="40%">
+                                <img src="images/jd3.png" width="40%">
+                            </div>
+                        </div>
+
+                        <!--France-->
+                        <div class="image" id="f-img">
+                            <div class="image-col">
+                                <img src="images/fd1.png" width="40%">
+                                <img src="images/fd2.png" width="40%">
+                            </div>
+                            <div class="image-col">
+                                <div id="f-dessert" class="dessert">
+                                    <a href="#">Mousse</a>
+                                    <a href="#">Napoleon</a>
+                                    <a href="#">Paris-Brest</a>
+                                </div>
+                                <img src="images/fd3.png" width="40%">
+                            </div>
+                        </div>
+
+                        <!--Italy-->
+                        <div class="image" id="i-img">
+                            <div class="image-col">
+                                <img src="images/id1.png" width="40%">
+                                <img src="images/id2.png" width="40%">
+                            </div>
+                            <div class="image-col">
+                                <img src="images/id3.png" width="40%">
+                                <div id="i-dessert" class="dessert">
+                                    <a href="indexd1.html">Affogato</a>
+                                    <a href="indexd2.html">Panettone</a>
+                                    <a href="indexd3.html">Tiramisu</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--China-->
+                        <div class="image" id="c-img">
+                            <div class="image-col">
+                                <img src="images/cd1.png" width="40%">
+                                <div id="c-dessert" class="dessert">
+                                    <a href="#">Dragon Beard Candy</a>
+                                    <a href="#">Sugar-Coated Haws</a>
+                                    <a href="#">Yang Zhi Gan Lu</a>
+                                </div>
+                            </div>
+                            <div class="image-col">
+                                <img src="images/cd2.png" width="40%">
+                                <img src="images/cd3.png" width="40%">
+                            </div>
+                        </div>
+
+                        <div class="menu-link">
+                            <a id="#home" href="#">Home</a>
+                            <a id="hoverme-j" href="#">Japan</a>
+                            <a id="hoverme-f" href="#">France</a>
+                            <a id="hoverme-i" href="#">Italy</a>
+                            <a id="hoverme-c" href="#">China</a>
+                            <a id="chef" href="#">Chef</a>
+                            <a id="contact" href="#">Contact</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="main" class="d-flex align-items-start">
+                    <span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+                </div>
+            </div>
+
+
+
+
+
             <!--Column-->
-            <a href="j_japan.html" class="overlayimg-container country col">
-                <img src="mainpage/mp_japan.jpg" class="image">
+            <a href="#" class="overlayimg-container japan country col">
                 <div class="middle">
                     <div class="text">Japan</div>
                 </div>
             </a>
-            <a href="f_country.html" class="overlayimg-container country col">
-                <img src="mainpage/mp_france.jpeg" class="image">
+            <a href="#" class="overlayimg-container france country col">
                 <div class="middle">
                     <div class="text">France</div>
                 </div>
             </a>
-            <a href="indexitaly.html" class="overlayimg-container country col">
-                <img src="mainpage/mp_italy.jpg" class="image">
+            <a href="../groupassignment/italy/indexitaly.html" class="overlayimg-container italy country col">
                 <div class="middle">
                     <div class="text">Italy</div>
                 </div>
             </a>
-            <a href="c_countrypage.html" class="overlayimg-container country col">
-                <img src="mainpage/mp_china.jpg" class="image">
+            <a href="#" class="overlayimg-container china country col">
                 <div class="middle">
                     <div class="text">China</div>
                 </div>
@@ -83,26 +183,22 @@
 
     <div class="tablet">
         <div class="fourcol row">
-            <a href="j_japan.html" class="tcontainer country col">
-                <img src="mainpage/mp_japan.jpg" class="image">
+            <a href="../groupassignment/japan/j_japan.html" class="tcontainer japan country col">
                 <div class="tcontent">
                     <div class="ttext">Japan</div>
                 </div>
             </a>
-            <a href="f_country.html" class="tcontainer country col">
-                <img src="mainpage/mp_france.jpeg" class="image">
+            <a href="#" class="tcontainer france country col">
                 <div class="tcontent">
                     <div class="ttext">France</div>
                 </div>
             </a>
-            <a href="indexitaly.html" class="tcontainer country col">
-                <img src="mainpage/mp_italy.jpg" class="image">
+            <a href="../groupassignment/italy/indexitaly.html" class="tcontainer italy country col">
                 <div class="tcontent">
-                    <div class="ttext-1">Italy</div>
+                    <div class="ttext">Italy</div>
                 </div>
             </a>
-            <a href="c_countrypage.html" class="tcontainer country col">
-                <img src="mainpage/mp_china.jpg" class="image">
+            <a href="#" class="tcontainer china country col">
                 <div class="tcontent">
                     <div class="ttext">China</div>
                 </div>
@@ -140,37 +236,33 @@
 
     <div class="mobile">
         <div class="mfourcol row">
-            <a href="j_japan.html" class="tcontainer country col">
-                <img src="mainpage/mp_japan.jpg" class="image">
+            <a href="../groupassignment/japan/j_japan.html" class="tcontainer japan country col">
                 <div class="tcontent">
-                    <div class="ttext">
-                        <h1>J</h1>a<br>p<br>a<br>n
+                    <div class="ttext-1">
+                        <h1>Japan</h1>
                     </div>
                 </div>
             </a>
-            <a href="f_country.html" class="tcontainer country col">
-                <img src="mainpage/mp_france.jpeg" class="image">
+            <a href="#" class="tcontainer france country col">
                 <div class="tcontent">
-                    <div class="ttext">
-                        <h1>F</h1>r<br>a<br>n<br>c<br>e
+                    <div class="ttext-1">
+                        <h1>France</h1>
                     </div>
                 </div>
             </a>
         </div>
         <div class="mfourcol row d-flex flex-wrap">
-            <a href="indexitaly.html" class="tcontainer country col">
-                <img src="mainpage/mp_italy.jpg" class="image">
+            <a href="../groupassignment/italy/indexitaly.html" class="tcontainer italy country col">
                 <div class="tcontent-1">
                     <div class="ttext-1">
-                        <h1>I</h1>t<br>a<br>l<br>y
+                        <h1>Italy</h1>
                     </div>
                 </div>
             </a>
-            <a href="c_countrypage.html" class="tcontainer country col">
-                <img src="mainpage/mp_china.jpg" class="image">
+            <a href="#" class="tcontainer china country col">
                 <div class="tcontent-1">
                     <div class="ttext-1">
-                        <h1>C</h1>h<br>i<br>n<br>a
+                        <h1>China</h1>
                     </div>
                 </div>
             </a>
