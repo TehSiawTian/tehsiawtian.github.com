@@ -160,6 +160,10 @@ p {
     --bs-accordion-active-bg: none !important;
 }
 
+.accordion-item h2 {
+    padding-left: 0 !important;
+}
+
 .receipe p {
     margin-top: 4%;
 }
@@ -175,8 +179,8 @@ p {
     width: 100%;
 }
 .dslide img{
-    display: flex;
-    width: 25%;
+    object-fit: cover;
+    width: 24.75%;
 }
 
 
@@ -390,11 +394,6 @@ p {
         margin-top: 7%;
     }
 
-    /*Image-Slider*/
-    .dslide img{
-        width: 33.33%;
-    }
-
     /*Restaurant-Card*/
     .restau {
         margin-bottom: 18%;
@@ -492,11 +491,7 @@ p {
 
     /*Image-Slider*/
     .dslide {
-        margin-top: 12%;
-        margin-bottom: 12%;
-    }
-    .dslide img{
-        width: 50%;
+        display: none;
     }
 
     /*Restaurant-Card*/

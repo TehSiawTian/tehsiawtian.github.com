@@ -61,7 +61,7 @@ li::before {
     width: 20px;
     content: "";
     display: inline-block;
-    background-color: rgb(255 129 150);
+    background-color: rgb(241, 128, 202);
     border-radius: 50%;
     position: relative;
     top: 4px;
