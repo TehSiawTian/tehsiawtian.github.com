@@ -166,12 +166,12 @@ span {
     background-color: #4C4751;
     position: relative;
     padding-top: 5%;
-    padding-left:10%;
 }
 .footer a {
     background: linear-gradient(0deg, white, white) no-repeat right bottom / 0 var(--bg-h);
     transition: background-size 350ms;
     --bg-h: 100%;
+    padding-left: 0%;
 }
 
 

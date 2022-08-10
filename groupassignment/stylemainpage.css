@@ -1,10 +1,12 @@
+@import "stylegeneral.css";
+
 html, body, .desktop, .tablet, .mobile{
     height: 100%;
 }
 
 body {
     margin: 0;
-    font-family: 'Oleo Script', cursive;
+    font-family: 'Oleo Script', cursive !important;
     width: 100%;
 }
 /*Header-Menu*/
