@@ -151,6 +151,11 @@ p {
 }
 
 /*SlideShow*/
+.dslide {
+    margin-top: 5%;
+    width: 100%;
+}
+
 .dslide img{
     object-fit: cover;
     width: 24.75%;
@@ -159,10 +164,6 @@ p {
 .dslide .carousel-item.active {
     display:flex !important;
     width: 100%;
-}
-.dslide img{
-    display: flex;
-    width: 25%;
 }
 
 
