@@ -16,13 +16,17 @@ p {
     font-size: 120%;
 }
 
-li{
+li {
     font-size: 120%;
+}
+
+#main {
+    padding-top: 6% !important;
 }
 
 
 /* cover photo */
-.cover{
+.cover {
     background-image: url("../images/j_wagashi2.jpg");
     background-repeat: no-repeat;
     background-position-x: center;
@@ -31,8 +35,8 @@ li{
 }
 
 /* introduction */
-.intro{
-    width:55%;
+.intro {
+    width: 55%;
     background-image: url("../images/j_line1.png");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -40,34 +44,34 @@ li{
 }
 
 /* recipe */
-.recipe{
+.recipe {
     margin-top: 3%;
     width: 56%;
 }
 
-.ingredients{
+.ingredients {
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
-.ingre img{
+.ingre img {
     width: 15%;
 }
 
-.ingreimg img{
+.ingreimg img {
     width: 70%;
     margin-left: 20%;
 }
 
-.steps h1{
+.steps h1 {
     text-align: left;
 }
 
-.steps img{
+.steps img {
     width: 9%;
 }
 
-.accordionimg img{
+.accordionimg img {
     width: 40%;
 }
 
@@ -78,28 +82,28 @@ li{
 }
 
 .accordion {
-    --bs-accordion-color:#580101 !important ;
+    --bs-accordion-color: #580101 !important;
     --bs-accordion-bg: #c288b962 !important;
     --bs-accordion-active-color: #580101d7 !important;
     --bs-accordion-active-bg: none !important;
-    --bs-accordion-btn-color:#580101 !important ;
+    --bs-accordion-btn-color: #580101 !important;
 }
 
 /* image slider */
-.imgslide{
+.imgslide {
     margin-top: 5%;
     margin-bottom: 5%;
     align-items: center;
 }
 
-.imgslide img{
-    width:24.75%;
-    height:200px;
+.imgslide img {
+    width: 24.75%;
+    height: 200px;
     object-fit: cover;
 }
 
 /* line */
-.line{
+.line {
     background-image: url("../images/j_line1.png");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -108,11 +112,15 @@ li{
 }
 
 /* recommendation */
-.recom p{
+.recom2 {
+    display: none;
+}
+
+.recom p {
     margin-bottom: 0%;
 }
 
-.recom{
+.recom {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -124,7 +132,7 @@ li{
     padding-top: 3%;
 }
 
-.re1{
+.re1 {
     display: flex;
     background-color: #DBBEDA;
     justify-content: space-evenly;
@@ -132,26 +140,26 @@ li{
     padding: 3%;
 }
 
-.reimg img{
+.reimg img {
     width: 100%;
 }
 
-.redef img{
+.redef img {
     width: 30px;
     margin-right: 5%;
 }
 
-.restaurant a{
+.restaurant a {
     text-decoration: none;
-    font-size:120% ;
+    font-size: 120%;
     color: #580101;
 }
 
-.restaurant a:hover{
+.restaurant a:hover {
     color: rgb(193, 122, 36);
 }
 
-.re2{
+.re2 {
     display: flex;
     background-color: #DBBEDA;
     justify-content: space-evenly;
@@ -160,7 +168,7 @@ li{
     margin-top: 5%;
 }
 
-.re3{
+.re3 {
     display: flex;
     background-color: #DBBEDA;
     justify-content: space-evenly;
@@ -193,4 +201,277 @@ li{
     align-items: center;
 }
 
+/* responsive screen */
+@media screen and (min-width:1024px) and (max-width:1288px) {
+    #main {
+        padding-top: 8% !important;
+    }
 
+    /* cover photo */
+    .cover {
+        margin-top: 16%;
+    }
+
+    /* image slider */
+    .imgslide img {
+        width: 24.5%;
+    }
+
+    /* recommendation */
+    .re3 {
+        margin-bottom: 25%;
+    }
+
+    .recom2 {
+        display: none;
+    }
+
+}
+
+/* tablet */
+@media screen and (min-width:768px) and (max-width:1024px) {
+    #main {
+        padding-top: 8% !important;
+    }
+
+    /* cover photo */
+    .cover {
+        margin-top: 20%;
+    }
+
+    /* recipe */
+    .ingreimg img {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    /* image slider */
+    .imgslide img {
+        width: 24.4%;
+    }
+
+    /* recommendation */
+    .recom {
+        display: none;
+    }
+
+    .recom2 {
+        display: flex;
+        width: 60%;
+        flex-direction: column;
+        background-image: url("../images/j_line1.png");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100%;
+        padding-top: 3%;
+        margin-bottom: 20%;
+    }
+
+    .recom2 p {
+        margin-bottom: 0%;
+    }
+
+    .tre1 {
+        background-color: #DBBEDA;
+        padding: 3%;
+    }
+
+    .tre1 h4 {
+        text-align: center;
+        padding: 3%;
+    }
+
+    .treimg img {
+        width: 100%;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details .btn {
+        color: #580101;
+        background-color: #FFE5F8;
+        border: 2px solid;
+        padding: 10px 40px 10px 40px;
+        margin-bottom: 24%;
+    }
+
+    .btn a {
+        font-size: 120%;
+        text-decoration: none;
+    }
+
+    .btn a:hover {
+        background-color: #a539a1;
+        color: white;
+    }
+
+    .card{
+        --bs-card-bg: #FFE5F8 !important;
+    }
+
+    .card img {
+        width: 25px;
+        margin-right: 5%;
+    }
+
+    .card a {
+        text-decoration: none;
+        font-size: 120%;
+        color: #580101;
+    }
+
+    .card a:hover{
+        color: rgb(193, 122, 36);
+    }
+
+    .location2 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+
+    .time2 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+
+    .station2 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+
+    .website2 {
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* mobile */
+@media screen and (max-width:768px){
+    #main {
+        padding-top: 8% !important;
+    }
+
+    /* cover photo */
+    .cover {
+        margin-top: 20%;
+    }
+
+    /* steps */
+    .steps{
+        margin-bottom: 10%;
+    }
+
+
+    /* image slider */
+    .imgslide{
+        display: none;
+    }
+
+    /* recommendation */
+    .recom {
+        display: none;
+    }
+
+    .recom2 {
+        display: flex;
+        width: 60%;
+        flex-direction: column;
+        background-image: url("../images/j_line1.png");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100%;
+        padding-top: 3%;
+        margin-bottom: 20%;
+    }
+
+    .recom2 p {
+        margin-bottom: 0%;
+    }
+
+    .tre1 {
+        background-color: #DBBEDA;
+        padding: 3%;
+    }
+
+    .tre1 h4 {
+        text-align: center;
+        padding: 3%;
+    }
+
+    .treimg img {
+        width: 100%;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details .btn {
+        color: #580101;
+        background-color: #FFE5F8;
+        border: 2px solid;
+        padding: 10px 40px 10px 40px;
+        margin-bottom: 24%;
+    }
+
+    .btn a {
+        font-size: 120%;
+        text-decoration: none;
+    }
+
+    .btn a:hover {
+        background-color: #a539a1;
+        color: white;
+    }
+
+    .card{
+        --bs-card-bg: #FFE5F8 !important;
+    }
+
+    .card img {
+        width: 25px;
+        margin-right: 5%;
+    }
+
+    .card a {
+        text-decoration: none;
+        font-size: 120%;
+        color: #580101;
+    }
+
+    .card a:hover{
+        color: rgb(193, 122, 36);
+    }
+
+    .location2 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+
+    .time2 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+
+    .station2 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+
+    .website2 {
+        display: flex;
+        align-items: center;
+    }
+}
