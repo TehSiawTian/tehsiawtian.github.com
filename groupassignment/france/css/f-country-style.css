@@ -1,0 +1,336 @@
+@import"../../stylegeneral.css";
+
+body,
+a {
+    font-family: 'Asar', serif !important;
+    font-size: 120% !important;
+    font-weight: 400 !important;
+    color: white !important;
+}
+
+.containerb {
+    background-color: rgba(64, 46, 24, 1);
+    background-image: url("../image/topborder.png");
+    background-position: top;
+    background-position-y: 0.5%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sidemenu {
+    width: 20px;
+    z-index: 9;
+}
+
+.sidemenu a{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.navbar .container-fluid {
+    padding-left: 0;
+}
+
+#boxs {
+    margin-top: 7%;
+}
+
+/* timeline */
+.icon{
+    top:30%;
+    z-index: 9;
+}
+
+.icon a{
+    text-decoration: none;
+    font-size: 110% !important;
+}
+
+ul {
+    height: 300px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+ul::before {
+    height: 133%;
+    width: 133%;
+    display: block;
+    position: absolute;
+    top: -18%;
+    left: 10px;
+}
+
+li {
+    margin: 18px 0;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+li::before {
+    height: 20px;
+    width: 20px;
+    content: "";
+    display: inline-block;
+    background-color: rgb(151 103 45);
+    border-radius: 50%;
+    position: relative;
+    top: 4px;
+    margin-right: 6px;
+}
+
+li span {
+    position: relative;
+    left: -100%;
+    transition: left 300ms ease-in;
+}
+
+li:hover span {
+    left: 0;
+}
+
+
+@keyframes rotateText {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+span {
+    position: absolute;
+    left: 50%;
+    transform-origin: 0 100px;
+}
+
+#box1 {
+    background-image: url("../image/f-Mousse-bgck.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    padding-bottom: 15%;
+}
+
+.f-country-title {
+    font-size: 240%;
+}
+
+.f-d-p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.f-d-p p {
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: justify;
+}
+
+.f-d-p h3 {
+    padding-left: 8%;
+    padding-right: 4%;
+    font-weight: 600;
+}
+
+#f-country-smallp {
+    padding-left: 2%;
+    padding-right: 50%;
+    font-size: 78%;
+}
+
+.p-img {
+    display: none;
+}
+
+/* btn - See More */
+.btn a {
+    font-size: 145% !important;
+    text-decoration: none !important;
+}
+
+.wrapper {
+    animation: slide1 1s ease-in-out infinite;
+    margin-left: 9px;
+
+}
+
+.lastbtn {
+    display: none !important;
+}
+
+#f-d1-text {
+    padding-left: 9%;
+}
+#f-d2-text {
+    padding-left: 9%;
+}
+#f-d3-text {
+    padding-left: 9%;
+}
+
+#box2 {
+    background-image: url("../image/f-napoleon-bgck.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    padding-bottom: 15%;
+}
+
+.f-d2 p span {
+    position: static;
+}
+
+.f-d2 p {
+    text-align: justify;
+}
+
+.p-d2-text {
+    display: none;
+}
+
+#box3 {
+    background-image: url("../image/f-paris-brest-bgck.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    padding-bottom: 15%;
+}
+
+/* footer */
+.footer {
+    background-color: #4C4751;
+    position: relative;
+    padding-top: 5%;
+}
+
+.footer img {
+    position: absolute;
+    bottom: 85%;
+    width: 8%;
+}
+
+.footer .design {
+    padding-left: 10%;
+}
+
+.footer a {
+    background: linear-gradient(0deg, white, white) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 350ms;
+    --bg-h: 100%;
+}
+
+.footer a:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+}
+
+.underline {
+    padding-bottom: 2px;
+    --bg-h: 2px !important;
+}
+
+.f-title-font h4{
+    font-size: 150%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    font-size: 108% !important;
+    line-height: 155%;
+}
+
+text { 
+	fill: #FFF8F4 !important;
+}
+
+
+/*Responsive-Mobile*/
+@media screen and (max-width:767px) {
+
+    /*Footer*/
+    .footer {
+        padding-top: 7%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+    }
+}
+
+@media screen and (max-width:669px) {
+    .containerb {
+        background-image: none;
+    }
+
+    #f-d1 {
+        display: none;
+    }
+
+    #f-d1-text {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    #extra {
+        display: none !important;
+    }
+
+    #fp-nav {
+        display: none;
+    }
+
+    .p-img {
+        display: block;
+    }
+
+    .firstbtn {
+        display: none !important;
+    }
+
+    .lastbtn {
+        display: block !important;
+        right: 15px;
+    }
+
+    #f-d2 {
+        display: none;
+    }
+
+    .box2-text {
+        flex-direction: column;
+    }
+
+    #f-d2-text {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .p-d2-text {
+        display: block;
+    }
+
+    .d-d2-text {
+        display: none;
+    }
+
+    #f-d3 {
+        display: none;
+    }
+
+    #f-d3-text {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .sidemenu {
+        display: none;
+    }
+    #box3 {
+        padding-bottom: 32%;
+    }
+}
