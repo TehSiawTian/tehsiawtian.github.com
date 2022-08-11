@@ -41,7 +41,7 @@ body {
 }
 
 .navbar svg {
-    width: 70%;
+    width: 200px;
 }
 rect { fill: #FE0304; }
 text { 
@@ -206,7 +206,7 @@ span {
     color: white;
 }
 /*Footer-Logo*/
-.footer svg { width: 100%; }
+.footer svg { width: 315px; }
 rect { fill: #FE0304; }
 text { 
   font-size: 40px;
@@ -217,7 +217,7 @@ text {
 }
 .footer .flogo{
     position: absolute;
-    bottom: 65%;
+    bottom: 62%;
     width: 90%;
     left: 5%;
 }
