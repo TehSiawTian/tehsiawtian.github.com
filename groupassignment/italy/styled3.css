@@ -124,7 +124,6 @@ p {
 }
 
 .accordion-body {
-    padding-left: 5% !important;
     font-size: 140%;
     font-weight: 500;
     display: flex;

@@ -27,7 +27,7 @@
 
             <!--Menu-->
             <div class="menu">
-                <div id="mySidenav" class="sidenav" style="z-index: 11;">
+                <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <div class="navb">
                         <div class="image" id="home">
@@ -300,6 +300,7 @@
 
         function openNav() {
             document.getElementById("mySidenav").style.width = "100%";
+            document.getElementById("mySidenav").style.zIndex= "2";
         }
 
         function closeNav() {
