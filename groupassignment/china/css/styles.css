@@ -6,6 +6,10 @@ body {
     color: white !important;
 }
 
+text{
+    fill: white !important;
+}
+
 /* timeline */
 .time-line {
     margin-top: 200px;
