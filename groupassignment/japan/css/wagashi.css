@@ -351,7 +351,7 @@ li {
 /* mobile */
 @media screen and (max-width:768px){
     #main {
-        padding-top: 8% !important;
+        padding-top: 13% !important;
     }
 
     .intro{
