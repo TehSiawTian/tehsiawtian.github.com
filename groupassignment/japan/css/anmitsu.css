@@ -267,7 +267,7 @@ li {
 
     .tre1 {
         background-color: #DBBEDA;
-        padding: 3%;
+        padding: 6%;
     }
 
     .tre1 h4 {
@@ -292,7 +292,7 @@ li {
         background-color: #FFE5F8;
         border: 2px solid;
         padding: 10px 40px 10px 40px;
-        margin-bottom: 24%;
+        margin-bottom: 15%;
     }
 
     .btn a {
@@ -345,6 +345,10 @@ li {
     .website2 {
         display: flex;
         align-items: center;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 0% !important;
     }
 }
 
@@ -401,7 +405,7 @@ li {
 
     .tre1 {
         background-color: #DBBEDA;
-        padding: 3%;
+        padding: 6%;
     }
 
     .tre1 h4 {
@@ -426,7 +430,7 @@ li {
         background-color: #FFE5F8;
         border: 2px solid;
         padding: 10px 40px 10px 40px;
-        margin-bottom: 24%;
+        margin-bottom: 15%;
     }
 
     .btn a {
@@ -479,5 +483,9 @@ li {
     .website2 {
         display: flex;
         align-items: center;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 0% !important;
     }
 }
