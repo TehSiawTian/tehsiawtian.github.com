@@ -368,7 +368,7 @@
 
         $(document).ready(function () {
             $(".menu-link a").on({
-                mouseenter: function () {
+                click: function () {
                     var idString = $(this).attr("id")
                     $(".image").hide();
                     switch (idString) {
@@ -389,38 +389,6 @@
                             break;
                     }
                 },
-                mouseleave: function () {
-                    var idString = $(this).attr("class")
-                    if ($(".menu-link a").hasClass("active")) {
-                        var idString = $(".menu-link a.active").attr("id");
-                        $(".image").hide();
-                        switch (idString) {
-                            case "hoverme-j":
-                                $("#j-img").show();
-                                break;
-                            case "hoverme-f":
-                                $("#f-img").show();
-                                break;
-                            case "hoverme-i":
-                                $("#i-img").show();
-                                break;
-                            case "hoverme-c":
-                                $("#c-img").show();
-                                break;
-                            default:
-                                $("#home").show();
-                                break;
-                        }
-                    }
-                    else {
-                        $(".image").hide();
-                        $("#home").show();
-                    }
-                }
-            });
-            $(".menu-link a").click(function () {
-                $(".menu-link a").removeClass("active");
-                $(this).addClass("active");
             });
         });
     
