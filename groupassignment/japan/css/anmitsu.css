@@ -354,6 +354,14 @@ li {
         padding-top: 8% !important;
     }
 
+    .intro{
+        width: 90%;
+    }
+
+    .recipe{
+        width: 90%;
+    }
+
     /* cover photo */
     .cover {
         margin-top: 30%;
@@ -377,14 +385,14 @@ li {
 
     .recom2 {
         display: flex;
-        width: 60%;
+        width: 90%;
         flex-direction: column;
         background-image: url("../images/j_line1.png");
         background-repeat: no-repeat;
         background-position: top;
         background-size: 100%;
         padding-top: 3%;
-        margin-bottom: 20%;
+        margin-bottom: 30%;
     }
 
     .recom2 p {
