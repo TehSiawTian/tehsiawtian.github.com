@@ -1,15 +1,30 @@
+@import "stylegeneral.css";
+
 body {
     margin: 0;
     font-family: 'Asar', serif ;
+}
+
+.h-top {
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
+    position: absolute;
+}
+
+#main{
+    padding-right: 2% !important;
 }
 
 /*Top*/
 .contacttop {
     background-color: #363131;
     padding: 5%;
+    padding-top: 0%;
+    padding-right: 0%;
 }
 .contacttop h1 {
     font-size: 378%;
+    padding-top: 5%;
 }
 .contacttop h5 {
     font-size: 160%;

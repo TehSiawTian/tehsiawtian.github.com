@@ -24,6 +24,108 @@
 <body>
     <!--Top-Title-->
     <div class="container-fluid contacttop text-white">
+        <!--Header-NavBar-->
+    <div class="container-fluid">
+        <nav class="navbar">
+            <div class="container-fluid h-top">
+
+                <div id="mySidenav" class="sidenav" style="z-index: 11;">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="navb">
+                        <div class="image" id="home">
+                            <div class="image-col">
+                                <img id="b1" src="images/m1.jpg" width="50%">
+                                <img id="b2" src="images/m2.jpg" width="50%">
+                            </div>
+                            <div class="image-col">
+                                <img id="b3" src="images/m3.jpg" width="50%">
+                                <img id="b4" src="images/m4.jpg" width="50%">
+                            </div>
+                        </div>
+
+                        <!--Japan-->
+                        <div class="image" id="j-img">
+                            <div class="image-col">
+                                <div id="j-dessert" class="dessert">
+                                    <a href="../groupassignment/japan/j_wagashi.html">Wagashi</a>
+                                    <a href="../groupassignment/japan/j_anmitsu.html">Anmitsu</a>
+                                    <a href="../groupassignment/japan/j_mochi.html">Mochi</a>
+                                </div>
+                                <img src="images/jd1.jpg" width="50%">
+                            </div>
+                            <div class="image-col">
+                                <img src="images/jd2.jpg" width="50%">
+                                <img src="images/jd3.jpg" width="50%">
+                            </div>
+                        </div>
+
+                        <!--France-->
+                        <div class="image" id="f-img">
+                            <div class="image-col">
+                                <img src="images/fd1.jpg" width="50%">
+                                <img src="images/fd2.jpg" width="50%">
+                            </div>
+                            <div class="image-col">
+                                <div id="f-dessert" class="dessert">
+                                    <a href="../groupassignment/france/f_mousse.html">Mousse</a>
+                                    <a href="../groupassignment/france/f_napoleon.html">Napoleon</a>
+                                    <a href="../groupassignment/france/f_parisbrest.html">Paris-Brest</a>
+                                </div>
+                                <img src="images/fd3.jpg" width="50%">
+                            </div>
+                        </div>
+
+                        <!--Italy-->
+                        <div class="image" id="i-img">
+                            <div class="image-col">
+                                <img src="images/id1.jpg" width="50%">
+                                <img src="images/id2.jpg" width="50%">
+                            </div>
+                            <div class="image-col">
+                                <img src="images/id3.jpg" width="50%">
+                                <div id="i-dessert" class="dessert">
+                                    <a href="../groupassignment/italy/indexd1.html">Affogato</a>
+                                    <a href="../groupassignment/italy/indexd2.html">Panettone</a>
+                                    <a href="../groupassignment/italy/indexd3.html">Tiramisu</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--China-->
+                        <div class="image" id="c-img">
+                            <div class="image-col">
+                                <img src="images/cd1.jpg" width="50%">
+                                <div id="c-dessert" class="dessert">
+                                    <a href="#">Dragon Beard Candy</a>
+                                    <a href="#">Sugar-Coated Haws</a>
+                                    <a href="#">Yang Zhi Gan Lu</a>
+                                </div>
+                            </div>
+                            <div class="image-col">
+                                <img src="images/cd2.jpg" width="50%">
+                                <img src="images/cd3.jpg" width="50%">
+                            </div>
+                        </div>
+
+                        <div class="menu-link">
+                            <a id="home" href="index.html">Home</a>
+                            <a id="hoverme-j" href="#">Japan</a>
+                            <a id="hoverme-f" href="#">France</a>
+                            <a id="hoverme-i" href="#">Italy</a>
+                            <a id="hoverme-c" href="#">China</a>
+                            <a id="chef" href="indexchef.html">Chef</a>
+                            <a id="contact" href="indexcontact.html">Contact</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="main">
+                    <span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+                </div>
+            </div>
+        </nav>
+    </div>
         <h1 class="text-uppercase">Contact Us</h1>
         <h5>Share with us the dessert you encounter</h5> 
         <h5> around your life!</h5>
@@ -159,6 +261,76 @@
             <h6>&copy;copyright by Bonjour team</h6>
         </div>
     </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+
+        $(document).ready(function () {
+            $(".menu-link a").on({
+                mouseenter: function () {
+                    var idString = $(this).attr("id")
+                    $(".image").hide();
+                    switch (idString) {
+                        case "hoverme-j":
+                            $("#j-img").show();
+                            break;
+                        case "hoverme-f":
+                            $("#f-img").show();
+                            break;
+                        case "hoverme-i":
+                            $("#i-img").show();
+                            break;
+                        case "hoverme-c":
+                            $("#c-img").show();
+                            break;
+                        default:
+                            $("#home").show();
+                            break;
+                    }
+                },
+                mouseleave: function () {
+                    var idString = $(this).attr("class")
+                    if ($(".menu-link a").hasClass("active")) {
+                        var idString = $(".menu-link a.active").attr("id");
+                        $(".image").hide();
+                        switch (idString) {
+                            case "hoverme-j":
+                                $("#j-img").show();
+                                break;
+                            case "hoverme-f":
+                                $("#f-img").show();
+                                break;
+                            case "hoverme-i":
+                                $("#i-img").show();
+                                break;
+                            case "hoverme-c":
+                                $("#c-img").show();
+                                break;
+                            default:
+                                $("#home").show();
+                                break;
+                        }
+                    }
+                    else {
+                        $(".image").hide();
+                        $("#home").show();
+                    }
+                }
+            });
+            $(".menu-link a").click(function () {
+                $(".menu-link a").removeClass("active");
+                $(this).addClass("active");
+            });
+        });
+    </script>
 </body>
 
 </html>
