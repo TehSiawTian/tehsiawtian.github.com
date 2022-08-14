@@ -46,6 +46,54 @@ li {
     padding-top: 6% !important;
 }
 
+/* button */
+.nextbtn{
+    display: flex;
+    margin-bottom: 10%;
+    width: 100%;
+}
+
+.btn1{
+    display: flex;
+    position: relative;
+    left:5%;
+}
+
+.btn2{
+    display: flex;
+    position: relative;
+    left:80%;
+}
+
+.button-52 {
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-52:after {
+    content: "";
+    background-color: #c288b962;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .button-52:hover:after {
+    top: 0px;
+    left: 0px;
+  }
 
 /* cover photo */
 .cover {
@@ -206,7 +254,7 @@ li {
     align-items: flex-start;
     padding: 3%;
     margin-top: 5%;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
 }
 
 .location {
@@ -250,11 +298,19 @@ li {
 
     /* recommendation */
     .re3 {
-        margin-bottom: 25%;
+        margin-bottom: 5%;
     }
 
     .recom2 {
         display: none;
+    }
+
+    .nextbtn{
+        margin-bottom: 15%;
+    }
+
+    .btn2{
+        left: 75%;
     }
 
 }
@@ -299,6 +355,14 @@ li {
         display: none;
     }
 
+    .nextbtn{
+        margin-bottom: 16%;
+    }
+
+    .btn2{
+        left: 74%;
+    }
+
     .recom2 {
         display: flex;
         width: 60%;
@@ -308,7 +372,7 @@ li {
         background-position: top;
         background-size: 100%;
         padding-top: 3%;
-        margin-bottom: 20%;
+        margin-bottom: 5%;
     }
 
     .recom2 p {
@@ -450,6 +514,22 @@ li {
         display: none;
     }
 
+    .nextbtn{
+        width: 0%;
+        justify-content: space-around;
+        margin-bottom: 5%;
+    }
+
+    .btn1{
+        left: 0%;
+        position: unset;
+    }
+
+    .btn2{
+        left: 0%;
+        position: unset;
+    }
+
     .recom2 {
         display: flex;
         width: 90%;
@@ -459,7 +539,7 @@ li {
         background-position: top;
         background-size: 100%;
         padding-top: 3%;
-        margin-bottom: 30%;
+        margin-bottom: 5%;
     }
 
     .recom2 p {
