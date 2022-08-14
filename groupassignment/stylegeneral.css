@@ -40,6 +40,11 @@ body {
     display: flex;
 }
 
+.navbar-brand{
+    position: relative;
+    left: -36px;
+}
+
 .navbar svg {
     width: 200px;
 }

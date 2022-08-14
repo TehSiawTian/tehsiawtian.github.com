@@ -7,17 +7,39 @@ body {
     color: #580101;
 }
 
+.intro, .recipe, .recom, .recom2{
+    font-family: 'Piazzolla', serif;
+}
+
 h1 {
-    font-size: 240%;
+    font-size: 250%;
     text-align: center;
+    font-style: italic;
+    padding-bottom: 2%;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 200%;
+    font-style: italic;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1%;
 }
 
 p {
     font-size: 120%;
+    font-weight: 500;
+}
+
+a{
+    font-size: 120%;
+    font-weight: 500;
 }
 
 li {
     font-size: 120%;
+    font-weight: 500;
 }
 
 #main {
@@ -37,7 +59,7 @@ li {
 
 /* introduction */
 .intro {
-    width: 55%;
+    width: 75%;
     background-image: url("../images/j_line1.png");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -47,7 +69,7 @@ li {
 /* recipe */
 .recipe {
     margin-top: 3%;
-    width: 56%;
+    width: 75%;
 }
 
 .ingredients {
@@ -66,14 +88,23 @@ li {
 
 .steps h1 {
     text-align: left;
+    align-items: center;
+    display: flex;
 }
 
 .steps img {
-    width: 9%;
+    width: 6.5%;
+}
+
+.accordion-body{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .accordionimg img {
-    width: 40%;
+    width: 90%;
+    height: 350px;
+    object-fit: cover;
 }
 
 .accordion-button {
@@ -103,6 +134,10 @@ li {
     object-fit: cover;
 }
 
+.imgslide .carousel-item{
+    transition: transform 10s linear !important;
+}
+
 /* recommendation */
 .recom2 {
     display: none;
@@ -112,8 +147,12 @@ li {
     margin-bottom: 0%;
 }
 
+.recom h4{
+    padding-bottom: 2%;
+}
+
 .recom {
-    width: 60%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -235,6 +274,19 @@ li {
     .ingreimg img {
         width: 100%;
         margin-left: 0%;
+    }
+
+    .accordion-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .accordiontext{
+        width: 90%;
+    }
+
+    .accordionimg{
+        width: 90%;
     }
 
     /* image slider */
@@ -359,6 +411,19 @@ li {
     }
 
     .recipe{
+        width: 90%;
+    }
+
+    .accordion-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .accordiontext{
+        width: 90%;
+    }
+
+    .accordionimg{
         width: 90%;
     }
 
