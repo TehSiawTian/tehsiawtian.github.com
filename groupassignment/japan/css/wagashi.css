@@ -46,43 +46,41 @@ li {
     padding-top: 6% !important;
 }
 
-/* button */
-form{
+/* Button */
+.nextbtn{
+    width: 90%;
     display: flex;
     justify-content: flex-end;
-    position: relative;
-    right: 5%;
+    margin-bottom: 10%;
 }
 
-.button-52 {
-    letter-spacing: 1px;
-    padding: 13px 20px 13px;
-    outline: 0;
-    border: 1px solid black;
-    cursor: pointer;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0);
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    margin-bottom: 10%;
-  }
+.nextbtn a{
+    text-decoration: none;
+    color: #580101;
+    font-size: 150%;
+    font-weight: 500;
+}
+
+.nextbtn a:hover{
+    color: rgb(193, 122, 36);
+    animation: bounce 1s;
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
   
-  .button-52:after {
-    content: "";
-    background-color: #c288b962;
-    width: 100%;
-    z-index: -1;
-    position: absolute;
-    height: 100%;
-    top: 7px;
-    left: 7px;
-    transition: 0.2s;
-  }
+    40% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
   
-  .button-52:hover:after {
-    top: 0px;
-    left: 0px;
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
   }
 
 /* cover photo */
@@ -295,8 +293,8 @@ form{
         display: none;
     }
 
-    form{
-        margin-bottom: 5%;
+    .nextbtn{
+        margin-bottom: 15%;
     }
 
 }
@@ -341,10 +339,6 @@ form{
         display: none;
     }
 
-    form{
-        margin-bottom: 5%;
-    }
-
     .recom2 {
         display: flex;
         width: 60%;
@@ -359,6 +353,10 @@ form{
 
     .recom2 p {
         margin-bottom: 0%;
+    }
+
+    .nextbtn{
+        margin-bottom: 18%;
     }
 
     .tre1 {
@@ -507,12 +505,12 @@ form{
         margin-bottom: 5%;
     }
 
-    form{
-        margin-bottom: 20%;
-    }
-
     .recom2 p {
         margin-bottom: 0%;
+    }
+
+    .nextbtn{
+        margin-bottom: 18%;
     }
 
     .tre1 {
