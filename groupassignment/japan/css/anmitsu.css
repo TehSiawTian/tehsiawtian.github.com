@@ -55,6 +55,12 @@ li {
     margin-bottom: 10%;
 }
 
+.btn1{
+    width: 30%;
+    margin-left: 10%;
+    display: flex;
+}
+
 .btn1 a{
     text-decoration: none;
     color: #580101;
@@ -65,6 +71,12 @@ li {
 .btn1 a:hover{
     color: rgb(193, 122, 36);
     animation: bounce 1s;
+}
+
+.btn2{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .btn2 a{
@@ -305,6 +317,10 @@ li {
     .recom2 {
         display: none;
     }
+
+    .nextbtn{
+        margin-bottom: 15%;
+    }
 }
 
 /* tablet */
@@ -361,6 +377,10 @@ li {
 
     .recom2 p {
         margin-bottom: 0%;
+    }
+
+    .nextbtn{
+        margin-bottom: 20%;
     }
 
     .tre1 {
@@ -512,6 +532,21 @@ li {
 
     .recom2 p {
         margin-bottom: 0%;
+    }
+
+    .nextbtn{
+        margin-bottom: 30%;
+        width: 100%;
+    }
+
+    .btn1{
+        margin-left: 2%;
+        width: 40%;
+    }
+
+    .btn2{
+        width: 40%;
+        margin-right: 2%;
     }
 
     .tre1 {
