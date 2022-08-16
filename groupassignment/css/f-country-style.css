@@ -10,7 +10,7 @@ a {
 
 .containerb {
     background-color: rgba(64, 46, 24, 1);
-    background-image: url("../image/topborder.png");
+    background-image: url("../images/topborder.png");
     background-position: top;
     background-position-y: 0.5%;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ a {
     font-size: 110% !important;
 }
 
-ul {
+.icon ul {
     height: 300px;
     width: 300px;
     margin: 0;
@@ -55,7 +55,7 @@ ul {
     overflow: hidden;
 }
 
-ul::before {
+.icon ul::before {
     height: 133%;
     width: 133%;
     display: block;
@@ -64,13 +64,13 @@ ul::before {
     left: 10px;
 }
 
-li {
+.icon li {
     margin: 18px 0;
     font-weight: bold;
     overflow: hidden;
 }
 
-li::before {
+.icon li::before {
     height: 20px;
     width: 20px;
     content: "";
@@ -82,13 +82,13 @@ li::before {
     margin-right: 6px;
 }
 
-li span {
+.icon li span {
     position: relative;
     left: -100%;
     transition: left 300ms ease-in;
 }
 
-li:hover span {
+.icon li:hover span {
     left: 0;
 }
 
@@ -110,7 +110,7 @@ span {
 }
 
 #box1 {
-    background-image: url("../image/f-Mousse-bgck.png");
+    background-image: url("../images/f-Mousse-bgck.png");
     background-position: bottom left;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -149,9 +149,13 @@ span {
 }
 
 /* btn - See More */
-.btn a {
+.btnb a {
     font-size: 145% !important;
     text-decoration: none !important;
+}
+
+.btnb a:hover {
+    border: none !important;
 }
 
 .wrapper {
@@ -175,7 +179,7 @@ span {
 }
 
 #box2 {
-    background-image: url("../image/f-napoleon-bgck.png");
+    background-image: url("../images/f-napoleon-bgck.png");
     background-position: bottom left;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -195,7 +199,7 @@ span {
 }
 
 #box3 {
-    background-image: url("../image/f-paris-brest-bgck.png");
+    background-image: url("../images/f-paris-brest-bgck.png");
     background-position: bottom left;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -260,6 +264,9 @@ text {
         padding-top: 7%;
         padding-bottom: 5%;
         padding-left: 5%;
+    }
+    .icon {
+        display: none !important;
     }
 }
 
