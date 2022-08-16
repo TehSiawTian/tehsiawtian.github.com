@@ -9,128 +9,8 @@ body {
     font-family: 'Oleo Script', cursive !important;
     width: 100%;
 }
-/*Header-Menu*/
-.menu {
-    display: flex;
-    position: absolute;
-    justify-content: end;
-    height: 50%;
-}
-.sidenav {
-    height: 200%;
-    width: 100%;
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    right: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-}
 
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 198%;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover,.sidenav a.active {
-    color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-.navb {
-    display: flex;
-}
-
-.image-col {
-    display: flex;
-}
-
-.menu-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 60%;
-}
-.dessert {
-    width: 40%;
-}
-.image {
-    width: 40%;
-}
-
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
-    font-size: 250%;
-    color: #f1f1f1;
-    z-index: 1;
-}
-#j-img {
-    display: none;
-    background-color: #FFE5F8;
-}
-#j-dessert {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-#f-img {
-    display: none;
-    background-color: rgba(9, 8, 8, 0.44);
-}
-#f-dessert {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-#i-img {
-    display: none;
-    background-color: #ECD2C0;
-}
-#i-dessert {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-#c-img {
-    display: none;
-    background-color: #A91B2A;
-}
-#c-dessert {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-#j-dessert a{
-    font-size: 176%;
-}
-#f-dessert a{
-    font-size: 176%;
-}
-#i-dessert a{
-    font-size: 176%;
-}
-#c-dessert a{
-    font-size: 176%;
-}
-
+/*Logo*/
 svg { width: 65%; }
 rect { fill: #FE0304; }
 text { 
@@ -156,7 +36,7 @@ text {
     width: 50%;
 }
 
-
+/*General column and background-img*/
 .fourcol {
     width: 100%;
     height: 100%;
@@ -183,6 +63,39 @@ text {
     background-size: cover;
 }
 
+/*Submenu*/
+.submenu {
+    width :30%;
+    position: absolute;
+    bottom: 1%;
+    right: 5%;
+    height: 28%;
+    object-fit: cover;
+}
+.submenu img {
+    width:100%;
+}
+.country button {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+.popover-header {
+    background-color: rgb(249, 179, 93) !important;
+    font-size: 150%;
+}
+.popover-body {
+    padding: 5% !important;
+    padding-bottom: 0 !important;
+}
+.popover-body a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 120%;
+}
+.popover-body a:hover {
+    color: rgb(77, 168, 201) !important;
+}
 
 /*Dekstop-overlay*/
 .overlayimg-container {
@@ -221,13 +134,13 @@ text {
     position: relative;
     width: 25%;
 }
-.tcontainer .tcontent {
+.ttcontainer .tcontent {
     position: absolute;
     bottom: 0;
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
     color: #f1f1f1;
-    width: 25%;
+    width: 100%;
     height:100%;
     padding: 20px;
 }
@@ -265,6 +178,9 @@ text {
     .desktop {
         display: none;
     }
+    .submenu {
+        width: 45%;
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -280,7 +196,8 @@ text {
         height: 50%;
         margin: 0;
     }
-    .mfourcol .ttcontainer {
+    .mfourcol .tcontainer {
+        position: relative;
         width: 50%;
     }
     .mfourcol .tcontainer .tcontent {
@@ -289,8 +206,8 @@ text {
         background: rgb(0, 0, 0); /* Fallback color */
         background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
         color: #f1f1f1;
-        width: 50%;
-        height:50%;
+        width: 100%;
+        height:100%;
         padding: 20px;
     }
 
@@ -300,8 +217,8 @@ text {
         background: rgb(0, 0, 0); /* Fallback color */
         background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
         color: #f1f1f1;
-        width: 50%;
-        height:50%;
+        width: 100%;
+        height:100%;
         padding: 20px;
     }
     .mfourcol .ttext-1 {
@@ -316,6 +233,14 @@ text {
         margin: 0;
     }
 
+    .japan .submenu, .italy .submenu {
+        right: 50%;
+        width: 45%;
+    } 
+
+    .france .submenu, .china .submenu {
+        width: 45%;
+    } 
     svg { width: 100%; }
 
 

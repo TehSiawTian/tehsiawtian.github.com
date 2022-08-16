@@ -2,32 +2,100 @@
 
 body {
     margin: 0;
-    font-family: 'Asar', serif;
+    font-family: 'Piazzolla', serif !important;
 }
 
+/*Top*/
+.cheftop {
+    background-color: #363131;
+    padding: 5%;
+    padding-top: 0%;
+}
+
+.chefheader {
+    width: 50%;
+    padding: 4%;
+    padding-bottom: 0;
+}
+
+.cheftop h1 {
+    font-size: 500%;
+    padding-top: 5%;
+    margin-top: 8%;
+}
+
+.cheftop h5 {
+    font-size: 160%;
+}
+
+/*Bottom*/
+.chefbottom {
+    background-color: #d2c3a6;
+    display: flex;
+    position: relative;
+    padding: 5% !important;
+    padding-bottom: 33% !important;
+}
+
+/*Bottom-Left_Content*/
+.leftdecribe {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    padding-right: 5%;
+    text-align: justify;
+}
+
+.leftdecribe p {
+    font-size: 140%;
+    font-weight: 500;
+}
+
+.leftdecribe h3 {
+    font-size: 220%;
+    margin-top: 8%;
+}
+
+.leftdecribe img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/*Chef-RightList*/
 .tchef {
-    font-family: 'Piazzolla', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 55% !important;
+    background-color: rgba(255, 255, 255, 0.85) !important;
+    position: absolute !important;
+    top: -6%;
+    right: 1.5%;
 }
 
 /*Chef-Title*/
 .cheftitle h5 {
-    font-size: 231%;
+    font-size: 200%;
 }
 
 .cheftitle h1 {
-    font-size: 578%;
+    font-size: 500%;
     text-decoration: underline;
 }
 
 /*ChefPage-Format*/
 .tchef h2 {
-    font-size: 300%;
+    font-size: 240%;
     margin-top: 5%;
     margin-left: 5%;
+}
+
+.tchef h3 {
+    font-size: 150%;
 }
 
 .tchef .card {
@@ -36,7 +104,7 @@ body {
 
 .tchef .btn {
     background-color: #D33742 !important;
-    font-size: 140%;
+    font-size: 110%;
     font-weight: 500;
     color: white !important;
 }
@@ -46,6 +114,7 @@ body {
     margin-bottom: 3%;
 }
 
+/*Chef_Modal*/
 .tchef h4 {
     font-size: 180%;
     font-weight: 500;
@@ -57,10 +126,16 @@ li {
     font-weight: 500;
 }
 
+.tchef .modal-body {
+    padding: 8%;
+    padding-top: 5%;
+}
+
 .tchef .modalbox img {
     width: 50%;
     margin-top: 5%;
 }
+
 .tchef .img5 {
     padding-left: 3%;
 }
@@ -158,8 +233,41 @@ li {
     color: white !important;
 }
 
+
+
+
 /*Responsive-Tablet*/
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (min-width:991px) and (max-width:1199px) {
+
+    /*ChefHeader-Top*/
+    .chefheader {
+        text-align: justify;
+        width: 43%;
+    }
+    .cheftop h1 {
+        margin-top: 17%;
+    }
+
+    /*Bottom-Left_Content*/
+    .leftdecribe p {
+        font-size: 130%;
+        font-weight: 500;
+    }
+
+    .leftdecribe h3 {
+        font-size: 210%;
+        margin-top: 8%;
+    }
+
+    .leftdecribe img {
+        width: 100%;
+    }
+
+    /*Bottom-Right_Content*/
+    .tchef {
+        top: -17%;
+        right: 2%;
+    }
 
     /*Japan*/
     .japanbig {
@@ -172,17 +280,68 @@ li {
         padding-bottom: 15%;
         margin-bottom: 7%;
     }
+
 }
 
-@media screen and (max-width:767px) {
 
-    .cheftitle h5 {
-        font-size: 174%;
-        padding-left: 25%;
+
+@media screen and (max-width:991px) {
+
+    /*Chef Header*/
+    .chefheader {
+        width: 85% !important;
+        display: flex;
+        flex-direction: column;
+        margin-left: 7%;
+    }
+    
+    /*Bottom*/
+    .chefbottom {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20%;
+    }
+    .tchef {
+        width: 90% !important;
+        position: relative !important;
+        top:5%;
+        right: 0;
+    }
+    /*Bottom-Left_Content*/
+    .leftdecribe {
+        width: 90%;
+        margin: auto;
+        padding-right: 0;
+        margin-top: 8%;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    /*Chef Header*/
+    .chefheader {margin-top: 7%;}
+    .cheftop h1 {font-size: 380%;}
+    .cheftop h5 {font-size: 140%;}
+
+
+    /*Bottom-Left_Content*/
+    .leftdecribe p {
+        font-size: 120%;
+    }
+    .leftdecribe h3 {
+        font-size: 200%;
     }
 
+    /*Bottom-Right_TopChef*/
+    .cheftitle h5 {
+        font-size: 174%;
+    }    
     .cheftitle h1 {
         font-size: 368%;
+    }
+    .tchef {
+        width: 95% !important;
     }
 
     /*Japan*/
