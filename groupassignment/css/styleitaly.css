@@ -1,4 +1,4 @@
-@import "../stylegeneral.css";
+@import "stylegeneral.css";
 
 body {
     margin: 0;
@@ -86,7 +86,7 @@ li:hover span {
     margin-left: 5%;
 }
 .title {
-    background-image: url("images/i_line.png");
+    background-image: url("../images/i_line.png");
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 50%;

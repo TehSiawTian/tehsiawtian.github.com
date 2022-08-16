@@ -1,4 +1,4 @@
-@import "../stylegeneral.css";
+@import "stylegeneral.css";
 
 body {
     margin: 0;
@@ -20,7 +20,7 @@ p {
 /*Story-Part*/
 .bigb {
     margin-top: 5%;
-    background-image: url("images/i_frame-top.png");
+    background-image: url("../images/i_frame-top.png");
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 21%;
@@ -59,7 +59,7 @@ p {
 
 /*Receipe-Part*/
 .receipe {
-    background-image: url("images/i_frame-bottom.png");
+    background-image: url("../images/i_frame-bottom.png");
     background-position: bottom left;
     background-repeat: no-repeat;
     background-size: 21%;
@@ -172,7 +172,7 @@ p {
     margin-bottom: 8%;
 }
 .restitle {
-    background-image: url("images/i_line.png");
+    background-image: url("../images/i_line.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;

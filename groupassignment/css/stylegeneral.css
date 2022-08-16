@@ -4,7 +4,7 @@ body {
 
 /*Header*/
 .sidenav {
-    height: 200%;
+    height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -38,11 +38,7 @@ body {
 
 .navb {
     display: flex;
-}
-
-.navbar-brand{
-    position: relative;
-    left: -36px;
+    height: 100%;
 }
 
 .navbar svg {
@@ -59,6 +55,7 @@ text {
 
 .image-col {
     display: flex;
+    height: 50%;
 }
 
 .menu-link {
@@ -67,6 +64,13 @@ text {
     justify-content: center;
     flex-direction: column;
     width: 50%;
+}
+.menu-link2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
 }
 .dessert {
     width: 40%;
@@ -169,6 +173,12 @@ span {
     align-items: flex-start !important;
 }
 
+.h-top2 {
+    top: -10px;
+    left: -1px;
+    padding-left: 0;
+}
+
 
 /*Footer*/
 .footer {
@@ -259,7 +269,9 @@ text {
 }
 
 
-
+.navbar2 {
+    display: none !important;
+}
 
 
 /*Responsive-Mobile*/
@@ -311,4 +323,10 @@ text {
     }
     .footer svg { width: 85%; }
     
+    .navbar2 {
+        display: block !important;
+    }
+    .navbar1 {
+        display: none !important;
+    }
 }
