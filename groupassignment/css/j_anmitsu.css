@@ -494,8 +494,15 @@ a{
     }
 
     .accordionimg{
-        width: 90%;
+        width: 100%;
     }
+
+    .accordionimg img{
+        width: 100% !important;
+        height: 200px;
+        object-fit: cover;
+    }
+
 
     /* cover photo */
     .cover {
