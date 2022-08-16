@@ -249,6 +249,92 @@ h3 {
     margin-bottom: 100px;
 }
 
+/*Next and Previous button*/
+.nextbtn {
+    display: flex;
+    justify-content: space-between;
+    margin: -100px 50px 150px 50px;
+    z-index: 10;
+}
+
+.nextbtn1 a, .nextbtn2 a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 120%;
+}
+
+.nextbtn1 a:hover, .nextbtn2 a:hover {
+    color: #580101;
+    text-decoration: none;
+}
+
+.nextbtn1:hover, .nextbtn2:hover {
+    border: 3px solid rgba(169, 27, 41, 0.50);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.arrow {
+    animation: slide1 1s ease-in-out infinite;
+    margin-left: 9px;
+}
+
+.box-2 {
+    margin-left: 75%;
+}
+
+@keyframes slide1 {
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(10px, 0);
+    }
+}
+
+/*Next and Previous button*/
+@media screen and (max-width: 988px) {
+    .box-2 {
+        margin-left: 70%;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .box-2 {
+        margin-left: 60%;
+    }
+}
+
+@media screen and (max-width: 662px) {
+    .box-2 {
+        margin-left: 50%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .nextbtn1 a, .nextbtn2 a {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .nextbtn {
+        margin-bottom: 120px;
+    }
+
+    .nextbtn1 a, .nextbtn2 a {
+        font-size: 70%;
+    }
+}
+
 @media screen and (max-width: 1150px){
     .step-img img {
         width: 90%;
