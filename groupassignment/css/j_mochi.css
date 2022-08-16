@@ -482,6 +482,10 @@ a{
         margin-bottom: 10%;
     }
 
+    .steps img{
+        width: 13%;
+    }
+
 
     /* image slider */
     .imgslide{
@@ -516,7 +520,7 @@ a{
     }
 
     .nextbtn{
-        margin-bottom: 18%;
+        margin-bottom: 35%;
     }
 
 
