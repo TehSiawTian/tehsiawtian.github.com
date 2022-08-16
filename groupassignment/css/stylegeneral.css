@@ -19,13 +19,13 @@ body {
     padding: 8px 8px 8px 10px;
     text-decoration: none;
     font-size: 198%;
-    color: #818181;
+    color: #818181 !important;
     display: block;
     transition: 0.3s;
 }
 
 .sidenav a:hover,.sidenav a.active {
-    color: #f1f1f1;
+    color: #f1f1f1 !important;
 }
 
 .sidenav .closebtn {
@@ -71,6 +71,7 @@ text {
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    overflow:scroll;
 }
 .dessert {
     width: 40%;
@@ -176,7 +177,16 @@ span {
 .h-top2 {
     top: -10px;
     left: -1px;
-    padding-left: 0;
+    padding-left: 0 !important;
+}
+
+.sub-menu a{
+    font-size: 110% !important;
+    padding: 0;
+}
+
+.sub-menu {
+    color: #bababa;
 }
 
 
