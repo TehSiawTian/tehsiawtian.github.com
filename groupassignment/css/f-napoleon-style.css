@@ -264,7 +264,7 @@ a {
 }
 
 .imgslide img {
-    width: 24.6%;
+    width: 24.65%;
     height: 200px;
     object-fit: cover;
 }
@@ -347,7 +347,11 @@ a {
     }
 }
 
-
+@media screen and (max-width:1084px) {
+    .imgslide img {
+        width: 24.5%;
+    }
+}
 
 
 @media screen and (max-width:990px) {
@@ -360,14 +364,7 @@ a {
         width: 75%;
         margin: auto;
         margin-bottom: 6%;
-    }
-
-    .imgslide {
-        display: none;
-    }
-
-    .imgborder {
-        display: none;
+        background-image: none;
     }
 }
 
@@ -438,6 +435,14 @@ a {
 
     .npbtn {
         width: 97% ;
+    }
+
+    .imgslide {
+        display: none;
+    }
+
+    .imgborder {
+        display: none;
     }
 }
 

@@ -328,10 +328,10 @@ text {
 
     /*Footer-Logo*/
     .footer .flogo{
-        bottom: 88%;
-        left: 10%;
+        bottom: 86%;
+        left: 5%;
     }
-    .footer svg { width: 85%; }
+    .footer svg { width: 294px; }
     
     .navbar2 {
         display: block !important;

@@ -48,7 +48,8 @@ a{
 
 /* Button */
 .nextbtn{
-    width: 90%;
+    width: 85%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +58,6 @@ a{
 
 .btn1{
     width: 30%;
-    margin-left: 10%;
     display: flex;
 }
 
