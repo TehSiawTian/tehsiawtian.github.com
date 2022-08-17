@@ -218,11 +218,15 @@ span {
     font-size: 150%;
 }
 
+.f-title-font{
+    margin-top: 5% !important;
+}
+
 .footer a {
     text-decoration: none;
     color: inherit;
     line-height: 1;
-    font-size: 108% !important;
+    font-size: 120% !important;
     line-height: 155%;
     padding-left: 0%;
 }
@@ -242,7 +246,7 @@ text {
 }
 .footer .flogo{
     position: absolute;
-    bottom: 62%;
+    bottom: 64%;
     width: 90%;
     left: 5%;
 }
@@ -338,5 +342,9 @@ text {
     }
     .navbar1 {
         display: none !important;
+    }
+
+    .f-title-font{
+        margin-top: 0% !important;
     }
 }

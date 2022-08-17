@@ -243,6 +243,10 @@ span {
     font-size: 150%;
 }
 
+.f-title-font{
+    margin-top: 5% !important;
+}
+
 .footer a {
     text-decoration: none;
     color: inherit;

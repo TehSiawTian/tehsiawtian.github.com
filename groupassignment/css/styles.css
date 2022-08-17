@@ -186,7 +186,7 @@ h3 {
     object-fit: cover;
 }
 
-.carousel-item{
+.imgslider .carousel-item{
     transition: transform 10s linear !important;
 }
 

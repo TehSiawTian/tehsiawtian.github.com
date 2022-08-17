@@ -166,6 +166,10 @@ a {
     color: white !important;
 }
 
+.f-title-font{
+    margin-top: 5% !important;
+}
+
 #t-box4 {
     display: none;
     background-image: url("../images/I\ -\ border.png");

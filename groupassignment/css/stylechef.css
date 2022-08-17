@@ -233,6 +233,10 @@ li {
     color: white !important;
 }
 
+.footer .row1{
+    flex-wrap: nowrap;
+}
+
 
 
 
@@ -356,5 +360,18 @@ li {
         background-size: 50% !important;
         padding-bottom: 20% !important;
         margin-bottom: 15% !important;
+    }
+
+    .footer .row1{
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .footer .italy, .footer .france, .footer .japan{
+        padding-left: 0% !important;
+    }
+
+    .footer .f-p{
+        padding-right: 0% !important;
     }
 }
