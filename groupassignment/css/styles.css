@@ -44,6 +44,7 @@ h2 {
 .story-content1,
 .story-content2 {
     background-color: #D4B2B6;
+    text-align: justify;
 }
 
 p {
@@ -430,6 +431,14 @@ h3 {
         height: 500px;
         object-fit: cover;
     }
+
+    .i .img-i {
+        width: 20%;
+    }
+
+    .i .title-i {
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 826px) {
@@ -488,6 +497,20 @@ h3 {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .img-p-n {
+        display: none;
+    }
+
+    .footer-center {
+        align-items: center;
+    }
+
+    .f-p-end {
+        padding-right: 0% !important;
+    }
+}
+
 @media screen and (max-width: 765px) {
     /*Slide Dessert*/
     .sd-img2 img {
@@ -536,6 +559,22 @@ h3 {
 
     .step-img img {
         padding: 0;
+    }
+
+    .i .img-i {
+        width: 25%;
+    }
+
+    .i .title-i {
+        width: 65%;
+    }
+
+    .r .img-r {
+        width: 15%;
+    }
+    
+    .line2-r {
+        width: 75%;
     }
 }
 
@@ -641,6 +680,22 @@ h3 {
         margin-top: 40px;
     }
 
+    .i .img-i {
+        width: 18%;
+    }
+
+    .i .title-i {
+        width: 82%;
+    }
+
+    .r .img-r {
+        width: 20%;
+    }
+    
+    .line2-r {
+        width: 70%;
+    }
+
     /*Steps*/
     .step-box {
         padding: 0%;
@@ -682,5 +737,9 @@ h3 {
 
     .title2-rm p {
         font-size: 80%;
+    }
+
+    .carousel-control-next {
+        right: 34px;
     }
 }
