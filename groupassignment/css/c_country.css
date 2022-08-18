@@ -305,6 +305,10 @@ a {
     svg {
         width: 85%;
     }
+
+    .time-line{
+        display: none;
+    }
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (1264px wide or less)*/
