@@ -123,6 +123,10 @@ a {
     --bs-accordion-active-bg: none !important;
 }
 
+.accordion-body img {
+    object-fit: cover;
+}
+
 #r1,
 #r2,
 #r3 {
@@ -164,10 +168,6 @@ a {
 
 .footer a {
     color: white !important;
-}
-
-.f-title-font{
-    margin-top: 5% !important;
 }
 
 #t-box4 {
@@ -350,12 +350,12 @@ a {
     }
 }
 
-
-@media screen and (max-width:1084px)  {
+@media screen and (max-width:1084px) {
     .imgslide img {
         width: 24.5%;
     }
 }
+
 
 @media screen and (max-width:990px) {
     #box4 {
@@ -369,6 +369,7 @@ a {
         margin-bottom: 6%;
         background-image: none;
     }
+
 }
 
 @media screen and (max-width:768px) {
@@ -447,7 +448,6 @@ a {
     .imgborder {
         display: none;
     }
-
 }
 
 @media screen and (max-width:634px) {
