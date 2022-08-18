@@ -126,8 +126,9 @@ h3 {
     color: #580101;
 }
 
-.i-content p {
-    padding: 20px;
+li {
+    line-height: 195%;
+    font-size: 120%;
 }
 
 /*Steps*/
@@ -316,7 +317,7 @@ h3 {
 
 @media screen and (max-width: 662px) {
     .box-2 {
-        margin-left: 50%;
+        margin-left: 45%;
     }
 }
 
@@ -335,6 +336,7 @@ h3 {
         font-size: 70%;
     }
 }
+
 
 @media screen and (max-width: 1150px){
     .step-img img {
@@ -739,7 +741,7 @@ h3 {
         font-size: 80%;
     }
 
-    .carousel-control-next {
-        right: 34px;
+    .story-content1, .story-content2 {
+        text-align: center;
     }
 }
