@@ -193,6 +193,10 @@ span {
     color: #bababa;
 }
 
+.popover-body a {
+    color: #111  !important;
+    text-decoration: none;
+}
 
 /*Footer*/
 .footer {

@@ -7,7 +7,7 @@
     <title>Anmitsu</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
-    <link href="css/j_anmitsu.css" rel="stylesheet">
+    <link href="css/anmitsu.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="images/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -68,10 +68,10 @@
                         <div class="image" id="j-img">
                             <div class="image-col">
                                 <div id="j-dessert" class="dessert">
-                                    <a href="j_japan.html">Main</a>
-                                    <a href="j_wagashi.html">Wagashi</a>
-                                    <a href="j_anmitsu.html">Anmitsu</a>
-                                    <a href="j_mochi.html">Mochi</a>
+                                    <a href="japan.html">Main</a>
+                                    <a href="wagashi.html">Wagashi</a>
+                                    <a href="anmitsu.html">Anmitsu</a>
+                                    <a href="mochi.html">Mochi</a>
                                 </div>
                                 <img src="images/jd1.jpg" width="50%">
                             </div>
@@ -89,10 +89,10 @@
                             </div>
                             <div class="image-col">
                                 <div id="f-dessert" class="dessert">
-                                    <a href="f_country.html">Main</a>
-                                    <a href="f_mousse.html">Mousse</a>
-                                    <a href="f_napoleon.html">Napoleon</a>
-                                    <a href="f_parisbrest.html">Paris-Brest</a>
+                                    <a href="france.html">Main</a>
+                                    <a href="mousse.html">Mousse</a>
+                                    <a href="napoleon.html">Napoleon</a>
+                                    <a href="parisbrest.html">Paris-Brest</a>
                                 </div>
                                 <img src="images/fd3.jpg" width="50%">
                             </div>
@@ -107,10 +107,10 @@
                             <div class="image-col">
                                 <img src="images/id3.jpg" width="50%">
                                 <div id="i-dessert" class="dessert">
-                                    <a href="i_italy.html">Main</a>
-                                    <a href="i_affogato.html">Affogato</a>
-                                    <a href="i_panettone.html">Panettone</a>
-                                    <a href="i_tiramisu.html">Tiramisu</a>
+                                    <a href="italy.html">Main</a>
+                                    <a href="affogato.html">Affogato</a>
+                                    <a href="panettone.html">Panettone</a>
+                                    <a href="tiramisu.html">Tiramisu</a>
                                 </div>
                             </div>
                         </div>
@@ -120,10 +120,10 @@
                             <div class="image-col">
                                 <img src="images/cd1.jpg" width="50%">
                                 <div id="c-dessert" class="dessert">
-                                    <a href="c_countrypage.html">Main</a>
-                                    <a href="c_dragonbc.html">Dragon Beard Candy</a>
-                                    <a href="c_sugarch.html">Sugar-Coated Haws</a>
-                                    <a href="c_yangzgl.html">Yang Zhi Gan Lu</a>
+                                    <a href="countrypage.html">Main</a>
+                                    <a href="dragonbc.html">Dragon Beard Candy</a>
+                                    <a href="sugarch.html">Sugar-Coated Haws</a>
+                                    <a href="yangzgl.html">Yang Zhi Gan Lu</a>
                                 </div>
                             </div>
                             <div class="image-col">
@@ -150,7 +150,6 @@
             </div>
         </nav>
     </div>
-
     <!--header2-->
     <div class="container-fluid">
         <nav class="navbar navbar2">
@@ -186,31 +185,27 @@
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
                     <div class="navb">
                         <div class="menu-link2">
-                            <a href="index.html" style="margin-top:244px ;">Home</a>
-                            <a href="j_japan.html">Japan</a>
-                            <ul class="sub-menu">
-                                <li><a href="j_wagashi.html">Wagashi</a></li>
-                                <li><a href="j_anmitsu.html">Anmitsu</a></li>
-                                <li><a href="j_mochi.html">Mochi</a></li>
-                            </ul>
-                            <a href="f_country.html">France</a>
-                            <ul class="sub-menu">
-                                <li><a href="f_mousse.html">Mousse</a></li>
-                                <li><a href="f_napoleon.html">Napoleon</a></li>
-                                <li><a href="f_parisbrest.html">Paris-Brest</a></li>
-                            </ul>
-                            <a href="i_italy.html">Italy</a>
-                            <ul class="sub-menu">
-                                <li><a href="i_affogato.html">Affogato</a></li>
-                                <li><a href="i_panettone.html">Panettone</a></li>
-                                <li><a href="i_tiramisu.html">Tiramisu</a></li>
-                            </ul>
-                            <a href="c_countrypage.html">China</a>
-                            <ul class="sub-menu">
-                                <li><a href="c_dragonbc.html">Dragon Beard Candy</a></li>
-                                <li><a href="c_sugarch.html">Sugar-Coated Haws</a></li>
-                                <li><a href="c_yangzgl.html">Yang Zhi Gan Lu</a></li>
-                            </ul>
+                            <a href="index.html">Home</a>
+                            <a type="button" class="btn btn-lg" data-bs-toggle="popover"
+                                data-bs-content="<a href='japan.html'> Japan </a><ul><li><a href='wagashi.html'> Wagashi </a></li> <li><a href='anmitsu.html'>Anmitsu</a></li> <li><a href='mochi.html'>Mochi</a></li></ul>"
+                                data-bs-html="true">Japan
+                            </a>
+
+                            <a type="button" class="btn btn-lg" data-bs-toggle="popover"
+                                data-bs-content="<a href='france.html'> France </a><ul> <li><a href='mousse.html'> Mousse</a></li> <li><a href='napoleon.html'>Napoleon</a></li> <li><a href='parisbrest.html'>Paris-Brest</a></li></ul>"
+                                data-bs-html="true">France
+                            </a>
+
+                            <a type="button" class="btn btn-lg" data-bs-toggle="popover"
+                                data-bs-content="<a href='italy.html'> Italy </a><ul> <li><a href='affogato.html'> Affogato</a></li> <li><a href='panettone.html'>Panettone</a></li> <li><a href='tiramisu.html'>Tiramisu</a></li></ul>"
+                                data-bs-html="true">Italy
+                            </a>
+
+                            <a type="button" class="btn btn-lg" data-bs-toggle="popover"
+                                data-bs-content="<a href='china.html'> China </a><ul> <li><a href='dragonbc.html'> Dragon Beard Candy</a></li> <li><a href='sugarch.html'>Sugar-Coated Haws</a></li> <li><a href='yangzgl.html'>Yang Zhi Gan Lu</a></li></ul>"
+                                data-bs-html="true">China
+                            </a>
+
                             <a href="indexchef.html">Chef</a>
                             <a href="indexcontact.html">Contact</a>
                         </div>
@@ -714,11 +709,11 @@
     <!-- next and previous button -->
     <div class="nextbtn">
         <div class="btn1">
-        <a href="j_wagashi.html">
+        <a href="wagashi.html">
             &#8592 Wagashi</a>
         </div>
         <div class="btn2">
-            <a href="j_mochi.html">Mochi
+            <a href="mochi.html">Mochi
             &#8594</a>
         </div>
     </div>
@@ -763,36 +758,36 @@
             <div class="col-md-8 f-m-change">
                 <div class="row d-flex">
                     <div class="japan col-md d-flex flex-column justify-content-center f-m-space">
-                        <a class="underline" href="j_japan.html">
+                        <a class="underline" href="japan.html">
                             <h4>Japan</h4>
                         </a>
-                        <a class="underline" href="j_wagashi.html">Wagashi</a>
-                        <a class="underline" href="j_anmitsu.html">Anmitsu</a>
-                        <a class="underline" href="j_mochi.html">Mochi</a>
+                        <a class="underline" href="wagashi.html">Wagashi</a>
+                        <a class="underline" href="anmitsu.html">Anmitsu</a>
+                        <a class="underline" href="mochi.html">Mochi</a>
                     </div>
                     <div class="france col-md d-flex flex-column justify-content-center f-m-space">
-                        <a class="underline" href="f_country.html">
+                        <a class="underline" href="country.html">
                             <h4>France</h4>
                         </a>
-                        <a class="underline" href="f_mousse.html">Mousse</a>
-                        <a class="underline" href="f_napoleon.html">Napoleon</a>
-                        <a class="underline" href="f_parisbrest.html">Paris-Brest</a>
+                        <a class="underline" href="mousse.html">Mousse</a>
+                        <a class="underline" href="napoleon.html">Napoleon</a>
+                        <a class="underline" href="parisbrest.html">Paris-Brest</a>
                     </div>
                     <div class="italy col-md d-flex flex-column justify-content-center f-m-space">
-                        <a class="underline" href="i_italy.html">
+                        <a class="underline" href="italy.html">
                             <h4>Italy</h4>
                         </a>
-                        <a class="underline" href="i_affogato.html">Affogato</a>
-                        <a class="underline" href="i_panettone.html">Panettone</a>
-                        <a class="underline" href="i_tiramisu.html.html">Tiramisu</a>
+                        <a class="underline" href="affogato.html">Affogato</a>
+                        <a class="underline" href="panettone.html">Panettone</a>
+                        <a class="underline" href="tiramisu.html.html">Tiramisu</a>
                     </div>
                     <div class="china col-md-4 d-flex flex-column justify-content-center f-p-end f-m-space">
-                        <a class="underline" href="c_countrypage.html">
+                        <a class="underline" href="china.html">
                             <h4>China</h4>
                         </a>
-                        <a class="underline" href="c_dragonbc.html">Dragon Beard Candy</a>
-                        <a class="underline" href="c_sugarch.html">Sugar-Coated Haws</a>
-                        <a class="underline" href="c_yangzgl.html">Yang Zhi Gan Lu</a>
+                        <a class="underline" href="dragonbc.html">Dragon Beard Candy</a>
+                        <a class="underline" href="sugarch.html">Sugar-Coated Haws</a>
+                        <a class="underline" href="yangzgl.html">Yang Zhi Gan Lu</a>
                     </div>
                 </div>
             </div>
@@ -847,6 +842,11 @@
                 },
             });
         });
+
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
     </script>
 </body>
 
