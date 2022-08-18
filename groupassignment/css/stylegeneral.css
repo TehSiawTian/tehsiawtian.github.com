@@ -159,6 +159,10 @@ text {
     color:#FE0304 !important;
 }
 
+.image-col img{
+    object-fit: cover;
+}
+
 span {
     position: absolute;
     left: 50%;
