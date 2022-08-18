@@ -241,6 +241,10 @@ a {
     display: none;
 }
 
+.see-more-btn a:hover, .see-more-btn2 a:hover {
+    color: #ef8993;
+}
+
 @keyframes slide1 {
 
     0%,
