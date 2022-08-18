@@ -25,7 +25,7 @@ body {
     font-size: 110% !important;
 }
 
-ul {
+.time-line ul {
     height: 300px;
     width: 300px;
     margin: 0;
@@ -34,7 +34,7 @@ ul {
     overflow: hidden;
 }
 
-ul::before {
+.time-line ul::before {
     height: 133%;
     width: 133%;
     display: block;
@@ -43,14 +43,14 @@ ul::before {
     left: 10px;
 }
 
-li {
+.time-line li {
     margin: 18px 0;
     font-weight: bold;
     color: #ef8993;
     overflow: hidden;
 }
 
-li::before {
+.time-line li::before {
     height: 20px;
     width: 20px;
     content: "";
@@ -62,17 +62,17 @@ li::before {
     margin-right: 6px;
 }
 
-li:hover:before {
+.time-line li:hover:before {
     background-color: white;
 }
 
-li span {
+.time-line li span {
     position: relative;
     left: -100%;
     transition: left 300ms ease-in;
 }
 
-li:hover span {
+.time-line li:hover span {
     left: 0;
 }
 
@@ -306,7 +306,7 @@ a {
         width: 85%;
     }
 
-    .time-line{
+    .dessert-container .dot{
         display: none;
     }
 }
