@@ -218,15 +218,11 @@ span {
     font-size: 150%;
 }
 
-.f-title-font{
-    margin-top: 5% !important;
-}
-
 .footer a {
     text-decoration: none;
     color: inherit;
     line-height: 1;
-    font-size: 120% !important;
+    font-size: 108% !important;
     line-height: 155%;
     padding-left: 0%;
 }
@@ -246,7 +242,7 @@ text {
 }
 .footer .flogo{
     position: absolute;
-    bottom: 64%;
+    bottom: 62%;
     width: 90%;
     left: 5%;
 }
@@ -259,6 +255,14 @@ text {
 /*Button-Animation*/
 .wrapper{
     animation: slide1 1s ease-in-out infinite;
+}
+
+
+.b1 {
+    background-image: url("../images/m1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
 }
 
 @keyframes slide1 {
@@ -287,6 +291,15 @@ text {
     display: none !important;
 }
 
+/*Responsive- tablet */
+@media screen and (max-width:1000px) {
+    .navbar2 {
+        display: block !important;
+    }
+    .navbar1 {
+        display: none !important;
+    }
+}
 
 /*Responsive-Mobile*/
 @media screen and (max-width:767px) {
@@ -336,15 +349,4 @@ text {
         left: 5%;
     }
     .footer svg { width: 294px; }
-    
-    .navbar2 {
-        display: block !important;
-    }
-    .navbar1 {
-        display: none !important;
-    }
-
-    .f-title-font{
-        margin-top: 0% !important;
-    }
 }
