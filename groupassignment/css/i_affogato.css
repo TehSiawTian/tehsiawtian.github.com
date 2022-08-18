@@ -6,7 +6,7 @@ body {
 }
 
 p {
-    font-size: 140%;
+    font-size: 120%;
     font-weight: 500;
 }
 
@@ -21,6 +21,7 @@ p {
     width: 75% !important;
     margin: auto;
 }
+
 
 /*Story-Part*/
 .bigb {
@@ -72,7 +73,7 @@ p {
 }
 
 .receipe h2 {
-    font-size: 240%;
+    font-size: 200%;
     font-weight: 600;
     font-style: italic;
     padding-left: 3%;
@@ -86,8 +87,7 @@ p {
 }
 
 .ingretop img {
-    width: 40%;
-    height: 30%;
+    width: 29%;
 }
 
 .ingrec {
@@ -96,19 +96,19 @@ p {
 }
 
 .ingretop .title img {
-    width: 18%;
+    width: 25%;
 }
 
 .ingretop ul li {
     margin-top: 3%;
-    font-size: 140%;
+    font-size: 120%;
     font-weight: 500;
 }
 
 /*Ingredient-Bottom*/
 .ingrebottom {
     padding-left: 5%;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 .ingrebottom .title img {
@@ -137,7 +137,7 @@ p {
 }
 
 .accordion-body img {
-    width: 40%;
+    width: 30%;
     margin-top: 2%;
     margin-right: 5%;
     object-fit: cover;
@@ -176,6 +176,8 @@ p {
 }
 
 
+
+
 /*Restaurant*/
 .restau {
     margin-top: 5%;
@@ -189,7 +191,7 @@ p {
     
 }
 .restitle h2 {
-    font-size: 240%;
+    font-size: 200%;
     font-weight: 600;
     font-style: italic;
     padding-bottom: 15%;
@@ -230,13 +232,13 @@ p {
 .resdetails p, a {
     font-weight: 500;
     padding-left: 3%;
-    font-size: 140%;
+    font-size: 120%;
 }
 .resdetails a, .resdetailscut a {
     text-decoration: none;
     color: #000000;
 }
-.resloc, .restime, .restel, .resweb {
+.resloc, .restime, .restel, .resfb, .resweb {
     margin-top: 2%;
     width: 100%;
 }
@@ -251,6 +253,10 @@ p {
 .restel img {
     width: 35px;
     margin-right: 2%;
+}
+.resfb img {
+    width: 26px;
+    margin-right: 5%;
 }
 .resweb img {
     width: 34px;
@@ -285,6 +291,10 @@ p {
     width: 40px;
     margin-right: 2%;
 }
+.resdetailscut .resfb img {
+    width: 28px;
+    margin-right: 5%;
+}
 .resdetailscut .resweb img {
     width: 37px;
     margin-right: 4%;
@@ -309,8 +319,13 @@ p {
     color: #000000;
 }
 
+.pagebutton a h1 {
+    font-size: 150%;
+}
+
 .pagebutton a:hover {
-    animation-name: vertical-shaking; animation-iteration-count: infinite;
+    animation-name: vertical-shaking; 
+    animation-iteration-count: infinite;
     animation-duration: 1s;
     display: inline-block;
     color: rgb(211, 6, 6);
@@ -332,15 +347,9 @@ p {
 /*Responsive-Laptop*/
 @media screen and (min-width:991px) and (max-width:1199px) {
 
-    /*Ingredient-Top*/
-    .ingretop img {
-        width: 50%;
-        height: 40%;
-    }
-
     /*Ingredient-Bottom*/
     .accordion-body img {
-        width: 40%;
+        width: 30%;
     }
 
     /*SlideShow*/
@@ -358,13 +367,6 @@ p {
     }
     .resname img {
         width: 13%;
-    }
-
-    
-    /*PageButton*/
-    .pagebutton {
-        margin-top: 5%;
-        margin-bottom: 18%;
     }
 }
 
@@ -405,17 +407,14 @@ p {
         background-size: 30%;
         padding-bottom: 8%;
     }
-    .receipe h3 {
-        font-size: 180%;
-    }
 
     /*Ingredient-Top*/
     .ingretop img {
-        width: 55%;
+        width: 40%;
     }
 
     .ingretop .title img {
-        width: 24%;
+        width: 18%;
     }
 
     /*Ingredient-Bottom*/
@@ -424,11 +423,9 @@ p {
     }
 
     .accordion-body img {
-        width: 50%;
-        height: 50%;
+        width: 40%;
     }
     .accordion-body p {
-        width: 50%;
         font-size: 120%;
     }
 
@@ -462,20 +459,20 @@ p {
         display: none;
     }
 
-
     /*PageButton*/
     .pagebutton {
         margin-top: 10%;
         margin-bottom: 20%;
-    }
+    }   
 
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
 
     .story, .receipe, .restau {
         width: 90% !important;
     }
+    
 
     /*Story-Part*/
     .bigb {
@@ -504,11 +501,9 @@ p {
     /*Receipe*/
     .receipebigbox {
         background-size: 45%;
-        padding-bottom: 20%;
+        padding-bottom: 8%;
     }
-    .receipe h3 {
-        font-size: 180%;
-    }
+
     /*Ingredient-Top*/
     .ingretop {
         display: flex;
@@ -522,7 +517,7 @@ p {
     }
 
     .ingretop img {
-        width: 70%;
+        width: 60%;
     }
 
     .ingretop .title img {
@@ -570,9 +565,6 @@ p {
     .resslide .resimg img{
         width: 100%;
     }
-    .resslide .resname {
-        width:101%;
-    }
     .resslide .resname img {
         width: 13%;
     }
@@ -602,6 +594,7 @@ p {
         width: 29px;
     }
 
+    
     /*PageButton*/
     .pagebutton {
         margin-top: 10%;
@@ -609,5 +602,6 @@ p {
     }
     .pagebutton h1 {
         font-size: 180%;
-    }
+    }   
+
 }

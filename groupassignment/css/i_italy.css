@@ -132,7 +132,7 @@ p {
     color: black;
 }
 .big1 img {
-    width: 110%;
+    width: 100%;
 }
 .big1 {
     display: flex;
@@ -227,7 +227,7 @@ p {
     }
     /*Right-BigImage*/
     .big1 img {
-        width: 178%;
+        width: 170%;
     }
 }
 

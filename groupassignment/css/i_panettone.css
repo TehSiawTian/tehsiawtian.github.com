@@ -6,7 +6,7 @@ body {
 }
 
 p {
-    font-size: 140%;
+    font-size: 120%;
     font-weight: 500;
 }
 
@@ -72,7 +72,7 @@ p {
 }
 
 .receipe h2 {
-    font-size: 240%;
+    font-size: 200%;
     font-weight: 600;
     font-style: italic;
     padding-left: 3%;
@@ -108,7 +108,7 @@ p {
 }
 .ingretop ul li {
     margin-top: 3%;
-    font-size: 140%;
+    font-size: 120%;
     font-weight: 500;
 }
 
@@ -208,7 +208,7 @@ p {
     
 }
 .restitle h2 {
-    font-size: 240%;
+    font-size: 200%;
     font-weight: 600;
     font-style: italic;
     padding-bottom: 15%;
@@ -249,7 +249,7 @@ p {
 .resdetails p, a {
     font-weight: 500;
     padding-left: 3%;
-    font-size: 140%;
+    font-size: 120%;
 }
 .resdetails a, .resdetailscut a {
     text-decoration: none;
@@ -326,6 +326,10 @@ p {
 .pagebutton a {
     text-decoration: none;
     color: #000000;
+}
+
+.pagebutton a h1 {
+    font-size: 150%;
 }
 
 .pagebutton a:hover {

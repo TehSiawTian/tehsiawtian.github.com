@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: 'Piazzolla', serif !important;
+    font-family: 'Asar', serif ;
 }
 
 /*Top*/
@@ -34,7 +34,7 @@ body {
     display: flex;
     position: relative;
     padding: 5% !important;
-    padding-bottom: 33% !important;
+    padding-bottom: 50% !important;
 }
 
 /*Bottom-Left_Content*/
@@ -48,7 +48,7 @@ body {
 }
 
 .leftdecribe p {
-    font-size: 140%;
+    font-size: 120%;
     font-weight: 500;
 }
 
@@ -122,7 +122,7 @@ body {
 
 .tchef p,
 li {
-    font-size: 140%;
+    font-size: 120%;
     font-weight: 500;
 }
 
@@ -303,7 +303,7 @@ li {
     .chefbottom {
         display: flex;
         flex-direction: column;
-        padding-bottom: 20%;
+        padding-bottom: 20% !important;
     }
     .tchef {
         width: 90% !important;
@@ -326,7 +326,7 @@ li {
     /*Chef Header*/
     .chefheader {margin-top: 7%;}
     .cheftop h1 {font-size: 380%;}
-    .cheftop h5 {font-size: 140%;}
+    .cheftop h5 {font-size: 120%;}
 
 
     /*Bottom-Left_Content*/
