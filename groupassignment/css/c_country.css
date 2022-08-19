@@ -12,7 +12,7 @@ body {
 }
 
 .time-line {
-    margin-top: 200px;
+    margin-top: 20%;
     z-index: 9;
 }
 
@@ -243,7 +243,7 @@ a {
 
 .see-more-btn a:hover, .see-more-btn2 a:hover {
     color: #ef8993;
-}
+} 
 
 @keyframes slide1 {
 
@@ -259,7 +259,6 @@ a {
 
 /*Responsive-Mobile*/
 @media screen and (max-width:767px) {
-
     /*Footer*/
     .footer img {
         bottom: 95%;
@@ -306,7 +305,7 @@ a {
         width: 85%;
     }
 
-    .dessert-container .dot{
+    .time-line {
         display: none;
     }
 }
@@ -552,16 +551,10 @@ a {
     }
 }
 
-
-
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (593px wide or less)*/
 @media screen and (max-width: 767px) {
     .h-top {
         padding-right: 50px
-    }
-
-    .time-line {
-        display: none;
     }
 
     #c_dragonbc,
@@ -682,6 +675,9 @@ a {
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (414px wide or less)*/
 @media screen and (max-width: 414px) {
+    .h-top {
+        padding-right: 35px;
+    }
 
     .b-content2 p,
     .b-content3 p,
