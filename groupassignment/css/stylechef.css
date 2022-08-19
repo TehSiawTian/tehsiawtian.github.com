@@ -142,7 +142,7 @@ li {
 
 /*Japan*/
 .japanbig {
-    background-image: url("../images/i_chefbckg-top.png");
+    background-image: url("../images/chefbckg-top.png");
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 25%;
@@ -215,7 +215,7 @@ li {
 
 /*China*/
 .chinabig {
-    background-image: url("../images/i_chefbckg-bottom.png");
+    background-image: url("../images/chefbckg-bottom.png");
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: 25%;

@@ -47,19 +47,19 @@ text {
     padding: 0;
 }
 .japan {
-    background: rgba(0, 0, 0, 0.3) url("../images/mp_japan.jpg");
+    background: rgba(0, 0, 0, 0.3) url("../images/japanfuji.jpg");
     background-size: cover;
 }
 .france {
-    background: rgba(0, 0, 0, 0.3) url("../images/mp_france.jpeg");
+    background: rgba(0, 0, 0, 0.3) url("../images/franceparis.jpeg");
     background-size: cover;
 }
 .italy {
-    background: rgba(0, 0, 0, 0.3) url("../images/mp_italy.jpg");
+    background: rgba(0, 0, 0, 0.3) url("../images/italyvenice.jpg");
     background-size: cover;
 }
 .china {
-    background: rgba(0, 0, 0, 0.3) url("../images/mp_china1.jpeg");
+    background: rgba(0, 0, 0, 0.3) url("../images/chinagugong.jpeg");
     background-size: cover;
 }
 
