@@ -273,6 +273,35 @@ i {
     color: white;
 }
 
+/* laptop screen size */
+@media screen and (min-width:990px) and (max-width:1199px){
+    .coffeebean{
+        width: 100%;
+    }
+
+    .threetypes{
+        width: 100%;
+    }
+
+    .cookedlevel{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width:990px){
+    .coffeebean{
+        width: 100%;
+    }
+
+    .threetypes{
+        width: 100%;
+    }
+
+    .cookedlevel{
+        width: 100%;
+    }
+}
+
 /* tablet screen size */
 @media screen and (max-width: 700px) {
     body p {

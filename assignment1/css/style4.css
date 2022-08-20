@@ -262,6 +262,29 @@ i {
     color: white;
 }
 
+/* laptop screen size */
+@media screen and (min-width:990px) and (max-width:1199px){
+    .intro1 h1{
+        font-size: 42px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width:990px){
+    .intro1{
+        width:80%;
+        align-items: center;
+    }
+
+    .intro1 h1{
+        font-size: 42px;
+    }
+
+    .introduction{
+        flex-direction: column;
+        height: 700px;
+    }
+}
+
 /* tablet screen size */
 @media screen and (max-width: 700px) {
     body p {
@@ -302,7 +325,7 @@ i {
 
     .introduction{
         flex-direction: column;
-        height: 700px;
+        height: 500px;
     }
 
     .intro1{
@@ -311,7 +334,7 @@ i {
     }
 
     .intro1 h1{
-        font-size:38px;
+        font-size:35px;
     }
 
     .intro2{
