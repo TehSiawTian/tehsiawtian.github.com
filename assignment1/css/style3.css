@@ -118,6 +118,7 @@ i {
 .intro1b img {
     width: 100%;
     height: 371px;
+    object-fit: cover;
 }
 
 /* 三大处理法 */
@@ -226,6 +227,14 @@ i {
         font-size: 110%;
     }
 
+    .introduction{
+        height: 500px;
+    }
+
+    .intro h1{
+        font-size: 35px;
+    }
+
     .overlay a {
         font-size: 20px
     }
@@ -277,6 +286,9 @@ i {
 
     .method{
         margin-top: 20px;
-        padding: 5%
+    }
+
+    legen{
+        font-size: 27px;
     }
 }
