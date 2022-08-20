@@ -239,13 +239,13 @@ li {
     text-decoration: underline;
 }
 
-.btn {
+.rm .btn {
     background-color: #A91B2A;
     color: white;
     width: 250px;
 }
 
-.btn:hover {
+.rm .btn:hover {
     color: black;
 }
 
